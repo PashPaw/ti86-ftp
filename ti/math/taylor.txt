@@ -1,0 +1,51 @@
+talyor
+------
+
+Introducing the newest Taylor program (as of 10-13-98) 
+by William Deich
+
+It's not just based on the TI-86 manual any more.
+
+The group file contains 5 files
+-------------------------------
+AGRAF.85p--sets graph
+NDERIV.85p--allows you to take the nth derivative of any function
+subderiv.85p--does the actual work for the higher derivatives
+TAYLOR.85p--Creates Taylor approx polynomial
+ZZSTORE.85p--allows you to enter a function and store it to y1-y5
+[used by AGRAF and TAYLOR]
+
+
+--Improvements over the manual version--
+
+This version pauses while displaying ths Taylor 
+Polynomial as a list of Coeff in descending order.
+
+This new version has the command lines that figure out 
+the higher order derivatives (>3) seperated out
+into a seperate subrutene called subderiv, which means 
+that it can be used by other programs to approximate 
+an nth derivative. I've included a program called 
+NDERIV.85p to do just that.
+
+The group file also includes a program called
+ZZSTORE.85p which alows you to enter a function
+and store it to y1-y5.
+
+The group file also includes AGRAF to let you set the
+Graph Window before you graph the function and its
+taylor approximation.
+----------------------------------------------------
+For all those who may be asking, A Taylor Polynomial 
+is a way of approximating a hard to calculate function 
+with a polynomial by making sure that the derivates 
+of the new poylynomial agrees with the function's 
+derivatives at some point near where you want to
+approximate; it used to be a big deal before computers,
+now you'll probably never need it unless you just happen
+to be on the particular chapter in you calculus book
+that covers this. ---- Nevertheless, you may want to 
+use the NDERIV program since the TI-86 only comes w/
+1st and 2nd derivatives built in.
+------------------------------------------------------
+wd

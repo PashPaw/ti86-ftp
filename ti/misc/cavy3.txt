@@ -1,0 +1,10 @@
+cavy3
+-----
+version 3
+
+A simple weekly schedule for pet foods, appointments, shopping lists,
+anything. CAVY 3 has really obvious interface.
+
+by TEGAN NEJAD 
+e-mail: nejad@bigpond.com
+home page: http://www.users.bigpond.com/nejad/

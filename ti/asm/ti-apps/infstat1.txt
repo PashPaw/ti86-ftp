@@ -1,0 +1,6 @@
+infstat1.86g
+------------
+
+TI-86 advanced statistics application.
+
+Please see http://www.ti.com/calc/docs/86asapstat.htm for documentation.

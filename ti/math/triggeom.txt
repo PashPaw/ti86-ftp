@@ -1,0 +1,25 @@
+triggeom
+--------
+
+ANG.86p  Angle conversions converts degrees to radians to 
+gradians in any direction.  
+
+ANGLE1.86p  Angle is a short program that gives the sine, 
+cosine, tangent, cosecent, secent, and cottangant for any 
+angle in degrees.
+
+ANGLE2.86p  Angle Drawer is a program I wrote to draw angles.  
+It helps if you need to know what quadrant an angle is in, 
+or what it looks like, or what some points on the line.  
+It takes the angle in Degrees, Radians, Gradians, or Points.
+
+SINE.86p  Law of sines uses the law of signs to find a side 
+or an angle if you are given an angle, the side opp it, and 
+another angle, or a side, the angle opp it, and another angle.
+
+SOLUTION.86p Number of solutions tells you the number of 
+solutions for a triangle that has givens of one angle and 
+two consecutive sides. (SSA).
+
+If you have any questions, write Gabriel Bassett 
+at "mercwarrior@geocities.com".

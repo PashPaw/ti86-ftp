@@ -1,0 +1,67 @@
+                           KeyCodes
+                       «Codes for Keys»
+                   By F. Wesley Bilderback IV
+
+         FileType: Program
+        FileClass: Utility / Programming Aid
+          Created: 2:20:22 4/23/00
+       Completion: 2:23:35 4/23/00
+       Programmer: F. Wesley Bilderback IV
+         Platform: TI-86
+
+Programmer's Comments:
+  I, when browsing through the "Program Archive" at www.TI.com, found
+a program whose name caught my attention: "Key."  I looked at the
+description, and found that it was a program to display the keycode or
+any key when pressed.  At the bottom of it, there was a note telling
+that the programmer was having some difficulty with a few extras he
+thought about adding, but couldn't get them to work.
+  I, after having a TI-83 for a few months, had taught myself to
+program in TI-BASIC (with the grace of having an equal, or almost equal
+, competitor [almost equal, for he was more into programming games,
+while I was better at, and supported for, programming utilities and
+useful programs (i.e. prgmQUADAUQ [pronounced: pro·gram Quad·Q], for
+solving quadratic equations [it would show all work (Dang hard to do!)
+, and give the final answer])].
+  I took the basic knowledge of the GetKey (or GetKy on the TI-85/86),
+and his ideas for extras (the clearing of the screen with [clear],
+exiting with the [exit], et cetera) and added them in using simple
+If statments.  In his note, he (Sean) said that he could not get it to
+display the code (or KeyCode, see program name and quote) for [clear].
+The solution for this is simply the location of the If statement:
+
+Stuff not shown in example	...
+Loops while 1=true (forever) 	:While 1
+"->" represents the StoreAs sym :GetKy->O
+If GetKy=[Clear] then clear scrn:If O==45:ClLCD
+Display KeyCode			:Disp O
+If GetKy=[Exit] then Return	:If O==22:Return
+Loops to /from ":While 1"	:End
+Quits program execution and	:Return
+ returns execution to calling
+ program, or EOS, Equation
+ Operating System.
+
+Put the "If O==45:ClLCD" before the ":Disp O" as so the screen will
+clear, then display the KeyCode for [Clear], instead of it displaying
+the code, then clearing the screen, which makes it awfully hard to see
+the code before the screen clears, seeing how fast the TI-86 is).
+
+Oh, by the way, as so you do not have to rely on a program to tell you
+the code for each and every key you want to use/scan for in a program:
+the codes are arranged in an R1C1 format (the Row# first, then the
+Column#).  The first key on a TI-85/86 is [F1]/{M1}.  Its Row# is 1 and
+its column# is 1, so the code would be the concat of 1 and 1, or 11.
+[F2]/{M1} would be Row1, Column2, or 12.  [2nd], Row2, Column1, or 21.
+The only exception to this is [On], which has no code, or if it does,
+TI says it does not, it would be impossible for it to register in a
+program, seeing as it breaks the program execution immediately.  If it
+does have a code, it would be Row10, Column1, or 101.
+
+Some of the symbols used in the beginning of the program, telling the
+name of the program, the quote, and the creator, myself, are not to be
+found anywhere on the TI-85/86.  To get them (they are useable text
+characters), check out my program ESym.  "Other & System Symbols not
+Otherwise Avail"
+
+                             --F. Wesley Bilderback IV

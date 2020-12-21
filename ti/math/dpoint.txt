@@ -1,0 +1,23 @@
+dpoint
+------
+
+AUTHOR:  Michael AMSELLEM Master-M
+E-MAIL:  amsellem@cybercable.tm.fr
+ICQ NUMBER: 2802634
+DATE:    97/98
+
+TO RUN:
+Load Dpoint.86g File
+
+This program allow you to study many things that you can do with 2 points il 
+calculate vectorial values new point, graphical equation, perpendicualire line, 
+table menu, translated vector middle point etc..
+
+I hope that the program is easy enough to run and to use
+
+Any questions, just email.
+
+  
+ 
+
+

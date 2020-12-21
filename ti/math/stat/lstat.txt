@@ -1,0 +1,70 @@
+lstat
+-----
+***** This is the text-only version of the documentation in "lstat.pdf" *****
+
+List Statistics
+Written by Walter Savinovich
+cpt_savi@earthlink.net
+Comments welcomed. Attitudes are not.
+
+A program to produce some statistical data from a list stored in the TI-86. The program 
+calculates mean, variance, standard deviation, frequency and relative distributions, and 
+a histogram. LStat redimentions and updates the following built-in lists on the TI-86: 
+fStat, xStat, and yStat. If also creates a new list named lStat for use in its 
+computations.
+
+Limitations
+LStat is designed to work with lists that contain 128 elements of less. This is due to the 
+number of lines available for display on the calculator itself. Further lists containing 
+elements smaller than .001 may not behave properly.
+
+Example Data
+The baseball data below, taken from the second month of the 1996 season, is used to 
+illustrate the operation of LStat.
+
+	Team		% of Games Won	Batting Average	Pitching ERA	
+	Atlanta		66			0.277			2.75	
+	San Diego		63			0.273			3.22	
+	Montreal		57			0.275			3.95	
+	Los Angeles		53			0.242			2.95	
+	San Francisco	52			0.261			4.83	
+	Colorado		51			0.283			5.90	
+	Philadelphia	50			0.236			4.39	
+	Florida		50			0.241			3.80	
+	Houston		50			0.270			4.02	
+	St. Louis		44			0.266			4.70	
+	New York		42			0.265			4.40	
+	Cincinnati		42			0.244			5.04	
+	Chicago		41			0.247			4.60	
+	Pittsburgh		38			0.252			4.69	
+
+
+
+Running LStat
+The first input required from you is that of the name of the list containing the data to 
+process.
+
+Once entered, LStat will ask you if the list consists of the population or a sample. 
+
+The TI-86 will then display the following: range, summation of the elements, number of 
+elements, the mean, variance, and standard deviation. You are then asked if you want 
+to see the table or quit.
+
+Choose table to continue and the calculator displays its calculations for the number of 
+classes and the interval between classes. It further displays the minimum and maximum 
+values in the list. At this point press continue to see the actual table.
+
+As the calculator cycles through the list, it displays dynamically the changing values 
+until such time that all elements are processed. The table consists of three columns: The 
+lower limit of the class, the frequency of the class, and the relative frequency of the 
+class. It further displays the summation of the frequency and the relative frequency.
+
+Pressing Histogram will have the TI-86 display the histogram associated with your list
+
+Of course, anytime you see the option to Quit, the program will terminate at that point.
+
+Once the TI-86 has displayed the graph, you can flip back and forth between the graph 
+and the table by pressing the EXIT and GRAPH keys alternately. When done, press the 
+EXIT key until the graph disappears from the screen, then press the CLEAR key to clear 
+the display.
+

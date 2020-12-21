@@ -1,0 +1,65 @@
+Choleski decomposition
+----------------------
+
+All rights reserved by Mark Bourland.
+February 24, 2000
+bourland@uta.edu
+
+Instructions for TI-85, TI-86, TI-89 and TI-92:
+
+For TI-85 and TI-86:
+
+Choleski.85p and Choleski.86p are programs.
+Run "Choleski" and it prompts for a matrix, A.
+"Choleski" displays the factorized A-matrix
+and pauses. Scroll around it with the arrow keys.
+Press the "ENTER" key to quit. A copy of the
+factorized matrix-A is stored in "UprM." A copy
+of the A-matrix is stored in "AMat." See the
+example below.
+
+For TI-89 and TI-92
+
+Choleski.89f and Choleski.92f are properly functions.
+Call "Choleski" with a single argument: Choleski(A),
+where "A" is the matrix you want to factorize. The
+function returns the factorized matrix. Nothing is
+stored by "Choleski". See example below.
+
+
+EXAMPLE:
+
+The A-matrix must be positive-definite symmetric,
+or positive-definite Hermitian to work with this
+algorithm. (A positive definite matrix is one that
+has all eigenvalues greater than zero.) Always check
+the properties of the results from "Choleski." The 
+properties are:
+
+  A = Transpose[U] * U , or, A = H[U] * U (when A is Hermitian)
+  U is an upper triangular matrix
+  The square of the product of the leading diagonal of U = Det(A)
+
+where U is the Choleski decomposition of A, and
+A is the positive definite symmetric (or Hermitian) matrix.
+
+Let A = [[2 3 4][3 6 7][4 7 10]]
+
+Passing A to "Choleski" returns the decomposition,
+
+[[1.41421 2.12132 2.82843]
+ [0 1.22474 0.8165]
+ [0 0 1.1547]]
+
+Assuming the result is stored to the variable UprM,
+then,
+
+Transpose[UprM] * UprM = A
+
+
+
+-----------------------------
+
+Mark C. Bourland
+bourland@uta.edu
+

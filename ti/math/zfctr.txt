@@ -1,0 +1,23 @@
+zfctr v1.1
+Copyright (C) 1999 Heald Corp., Ltd. 
+This program was finished on 8/6/99
+Programmer: Sean Heald
+Platform: TI-86 
+
+THIS FILE IS BEST VIEWED IN NOTEPAD WITH WORD WRAP ON
+
+
+
+	I can't tell you how much I HATED factoring numbers in math! Those factor 
+trees take forever! So, I made this program that allows you to input a number 
+and then displays all the factors of that number in a list format.
+Unzip the zip file to a directory of your choice and then load the Graphlink 
+software. Send zfctr.86P to your calc and then run it. The program will prompt 
+you for a number. After you input a number to be factored, the calc will think.  
+When it is done, it will display a list with all the factors of that number. 
+This program, being basic, is kind of slow when you factor large numbers, so be 
+patient. Enjoy!
+
+
+
+					~Sean

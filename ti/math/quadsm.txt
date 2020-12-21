@@ -1,0 +1,14 @@
+quadsm
+------
+
+This is the newest version of Quadsm.86p (Quad small) by William Deich
+(bevd@bellsouth.net) and J Boylan (JBoylan@Technologist.com).
+
+You give it A B and C of Ax^2+Bx+C and it graphs the function and 
+displays the quadratic formula all worked out on the graph screen. 
+(This part comes form J Boylan's Algebra II ToolBox.) It also displays 
+a few other things on the graph screen. Press enter, and it gives you the 
+roots in decimal form and the vertex.
+
+William Deich
+bevd@bellsouth.net

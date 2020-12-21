@@ -1,0 +1,19 @@
+quad
+----
+
+This is the latest version of my Quad program. You give it A B and C and it
+will work out the quadratic formula for you and simplify the discriminant
+(the part with the square root). It will also give you the vertex of a
+parabola, reduce the square root of any number you give it, and factor any
+number you give it.
+
+The group file QUAD.86G contains three programs: Quad, Rat, and Fctr.
+
+Special Thanks to J Boylan for letting me borrow a faster, more efficient
+way
+to reduce the square roots.
+
+If you have any questions, or find any problems, especially with the square
+roots come out, email me at 
+
+bevd@bellsouth.net

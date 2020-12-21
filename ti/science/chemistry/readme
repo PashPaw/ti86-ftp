@@ -1,0 +1,23 @@
+*** TI-86 CHEMISTRY PROGRAMS: /pub/graph-ti/calc-apps/86/science/chemistry/
+
+bvc
+---
+The BVC program performs all bond valence calculations needed to successfully 
+work through an inorganic crystal structure in terms of atomic valences 
+(oxidation states), bond strengths, comparisons with idealized structures, etc.
+
+chem
+----
+An assortment of chemistry programs.
+
+pvnrt
+-----
+PVNRT is a chemistry program used for finding pressure, temp, moles, etc.
+
+vaph2o
+------
+This program gives the vapor pressure of water in mmHg (same as torr) for any 
+integer temperature between 15 and 35 degrees Celcius.
+
+
+* All trademarks are the sole property of their respective owners.

@@ -1,0 +1,41 @@
+squf
+----
+
+Shanks's Square Form factorization program for the TI-86
+Version 1.0b
+
+Abstract:
+An implementation of Shanks's SQUFOF integer factoring algorithm for
+the TI-86 (for a reference, see H. Riesel, _Prime Numbers and Computer
+Methods for Factorization_, 2nd ed., p. 190-192). Attempts to
+"split" the specified positive integer.
+
+Details:
+Shanks's SQUFOF is famous for working almost exclusively with
+numbers about half the length of the original input. This has two
+important consequences:
+
+1. the operations in each cycle run much faster than in, say, the rho
+   method
+2. with some clever thinking, you can factor numbers up to 20 digits
+   on a 10-digit pocket calculator!
+
+The program here is a direct port from the PASCAL version given
+in [Riesel]. Running times for SQUFOF vary wildly, even for numbers
+of nearly the same length (SQUFOF is not sensitive to the size of
+the prime factors, either); hence, it is often useful to use a
+small multiplier (i.e., to try factoring 2N, 3N, etc.) if the
+program appears to be taking too long. SQUFOF should only be used
+on known composites (e.g., numbers which have been exposed by a
+probabilistic test for primality) which have relatively large
+prime factors; for other composites, trial division can be much
+faster, and should certainly be used to remove the smaller factors
+of a number before submitting it to SQUFOF.
+
+Two large numbers which have succumbed to this implementatation
+(without use of a multiplier) are 29235683368553 = 3377141 * 8656933
+(which took about 5 minutes), and 229067943531173 = 4131839 * 55439707
+(which actually took about 30 minutes).
+
+Contains one subroutine, ISQRT. The entire package should function
+on the TI-85 as well.

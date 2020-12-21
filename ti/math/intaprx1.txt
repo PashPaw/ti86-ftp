@@ -1,0 +1,69 @@
+IntAprx1
+By
+--------------------------
+William Charles Deich IV
+http://www.geocities.com/CollegePark/Field/1680/
+williamiv@geocities.com
+bevd@bellsouth.net
+
+Michael Lloyd
+lloydm@pines.hsu.edu
+http://www.hsu.edu:80/faculty/lloydm/ti/prgmtabl.html
+Henderson State University
+
+& Chad Rogers 
+Henderson State University
+----------------------------------------
+Approximates an integral by Left End Point, Right End Point, Mid Point, 
+Trapezoid, and Simpson's rule.
+
+Basically, you give it a function of x, ZZSTORE (a subrutene) lets you 
+choose if you want to store it to y1-y5, you enter A (the lower limit
+of integration), B (the upper limit of integration) 
+and "n" the number of subintervals you want. Then it graphs the functin,
+and displays the relsuts of all 5 approximations off to the left half of
+graph screen.
+
+Word of Warning:  The N you give it in the begnning of the program,
+is only n/2 for Simpson's rule.  This way, the program can always work out
+Simpson's rule, even if N is odd, and there's no need to double up on the
+command lines to work out the right, mid and left points twice.
+
+Generally, this won't be a problem, since having more subintervals
+only makes the approximation more accurate. The only time this might be 
+a problem is if you are being tested on your ability to work out 
+Simpson's rule specifically.  So remember to enter .5n for Simpson's
+rule in the class room.
+--code--
+\start86\
+\comment=Integrual approx by 5 methods
+\name=INTAPRX1
+\file=C:\INTAPRX1.TXT
+:Func:FnOff
+:ZZSTORE
+:Prompt A,B,N
+:(B-A)/N\->\\UC-Delta\
+:\UC-Delta\*sum seq(\UC-E:\q,x,A,B-\UC-Delta\,\UC-Delta\)\->\L
+:\UC-Delta\*sum seq(\UC-E:\q,x,A+\UC-Delta\,B,\UC-Delta\)\->\R
+:\UC-Delta\*sum seq(\UC-E:\q,x,A+.5\UC-Delta\,B-.5\UC-Delta\,\UC-Delta\)\->\M
+:(L+R)/2\->\T
+:10\->\xMax:\(-)\30\->\xMin:1\->\xScl:10\->\yMax:\(-)\10\->\yMin:1\->\yScl
+:Vert \(-)\10
+:For(x,0,62)
+:Text(28,x," ")
+:End
+:Text(0,0,"Left"
+:Text(6,0,L
+:Text(12,0,"Right"
+:Text(18,0,R
+:Text(24,0,"Mid Point"
+:Text(30,0,M
+:Text(36,0,"Trapezoid"
+:Text(42,0,T
+:Text(48,0,"Simpson","(n=",2N,")"
+:Text(54,0,(2M+T)/3
+:For(x,A,B):Line(x,0,x,\UC-E:\q):End
+:Text(57,100,"[ENTER]"
+:Pause
+\stop86\
+

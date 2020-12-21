@@ -1,0 +1,24 @@
+evolutn1
+--------
+
+EVOLUTION by Sam Nejad
+
+Evolution 1 is probably the only program of it's type for any graphic
+calculator. It is useful for teaching evolution in biology, for teaching
+statistics, and as a fun program. You enter any word or phrase (all capital
+letters) including spaces, commas, question marks and full stops. The phrase
+can be up to a thousand characters long. The word or phrase you enter is the
+environment into which the calculator develops a creature of the same
+spelling, using random cumalitive mutation. Every time the correct character
+(gene) is found it is inherited by the next generation. Unsuitable
+characters (genes) perish and are replaced at random. Eventually the
+creature fits the enviroment exactly, and the number of generations it took
+is displayed. This is an ideal example of cumulative mutation as described
+by Richard Dawkins in "The Blind Watchmaker". Those who graph the number of
+generations on the Y axis against the length of the word or phrase on the X
+axis will notice that as the phrase gets longer, the number of generations
+gradually levels out!
+
+by Sam Nejad
+E-mail 		nejad@bigpond.com
+Home Page	http://www.users.bigpond.com/nejad/

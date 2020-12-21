@@ -1,0 +1,6 @@
+geo1
+----
+
+This program, while large is very helpful in caculating midpoints and
+distances of every kind.  From what I see on the FTP this program gives more
+output options and surpasses most other distance and midpoint programs.

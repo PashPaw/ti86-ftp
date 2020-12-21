@@ -1,0 +1,229 @@
+     XXXX   XXX  XX  X XX    XXXX  XXXXX XXXX    XXXX   XXX   XXX  XX  X TM
+     XX  X XX  X XX  X XX    XX  X XX    XX  X   XX  X XX  X XX  X XX  X
+     XX  X XX  X XX  X XX    XX  X XX    XX  X   XX  X XX  X XX    XX  X
+     XXXX  XX  X XX  X XX    XX  X XXX   XXXX    XX  X XX  X  XXX  XXXXX
+     XX  X XX  X XX  X XX    XX  X XX    XX  X   XX  X XXXXX     X XX  X
+     XX  X XX  X XX  X XX    XX  X XX    XX  X   XX  X XX  X XX  X XX  X
+     XXXX   XXX   XXX  XXXXX XXXX  XXXXX XX  X   XXXX  XX  X  XXX  XX  X
+
+
+			    THE TI-86 VERSION
+
+			programmed by Jimmy M†rdell
+
+
+
+ABOUT BOULDERDASH
+-----------------
+BoulderDash was first made for the Atari 400/800, and ported to Commodore 64
+the next year (1986). BoulderDash is a trademark of First Star Software Inc,
+and was originally programmed by Peter Liepa. BoulderDash was converted
+to several other systems, including MSX, Amiga, PC and lately Nintendo
+and Gameboy. There are many clones available, which indicates that
+BoulderDash was, and is, a fantasic game. And now you have it for your own
+TI-86!
+
+GAME OBJECTIVE
+--------------
+The objective of BoulderDash is to search throughout each CAVE and collect
+as many Jewels in as short a time as possible. Once the indicated amount
+of Jewels have been collected, the door to the mysterious escape tunnel is
+revealed and you go to the next cave. Strategy and planning will help you
+master the "physics" of BoulderDash. Boulders drop predictably enough, but
+you and Rockford also have to block growing Amoebas, transform Butterflies,
+outmanoeuvre Fireflies, and overcome other numerous obstacles.
+
+CHANCES
+-------
+You start with 3 chances, Bouns tries are awarded after every 50 points.
+A text to the right will tell you when you are awarded a bound try. A bonus
+is also earned by completing a Playable intermission.
+
+CAVES AND LEVELS
+----------------
+There are 16 caves, each comprising of several scrolling screens, numbered
+A to P. Each cave, has 5 Difficulty Levels. To select a different cave,
+press [Up] or [Down] in the menu screen. To select a different Difficulty
+Level, press [Left] or [Right] in the menu screen. The greater the difficulty
+the less time you have and the more Jewels you have to collect. You may choose
+cave A, E, I or M, on Difficulty Levels 1-3. On Difficulty Levels 4 and 5, you
+must start with CAVE A. After making a selection, press [Enter] or [2nd] to
+begin the games.
+
+HISCORE
+-------
+One hiscore position will be saved and stored inside the program. You enter
+your initializes with the [Up] and [Down], change letter with [Left], [Right]
+or [Enter] and return to the menu screen with [2nd] or [Exit].
+
+CONTROL
+-------
+You move Rockford through the caves with the arrowkeys. You can also "reach
+out" if you hold down [2nd] when moving. This is good when you're fetching
+falling Jewels for example, or untrapping an enemy. If you die, or if you
+have made a mistake so the cave isn't possible to solve, press [More] to
+restart on the same cave. [Alpha] will pause the game and [Exit] quits
+the game (if you have a highscore then, you will still get a chance to enter
+your name).
+
+ALL OBJECTS IN BOULDERDASH
+--------------------------
+Rockford
+
+ This is you, a fellow that search through caves a collects jewels. You should
+ beware falling things, butterflies and fireflies because they will kill you!
+
+Dirt
+
+ Not much to say. Exist to keep things from not falling down.
+
+Boulder
+
+ Boulders falls down if it's possible. They may also roll of another
+ rounded object (boulder, jewels or brick wall) so watch out! You can also
+ push boulders if you try to move in the same direction as the boulder is.
+ There must be empty space behind the boulder though, and you'll succeed
+ in 1 try of 4, so keep pushing until it moves!
+
+Jewel
+
+ These you should collect. They fall and acts like boulders, so you will get
+ killed if you get one on top of your head!
+
+Steel wall
+
+ Surrounds the cave and can not be blasted through.
+
+Brick wall
+
+ Walls that can be blasted through. Acts like a rounded object, so boulders
+ and jewele will roll of a brickwall if possible.
+
+Magic wall
+
+ Looks like a brick wall, but when a boulder or a jewel falls on it, the magic
+ wall will be activated (the wall will animated so you can see when it's
+ activated) and then every boulder that falls through will turn to a jewel
+ and every jewel will turn to a boulder! If there aren't space under the
+ magic wall, the boulder/jewel will disappear. After a time (depends on the
+ level), the magic wall will expire, and nothing falls through but always
+ disappear. Note that only falling boulders and jewels will transform; boulders
+ and jewels that already sit on the wall will not fall through.
+
+Firefly
+
+ A nasty enemy that flies around the cave. Will always try to turn left if
+ possible (will fly around in circles if possible). Explodes into space when
+ Rockford or Amoeba are close (one step). May be used to blast through brick
+ walls (drop a boulder or a jewel on them).
+
+Butterfly
+
+ Acts like fireflies except that they turn to the right instead, and when
+ exploding they will create nine jewels!
+
+Amoeba
+
+ A creature that doesn't harm you, but will expand (slowly in the beginning,
+ but after a while it grows much faster) and may enclose you or block your
+ way. Can be blasted when a firefly or a butterfly touches it.
+
+CAVE DESCRIPTIONS
+-----------------
+A. INTRO
+Pick up jewels and exit before time is up.
+
+B. ROOMS
+Pick up jewels, but you must move boulders to get all jewels.
+
+C. MAZE
+Pick up jewels. You must get every jewel to exit.
+
+D. BUTTERFLIES
+Drop boulders on butterflies to create jewels.
+
+E. GUARDS
+The jewels are there for grapping, but they are guarded by the deadly
+fireflies.
+
+F. FIREFLY DENS
+Each firefly is guarding a jewel.
+
+G. AMOEBA
+Surround the amoeba with boulders, so it can't grow anymore. Pick up
+jewels that are created when it suffocates.
+
+H. ENCHANTED WALL
+Activate the enchanted wall and create as many jewels as you can.
+
+I. GREED
+You have to get a lot of jewels here, lucky there are so many.
+
+J. TRACKS
+Get the jewels, avoid the fireflies.
+
+K. CROWD
+You must move a lot of boulders around in some tight spaces.
+
+L. WALLS
+You must blast hrough walls to get at some of the jewels. Drop a boulder
+on a firefly at the right time and place to do this.
+
+M. APOCALYPSE
+Bring the butterflies and amoeba together and watch the jewels fly.
+
+N. ZIGZAG
+Magically transform the butterflies into jewels, but don't waste any
+boulders and watch out the fireflies.
+
+O. TUNNEL
+There is an enchanted wall at the bottom of the rock tunnel.
+
+P. ENCHANTED BOXES
+The top of each square room is an enchanted wall, but you'll have to blast
+your way inside.
+
+VERSION CHANGES
+---------------
+1.0  First TI-86 version. Simply a port from the ZShell version.
+     More stuff (see future versions) will be added later.
+
+KNOWN BUGS
+----------
+No real bug that I can think of. If you get 10 lives or more, it will look
+strange on the screen before entering the cave.
+
+Also, the control isn't that great. Quite often when you want to move
+one single step to one direction, nothing happens when you press
+the arrow key very fast, and if you hold it down, you may easily walk
+two steps which might prove fatal.
+
+FUTURE VERSIONS
+---------------
+* External cave sets
+* Better control
+* Some more tiles and supporting another level format
+* BoulderDash Construction Kit (!?!?)
+
+CREDITS
+-------
+PETER LIEPA and CHRIS GRAY for the original version and the great game idea!
+
+FERNANDO HERRERA for creating all the cool caves (the caves are identical
+to those in the original C64 version)
+
+PETER BROADRIBB for his great BoulderDash homepage will all information I
+needed (http://www.emedia.com.au/users/peterb/boulderdash/). Keep up the good
+work!
+
+THE #CALC-TI CREW for chatting :-)
+
+ALL PEOPLE COMMENTING MY WORK for reporting bugs and comments about the game.
+
+------------------------------------------------------ written 97-08-21 ----
+Jimmy M†rdell
+
+Email.: mja@algonet.se
+WWW...: http://www.algonet.se/~mja
+IRC...: Yarin
+

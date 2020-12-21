@@ -1,0 +1,21 @@
+Program Name : ConComp.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Pre Calculus
+
+This program is designed to calculate the
+continuous compounding of principle or event
+when the initial value and rate of change are
+known. 
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.
+

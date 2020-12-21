@@ -1,0 +1,26 @@
+poly3
+-----
+
+This is my version of Michael Lloyd's Polyn program. The main difference is
+that mine has a nicer partial fraction decomposition format, and is
+smaller. Michael Lloyd  gave me full permission to distribute this program as long
+as my email address went with (bevd@bellsouth.net) and not his, so that
+he wouldn't be bohtered with the email.
+
+HERE IS THE ORIGINAL INFORMATION WHICH STILL APPLIES
+This version uses the built-in reduced echelon form instead of
+doing maximal column pivoting.  This, and some other changes
+reduced the size of the program by about .5Kb.  The speed of the
+partial fraction routine also increased.
+
+Multiply, divide, exponentiate, graph, do partial
+fractions (p.f.), differentiate, and integrate polynomials.
+
+Except for the partial fractions, the polynomials and power are entered
+under the INPUT menu.  Polynomials are entered and displayed as lists.
+For example, x^3-4x+7 would be {1,0,-4,7}.  The braces {} are under the
+LIST menu (although you can put them in the custom menu).
+
+William Deich
+bevd@bellsouth.net
+

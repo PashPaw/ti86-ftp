@@ -1,0 +1,4 @@
+dis
+---
+This group of programs will give the slope, distance, and Midpoint 
+of a line. Insert the values in this format (FX,FY) (SX,SY).  

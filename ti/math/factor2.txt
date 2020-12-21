@@ -1,0 +1,9 @@
+factor2
+-------
+
+This program reduces positive and negative square roots.
+Example: \/~128 would be reduced to 8\/~2
+
+This program was created by Cooper McCann, High School Sophomore.
+Feel free to edit any aspects you wish.
+If you like the program, or have any imput E-mail me at ponymont@3rivers.net

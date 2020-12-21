@@ -1,0 +1,9 @@
+factor3
+-------
+
+This program reduces any root (square, cube, fourth, etc. and is recommended 
+for roots under nine (a little bit of asthetic value))
+
+it was created by Cooper McCann a high school junior.  please feel free to 
+e-mail me at ponymont@3rivers.net with any questions or comments.
+

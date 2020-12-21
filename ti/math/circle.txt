@@ -1,0 +1,32 @@
+Program Name : Circle.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Geometry
+
+
+
+This program is designed to calculate the
+
+1. Raduis
+2. Diameter
+3. Circumference
+4. Area & Volume
+
+of any given circle when certin values are known. 
+
+Enter 1,2,3 or 4 followed by "ENTER" to select
+the desired calculation. 
+
+
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.
+

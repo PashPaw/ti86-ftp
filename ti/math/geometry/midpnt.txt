@@ -1,0 +1,5 @@
+midpnt
+------
+
+calculates the midpoint between two given points.
+

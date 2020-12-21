@@ -1,0 +1,222 @@
+Program name: Midpoint.86p
+Creator: Doug Harnish, Texas Instruments
+
+MidPoint is a program that calculates the approximate area of a function based on summing the areas of rectangles using the midpoint approach.  Please feel free to make any modifications and pass it around.
+
+Instructions:
+A:run the program called "MidPoint"
+
+F1 [MidPt] starts the program
+F5 [Quit] ends the program and clears up some variables in the program
+
+F1
+key in a function in terms of x (lower case).... x*sin(x)
+key in a left bound ............................ 0
+key in a right bound............................ 2pi
+Example:
+-----------------------
+|FUNCTION= x*sin(x)   |
+|LEFT BOUND= 0        |
+|RIGHT BOUND= 2PI     |  (Note: use the pi symbol [2nd][^] in place of PI
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+-----------------------
+
+Now you have the choice of:
+-----------------------
+|SELECT (1,2 or 3)    |
+|                     |
+|1:GRAPH              |
+|2:NUMERIC            |
+|3:CONVERGENCE        |
+|                     |
+|                     |
+|                     |
+-----------------------
+
+1:GRAPH 
+This (based on the number of rectangles) graphs the function and the appropriate number of rectangles while trying to fit it into a "nice" window.
+
+a:Select the number of rectangles you want to use and press ENTER.
+-----------------------
+|SELECT (1,2 or 3)    |
+|RECTANGLES 8         |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+-----------------------
+
+b:The unit will display a graph of the function along with the appropriate number of rectangles and then PAUSE.
+
+c:Press ENTER to see the numeric approximation along with the "real" result calculated using the TI-86's fnInt( function.
+
+d:Press ENTER again to return to the main menu.
+
+2:NUMERIC
+This (based on the number of rectangles) will just return the numeric approximation (no graph)
+
+a:Select the number of rectangles you want to use and press ENTER
+-----------------------
+|SELECT (1,2 or 3)    |
+|RECTANGLES 8         |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+-----------------------
+
+c:Press ENTER to see the numeric approximation along with the "real" result calculated using the TI-86's fnInt( function.
+
+d:Press ENTER again to return to the main menu.
+
+
+3:CONVERGENCE
+This (based on the number of rectangles) will show how increasing the number of rectangles used converges on the real answer (again, it tries to put the convergence in a "nice" window).
+
+a:Key in a list of numbers where each element represents the number of rectangles you wish to sample with and press ENTER.  For example
+
+-----------------------
+|Samples list ({}) {5,|      (Note: you must use { and } found in the LIST menu)
+|8,10,12}             |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+|                     |
+-----------------------
+
+b:The unit now calculates and plots the results for each element.  The horizontal line represents the calculators fnInt( "real" value of the integral.
+
+c:You can now trace the different plot points to see the values of each entry.  Left and right arrows move you from one plotted point to the next.  Up and down arrows move you from the "real" calculator answer to the plotted midpoint approximations.
+
+d:Press ENTER to return to the main menu
+
+
+
+AN ASCII VERSION OF THE PROGRAM:
+
+:Lbl TOP1
+:0\->\W
+:ClLCD
+:FnOff :PlOff
+:DelVar(SUML)
+:DelVar(L1)
+:DelVar(TOT)
+:Menu(1,"MidPt",MID,5,"Quit",LAST)
+:Lbl MID
+:InpST "FUNCTION= ",FC
+:St\>\Eq(FC,y1)
+:Lbl TOP
+:Input "LEFT BOUND= ",LB
+:Input "RIGHT BOUND= ",RB
+:If LB>RB
+:Then
+:ClLCD
+:Disp "BOUND ERROR"
+:Pause 
+:ClLCD
+:Goto TOP
+:Else:
+:End
+:DelVar(FC)
+:1\->\C
+:LB-(RB-LB)*.1\->\xMin
+:RB+(RB-LB)*.1\->\xMax
+:ClLCD
+:Outpt(3,1,"1:GRAPH")
+:Outpt(4,1,"2:NUMERIC")
+:Outpt(5,1,"3:CONVERGENCE")
+:Input "SELECT (1,2 or 3) ",T
+:If T==3
+:Goto CON
+:If T==2
+:Then
+:1\->\W
+:Goto NUM
+:Else:
+:End
+:If T==1
+:Goto GRPH
+:
+:Lbl GRPH
+:2\->\xRes
+:
+:Lbl NUM
+:Input "RECTANGLES ",A
+:abs (RB-LB)/A\->\F
+:If W==1
+:Then:
+:Else
+:ZFit
+:End
+:For(D,0,A-1)
+:y1(LB+D*F+F/2)\->\SS
+:If W==1
+:Goto SKIP
+:Line(LB+D*F,0,LB+D*F,SS
+:Line(LB+D*F,SS,LB+(D+1)*F,SS
+:
+:Line(LB+(D+1)*F,SS,LB+(D+1)*F,0)
+:Lbl SKIP
+:F*SS\->\SUML(C)
+:C+1\->\C
+:End
+:If W==1
+:Goto SKIP2
+:Pause 
+:Lbl SKIP2
+:ClLCD
+:Disp "APPRX AREA=",sum SUML
+:Disp "REAL AREA=",fnInt(y1,x,LB,RB)
+:
+:Pause 
+:Goto TOP1
+:Lbl CON
+:ClLCD
+:Input "Samples list ({}) ",L1
+:For(Q,1,dimL L1)
+:abs (RB-LB)/L1(Q)\->\F
+:For(U,0,L1(Q)-1)
+:F*y1(LB+U*F+F/2)\->\SUML(C)
+:C+1\->\C
+:End
+:1\->\C
+:sum SUML\->\TOT(Q)
+:DelVar(SUML)
+:End
+:FnOff :PlOff
+:min(L1)-(max(L1)-min(L1))*.1\->\xMin
+:max(L1)+(max(L1)-min(L1))*.1\->\xMax
+:fnInt(y1,x,LB,RB)\->\R
+:If sum (R<TOT)>0
+:Then
+:abs (max(TOT)-R)+max(TOT)\->\yMax
+:\(-)\(max(TOT)-R)+R\->\yMin
+:Else
+:min(TOT)-(R-min(TOT))\->\yMin
+:R+(R-min(TOT))\->\yMax
+:End
+:Plot1(1,L1,TOT,1):PlOn 1
+:3\->\xRes
+:y2=R
+:FnOn 2
+:Trace
+:Goto TOP1
+:Lbl LAST
+:Stop
+
+
+
+
+
+
+

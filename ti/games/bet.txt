@@ -1,0 +1,206 @@
+Bet v2.0 
+Copyright (C) 1999 Heald Corp., Ltd
+This program was finished on 8/8/1999
+Programmer: Sean Heald
+Platform: TI-86
+============================================================================
+THIS FILE IS BEST VIEWED IN NOTEPAD WITH WORD WRAP ON
+============================================================================
+
+
+1> Introduction
+2> Installation
+3> Game play
+4> Troubleshooting
+5> FAQ's
+6> Version history
+7> Thank you's
+8> Contact information
+9> Copyright and licensing information
+============================================================================
+
+
+1> Introduction
+
+
+	Here is a little program I started way back in my freshmen year of high 
+school. Everybody that I knew with a TI-86 was making betting games in basic. 
+They would send them to my calc and I would play them for about two days before 
+I got bored. The programs were okay. They had a lot of bugs and error messages. 
+	I decided to start writing my own program where you bet on a coin toss. 
+Whenever I write a program, I never release to the public until it is 100% bug 
+and error free (unlike some programmers I could mention). I worked on Bet for 
+about a week and a half. After backing it up to my computer, I got bored and 
+decided to delete it from my calc, promising myself that I would finish it 
+later. I worked on it off and on for about a week more. When I finished version 
+1.0 I distributed it to as many people as I could with a TI-86. Then I forgot 
+about. 
+	One day in summer, I was browsing through the many 86 files on my computer 
+when I found this tiny little program called bet.86P. I loaded it to my calc and 
+ran it. Almost Instantly I remembered what it was. It was only version 1.0 so it 
+had some bugs in it and it would occasionally give an error message. On top of 
+that it took up quite a bit of memory (2043 bytes). 
+	I unprotected the program and sent it back to my calc so I could begin 
+upgradeing it to version 2.0. 
+
+============================================================================
+
+
+2> Installation
+
+
+	After you download the ZIP file to your computer, open it with Winzip or 
+some sort of archive program. In the archive there should be two(2) files:
+
+	bet.86P			The actual program
+	bet.txt			The file you are reading right now
+
+Extract bet.86P and/or bet.txt to a directory of your choice on your hard disk. 
+Once you have done this, open the TI-Graphlink software and connect the TI-
+Graphlink to the 9 pin serial port in the back of your computer (The port is 
+very easy to find). 
+	Now, in the Graphlink software, click Link>send on the menu bar. A window 
+titled "Send files to TI-86" should appear. Switch to the directory with the 
+contents of the ZIP file and send bet.86P to your calc (the installation process 
+should take no more than thirty seconds to one minute depending on the speed of 
+your computer). 
+	
+============================================================================
+
+
+3> Game play
+
+
+	Once the game is on your computer, press [PRGM]+[F1]+ the corrosponding 
+"F" key for the game. The game will take a little longer to load the first time, 
+so be patient. Once the title screen comes up, it will display the name if the 
+program and the copyright information. Press [ENTER]. Next, it will display how 
+much money you have. Press [ENTER] again. After this, the main menu will appear. 
+The "F" keys are the primary keys in the game. Although, occasionally, you will 
+need to use the number pad and the [ENTER] key. The main menu will explain which 
+"F" key does what. But just in case, I will explain it:
+
+	F1- Play the game
+	F2- Instructions
+	F3- Game stats (how much money you have)
+	F4- About the program
+	F5- Quit to TI-OS
+
+F2 through F5 are pretty self-explanatory so I will just explain F1. All I will 
+say about F2 through F5 is that all you do is press [ENTER] after one of those 
+keys. I don't think I really need to explain F5.
+	When you select F1 the screen will clear and it will display how much 
+money you have and prompt you to input a wager. If you try to input a numbet 
+less than or greater than the amount of money you have it will display a special 
+message and wait for you to press [ENTER]. Once you press [ENTER] it will take 
+you back to the wager screen. 
+	When you make your bet, the screen will clear again and display "1=Heads 
+2=Tails" at the top and prompt you for a response. Once again, if you input a 
+number out of range it will give you a special message, wait for you to press 
+[ENTER], and take you back to the choice screen.
+	When you make your choice the screen will clear again and display the WIN 
+or LOSE screen. This screen is the status of the particular bet you made. It 
+displays Number you bet on, the number that was the outcome, and your new 
+balance. When you press [ENTER], it will take you back to the main menu. 
+	Continue the steps above until you run out of cash or you top $1,000,000. 
+Enjoy!
+
+============================================================================
+
+
+4> Troubleshooting
+
+
+	I perfected this game on the TI-86 with ROM v1.3, although, I am confident 
+that it will work properly on all versions of the TI-86. The game is completely 
+free of bugs, will never display TI-86 error messages, and will run 100% of the 
+time. 
+	I have edit locked the program, so all you plagerisers out there can't 
+take credit for yourself. If you do expierience problems with your copy of the 
+game, send me a  letter via e-mail with your e-mail address and the problem you 
+expierienced and I will send you a new copy free of charge.
+	See the Contact Information below for my e-mail address and/or fax number.
+
+============================================================================
+
+
+5> FAQ's (Frequently Asked Questions)
+
+
+	I only have a few FAQ's because not many people question my software. Here 
+they are: 
+
+Q: Whenever I try to load the game through the program menu, the screen doesn't 
+do anything. Why?
+A: Turn the calc on, moron.
+
+Q: Whenever I try to look for the game in the program>names menu, I can't find 
+it. Why?
+A: Load the program on the calc, dummy.
+
+Q: Whenever I press the [ON] button, nothing happens. Why?
+A: Try putting batteries in, retard.
+
+Q: Whenever I make a wager and pick a number to bet on, the calc says "YOU 
+LOSE!!!". Why?
+A: This one is just too easy...
+
+============================================================================
+
+
+6> Version history
+
+
+	Version 1.0-
+		Lots of bugs and TI-86 error messages. Took up almost 2050 bytes. 
+
+	Version 2.0-
+		Fixed variable bug. No TI-86 error messages. Cut down size by about 
+1000 bytes. Start out with more money.
+
+	Future versions-
+		Probably not for awhile. The game is pretty much perfect as it is. 
+Although, I will take suggestions from e-mail. 
+
+============================================================================
+
+
+7> Thank you's
+
+
+	There are not a whole lot of peaple I would like to thank. But if I have 
+to name them they would probably be my friends and fellow TI users for 
+encouraging me to upload this game, Bill Nagel for his famous ASE (I use ASE 
+v1.3), And my teachers for boring me to death in class. Well, THANKS!!! ENJOY 
+THE PROGRAM!!!
+
+============================================================================
+
+
+8> Contact information
+
+
+	You can contact the programmer at this e-mail address and fax number:
+
+e-mail: big_ska@hotmail.com
+fax:    858-513-1491
+
+	Feel free to send all questions, comments, or hate mail to the address 
+and/or fax number above.
+
+============================================================================
+
+
+9> Copyright and liscensing information
+
+
+	This program is shareware and is meant to be distributed freely. All I ask 
+is that you keep this text file with the original ZIP file, and that, if you 
+change any of the code with the Graphlink software, that you give me some 
+credit. Thanks. Enjoy!
+
+
+
+					~Sean	
+
+	 

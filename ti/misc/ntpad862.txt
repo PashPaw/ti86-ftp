@@ -1,0 +1,32 @@
+Name:     Notepad Plus 86 Release 2 (Ntpad862)
+Author:   Brian Creasy
+Version:  1.0
+Machine:  TI-86
+Description:  A simple, but useful, program that uses strings to store 
+     messages.
+
+Requirements:  7279 bytes of memory
+
+Instructions:  At the homescreen, store 788 as ABC.  Then run Ntins862
+first.  This program tells you the requirements.
+
+* to run Ntins862 in the actual program, type 0 at the prompt.
+
+*note* - Notepad Plus 86 does not know that you have anything saved in
+              a string.  If you save something in Notepad and there is 
+              already something saved in the string, the old one is
+              gone.
+
+- Release 2 I made it so you can clear the saved Notes.  Also made
+     it password protected.
+
+- Release 3 is planned to be able to delete Notes completly.
+
+Any questions, comments, or for any more programs,
+            E-mail me at:
+        bcreasy@rocketmail.com
+              or
+        bcreasy@geocities.com
+
+		Thanks,
+		Brian Creasy

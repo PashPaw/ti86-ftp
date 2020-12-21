@@ -1,0 +1,70 @@
+BVC --- a Bond Valence Calculator for TI-85 and TI-86
+
+
+Prof. Dr. Richard Dronskowski
+Department of Chemistry
+Aachen University of Technology (RWTH)
+52074 Aachen, Germany
+email: drons@HAL9000.ac.rwth-aachen.de
+
+
+THEORY
+
+Within bond valence (or bond length-bond strength) theory, there is a one-to-one
+correspondence between an atom´s valence and this atom´s individual bond lengths to
+its neighbors. The concept, very well established within solid-state and crystal
+chemistry, goes back to by Pauling [1] but has been refined by many others. A very
+good account has been given by Brown [2]. 
+
+While the bond valence v is the sum of all individual bond strengths s_i
+
+                           ---|
+                       v = \    s_i,
+                           /__|
+                             i 
+
+the bond strength s_i itself may be calculated using the most commonly adopted
+expression
+
+                       s_i = exp{r_0 - r_i)/37 pm},
+
+where r_0, the bond valence parameter, and r_i, the bond length, are provided in
+picometers. Two reliable sources for r_0 parameters are the 1985 paper by Brown and
+Altermatt [3] and the 1991 paper by Brese and O'Keeffe [4].
+
+
+PROGRAM
+
+The BVC program performs all bond valence calculations needed to successfully work
+through an inorganic crystal structure in terms of atomic valences (oxidation
+states), bond strengths, comparisons with idealized structures, etc.
+
+Upon start, the program will ask for the individual bond lengths, typically taken
+from an X-ray or neutron crystal structure determination. Enter all bond lengths and
+close the list using "0" pm. If a bond valence parameter r_0 is already stored in
+the calculator, the bond valence will automatically be calculated. If not, choose
+"r0" in the menu and provide a parameter. As an alternative, you may specify a
+chosen valence ("val" menu item) such that an appropriate r_0 parameter can be
+calculated. For a given r_0 parameter and a given valence, the program will
+calculate an optimal bond length to fit a perfectly symmetrical polyhedron of an
+arbitrary coordination number; try the "coord" menu item. Finally, item "bonds" will
+allow you to enter a set of new bond lengths, "EXIT" will stop the program, and
+"INIT" (TI-86 version only) will re-initialize the program. Have fun!
+
+
+HISTORY
+
+1992: early version (1.0), unpublished, written at the Max-Planck-Institute for 
+      Solid State Research; helpful in writing a couple of scientific papers :-)
+1999: improved, updated, documented version (2.0)
+
+
+LITERATURE
+
+[1] L. Pauling, J. Am. Chem. Soc. 69 (1947) 542.
+[2] I. D. Brown, in "Structure and Bonding in Crystals", Vol. 2,
+                 edited by M. O'Keeffe and A. Navrotsky;
+                 Academic Press, NY 1981.
+[3] I. D. Brown, D. Altermatt, Acta Crystallogr. B 41 (1985) 244.
+[4] N. E. Brese, M. O'Keeffe, Acta Crystallogr. B 47 (1991) 192.
+  

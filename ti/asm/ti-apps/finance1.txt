@@ -1,0 +1,6 @@
+finance1.86g
+------------
+
+TI-86 finance application.
+
+Please see http://www.ti.com/calc/docs/86asapfin.htm for documentation.

@@ -1,0 +1,17 @@
+RELATVTY.86p
+
+This program will work out the equations of 
+Einstein's Special Theory of Relativity.
+
+It also has Einstein's Field Equation, the main
+in Albert Einstein's general Theory of Relativity.
+
+Rtt=4*PI*G(Ttt+Txx+Tyy+Tzz)
+
+If you have any questions, or you've found a mistake
+I made please contact me at:
+
+William Charles Deich IV
+http://www.geocities.com/CollegePark/Field/1680/
+williamiv@geocities.com
+bevd@bellsouth.net

@@ -1,0 +1,333 @@
+Introducing the Grand Unified Conic Program XV4.0!
+
+	by
+
+William Charles Deich IV
+http://www.geocities.com/williamiv.geo/
+williamiv@geocities.com
+	&
+Michael Raymond Lloyd I
+http://www.hsu.edu/faculty/lloydm
+lloydm@hsu.edu
+
+--------------
+VERSION HISTORY
+
+1.0 CONIC.85G Group of 6 programs I found on my professor's TI-85.
+    They were only for hyperbolas, ellipses and parabolas in
+    standard form.  DIDN'T HANDLE ROTATIONS.
+
+2.0 FIRST GRAND UNIFIED CONIC SECTION PROGRAM!!!!!!!!!!!!!!!!!!!!!!
+    Total re-write.  Could handle ANY CONIC SECTION! ROTATED OR 
+    NON-ROTATED! STANDARD OR GENERAL!!!  Size = 5399 bytes
+
+
+3.0 GRAND UNIFIED CONIC SECTION PROGRAM XV2 (Experimental Version 2)
+    Efficiency changes to save 704 bytes.  (UNRELEASED)
+
+4.0 GRAND UNIFIED CONIC SECTION PROGRAM SUPER VERSION 3!--THIS VERSION
+    More efficiency changes, including linear algebra algorathims
+    to save another 497 bytes.
+---------------------------------------------------
+
+I call this program the Grand Unified Conic Program
+because it will handle all conic sections,
+General & Standard, Rotated & NonRotated!!!!!!!!!!!
+Hallelujah!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Master Menu:
+|Input| All |Stop|info|GRAPH|
+
+IF you press F3 for Stop it will
+execute an actual Stop command.
+There is also a Stop command at
+the end of the program.  THIS IS
+TO ESCAPE FROM ASSEMBLY SHELLS.
+
+
+IF you press F1 you are given the
+Input Menu:
+
+|Gener|Stand|Windo|    | <- |
+
+IF you press F3 for WINDOW it will
+Prompt xMin,xMax,xScl,yMin,yMax,yScl
+
+      ---warning---
+This program graphs all conic sections
+in Parametric Mode to get a good graph.
+
+In order for these values to be stored
+to the RANGE settings of the Parametric
+Graph Screen, the program puts the
+calculator in Parametric Mode just before
+it prompts you for the range variables.
+      --------------
+
+Input Menu:
+|Gener|Stand|Windo|    | <- |
+
+If you press F1 for General it will display
+
+Ax^2+Bxy+Cy^2+Dx+Ey+F=0 and then
+
+Prompt A,B,C,D,E,F
+
+Then it will compute A' C' D' E' & Theata
+
+Then it will display Theata and ask
+you if you want to change it!!!!!!
+
+I've never even seen a problems that
+asked for this before, but I decided
+to throw it in for free anwyay!!!!!!
+
+AFTER THIS IT WILL TAKE YOU BACK TO THE MASTER MENU.
+
+
+Input Menu:
+|Gener|Stand|Windo|    | <- |
+
+On the other hand you can press F2 to enter
+a standard conic section!
+
+This version of the program has a new Menu-Screen to
+let you enter standard conics more efficiently!!!!!!
+
+Basically you will see this on the screen...
+
+1:x2Parab 2:y2Parab
+3:X-Ellip 4:Y-Ellip
+5:X-Hyper 6:Y-HYper
+7:Circle?
+
+You simply enter the number for the type of conic
+you want to enter!!!
+
+This and other changes save 704 bytes!!!
+
+If you choose 1 or 2 for a Parabola it will
+ask for H,K,p,Theata
+
+If you choose 3->6 for any kind of Ellipse
+or Hyperbola it will ask for H,K,A,B,Theata
+
+If you choose 7 for Circle, it will ask for H,K,r
+
+[Theata makes no difference for a circle!!!!!]
+
+x2Parab = X^2 parabola
+y2Parab = Y^2 parabola
+
+X-Ellip = Ellipse with major axis parallel to X-axis
+          --Tf it's NOT rotated
+X-Ellip = Ellipse with major axis parallel to Y-axis
+          --If it's NOT rotated
+
+X-Hyper = A hyperbola with it's tranverse 
+	axis parallel to the X-axis
+        Said another way, it's one that 
+	opens left and right
+        --Provided that it's NOT rotated
+
+Y-Hyper = A hyperbola with it's tranverse 
+	axis parallel to the Y-axis
+        Said another way, it's one that 
+	opens up and down
+        --Provided that it's NOT rotated
+
+Circle - Well, you should know.
+
+
+Master Menu:
+|Input| All |Stop|info|GRAPH|
+
+If you press F4 for "info" it will give you the
+INFORMATION for the conic section
+
+If you press F5 for "GRAPH" it will graph the
+conic section in Parametric Mode.  This is because
+conic sections on the TI-85/6 come out much nicer
+in Parametric Mode than in Function Mode. This is
+Because the use of Trig formulas for conic sections
+allows for much smoother graphing without any gaps
+in the middle or anything.
+
+If you press F2 for "ALL" it will first give you the
+information, and then graph it.
+
+
+ INFORMATION
+------------------------------------------------------
+
+TYPE OF CONIC SECTION, Theata, A' C' D' E' & F
+      --For general conics
+
+CENTER/VERTEX -- in xy, & x'y' IFF Theata=/=0 AND
+H and K are not BOTH zero.
+
+FOR CIRCLE
+----------
+radius
+
+FOR PARABOLAS
+-------------
+Focus -- in xy & x'y' IFF Theata=/=0
+Latus Rectum Length (abs(4p))
+Latus Rectum End Points -- in xy & x'y' IFF Theata=/=0
+
+Equation for the Directrix
+
+
+FOR HYPERBOLAS & ELLIPSES
+-------------------------
+Length of Tranverse/Major Axis
+Length of Conjugate/Minor Axis
+
+Vertacies  [same as end points of Tranvese/Major Axis]
+ -- in xy & x'y' IFF Theata=/=0
+
+Foci -- in xy & x'y' IFF Theata=/=0
+
+Eccentricity
+
+End points of Conjugate/Minor Axis
+ -- in xy & x'y' IFF Theata=/=0
+------------------------------------------------------
+
+
+The "biggest" drawback of this program is still
+it's size.  
+
+VERSION 1 = 1950 BYTES
+
+VERSION 2 = 5399
+
+VERSION 3 = 4695
+
+VERSION 4 = 4198
+
+The first version was a lot smaller but did a lot less.
+I still think it's worth having, JUST DELETE A FEW OF
+THOSE GAMES!!!
+
+
+ODD LITTLE THINGIES :)
+-------------------------------------------------------
+0) This version displays the points as [x y] instead of
+   (x,y) since I used matrix*vector multiplication
+   from Linear Algebra.  HOPE THIS ISN'T TOO CONFUSING :O)
+
+1A) In order to get a really good picture of the conic
+sections, the programs graphs in Parametric mode.
+
+Most of you probably haven't even heard of Parametric
+Equations, unless you've had a VERY good Analitic
+Geometry/Precalculus class or you're in Calculus II.
+--It's a system where both x and y are expressed as 
+seperate equations of a third variable, usually t.
+
+Anyway, conic sections just happen to come out VERY NICE
+if you graph them is this mode.
+
+Also, Trace is a little weird in this mode. You're
+moving to higher vaules of t, not x and the cursor 
+often goes in the opposite direction than the arrow
+key you press. (Just play around with it.)
+
+
+1B) For your convience the angles are entered, 
+and stored in Degree mode, but it graphs in 
+radian mode, SO WHEN YOU'RE DONE GRAPHING A
+CONIC SECTION YOUR CALCULATOR WILL STILL BE
+IN RADIAN MODE.
+
+ALL YOU HAVE TO KNOW, IS THAT WHEN YOU'RE DONE YOU CAN
+PRESS [2ND] "MODE" TO PUT BACK THE SETTINGS TO WHATEVER
+GRAPH MODE & ANGLE MODE YOU HAD BEFORE.
+
+2) The program is so big, that if you try to edit it
+on the calculator, you will probably alter a command
+line by mistake, and never be able to find it again.
+Also, it will take a long time run the 1st time it's
+run, and each time after it's edited.
+
+If you get an ERROR it's probably because you entered
+something wrong. Just press Quit and start over.
+(If any of you do find a real error, pleas let me know
+at williamiv@geocities.com)
+
+
+3) If the center/vertex is at (0,0) you will see:
+
+CENTER(x'y')
+		(0,0)
+and then it will go on to whatever's next.
+
+This is because the program 1st figures out the
+coordinates in terms of (x',y') [the rotated axies] 
+and then rotates them over to x & y.
+
+If the center is at (0,0) then this rotation doesn't
+make any difference, and the program doesn't waste time
+giving you the same point twice.
+
+4) To graph parabolas properly, the program 
+   changes the Param window settings to
+   (xMin->tMin, xMax->tMax, 1->tStep).
+
+   The program resets the normal settings
+   (0->tmin, 2pi-tMax, pi/24)
+   when it graphs an ellipse/hyperbola/circle, 
+   but must leave it this way while the parabola
+   is displayed. To get back to "normal" you
+   can use ZStd in Parametric Mode.
+
+5) As always with the TI-85/TI-86 if you get a value like:
+   -4.1382E-11 it really means zero.  This number means
+   -4.1382*10^-11, and is simply due to round off error
+   on the calculator.
+
+SO if you see a points like
+	(-5,1.8320E-12)
+	(5,1.8320E-12)
+Please understand this means
+	(-5,0)
+	(5,0)
+
+6) Version 2.0 uses higher mathmatical concepts
+   (including mod(FLAG(2),2) and IF-THEN-ELSE-END's)
+   So it is a little harder to understand.
+   Feel free to email me if you need help.
+
+
+Warnings (This is nothing to be afraid of):
+----------------------------------------------------------------
+1) When entering a Standard Conic, be sure to know the
+differnce between r^2 and r, A^2 and A, B^2 and B,
+-H and H, and -K and K, and 4p and p.
+
+2) When entering a Standard Ellipse, A must always be
+bigger than B.
+
+3) If you try to make up general conics at random
+you will probably get errors, since most random
+numbers will not satifly the equation
+Ax^2+Bxy+Cy^2+Dx+Ey+F=0. I recommend consulting
+a math book for equations.
+
+
+Yes, this program does just about everything but
+wash your socks (never!), handle 3D conics (kind of 
+hard) or give you the directracies for ellipses  and 
+hyperbolas (but I don't know anybody that uses those
+anyway!).
+
+THIS PROGRAM IS SO GOOD, I BET NONE OF YOU ANYWERE,
+ANY TIME WILL EVER BE ABLE TO MAKE AN IMPROVEMENT.
+HOWEVER, SINCE IMPROVEMENTS ARE ALWAYS GOOD FOR 
+THE ONLINE-TI COMMUNITY, I DARE ANY OF YOU TO TRY!
+
+-wd  1/11/99
+-wd  7/31/01
+-wd 11/01/01

@@ -1,0 +1,15 @@
+Program Name : Slope.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+
+This program is designed to calculate 
+the slope of a linear plot when the
+user knows the x&y coordinates of two
+seperate points on the plot.
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the usage of this program.

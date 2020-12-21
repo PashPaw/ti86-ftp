@@ -1,0 +1,21 @@
+Program Name : Distance.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Pre Calculus Algebra
+
+This program is designed to calculate the distance
+between the any two XY coordinates found on a 
+linear plot. 
+
+Line Distance Formula:
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.

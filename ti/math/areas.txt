@@ -1,0 +1,19 @@
+Program Name : Areas.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+
+This program is designed to calculate 
+the geometric area of four different 
+shapes.
+
+1. Triangle
+2. Rectangle
+3. Trapezoid
+4. Circle
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the usage of this program.

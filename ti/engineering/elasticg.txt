@@ -1,0 +1,531 @@
+elasticg
+--------
+
+Elastica determines the 2*n constants associated with the double integration of
+n piecewise functions and plots the resulting curve. Specifically Elastica
+solves boundary value problems of elastic curves.
+
+Elastica is set up to solve and plot an elastic curve that has 1 to 6 intervals.
+However, the algorithm for determining the 2*n unknowns is general, and can be
+set to handle a greater number of intervals.
+
+Elastica introduces and makes use of an end-conditions free-body. The
+free-body allows a graphical method of analyzing and specifying the end and
+continuity conditions needed to solve the curve. Though the method is described 
+here, it can be more easily understood if it can be seen. A "PDF" file, if not 
+available with this document, may be had by sending an e-mail with the words 
+"Elastica method" in either the subject heading or in the first line of text to
+mcb4588@omega.uta.edu.
+
+Setting Up
+
+The Elastica Group file has 3 items:
+Elastica (program)
+EUtility (program)
+Elas (graphic database)
+
+Run EUtility to install the few resources Elastica needs to run (a few small
+lists). EUtility can also be used to clear all the resources and variables Elastica uses
+or creates from memory, if you have a TI-86. (If you have a TI-85, you can print a
+copy of EUtility and use that to delete the variables by hand.) EUtility also provides
+a way to set Elastica to solve a curve with more than 6 intervals (to solve for more
+than 12 unknowns).
+
+Conventions Used
+
+Questions asked by the program are answered one of four ways.
+1. To answer "no," enter 0 (zero)(binary false).
+2. To answer "yes," enter 1 (one)(binary true)
+3. To answer a datum query, key in the datum.
+4. To answer a question in the form "A or B," enter 0 for A,  1 for B.
+
+Elastica needs the Elas graph database file to plot curves and to evaluate values and
+derivatives along the elastic curve. When you've finished using Elastica you can
+delete the Elas functions from the y-editor in the GRAPH application. Then, the
+next time you use Elastica, you'll have to recall the Elas graph database from the
+GRAPH menu before you can plot or evaluate the elastic curve. (Elastica does not
+need the Elas graph database to solve the elastic curve.)
+
+Example and Step by Step
+
+First sketch a free body of the beam. Let the beam be fix-connected on the left-
+hand side (label it A) and roller supported on the right-hand side (label it B). Let the
+length be 12 meters. At the center of the beam is one 50-Newton concentrated load
+acting downward. This is a first-degree indeterminate beam problem. The flexural
+rigidity of the beam, EI, for our purpose, can be unity, 1.
+
+Our problem is to find the values of the 4 constants needed to describe the shape of
+the elastic curve.
+
+First we need to find the number of intervals on the elastic curve. There are two
+moment equations needed to describe the beam. In general, with elastic curves,
+the
+number of intervals equals the number of moment equations plus the number of
+internal hinges (since internal hinges cause discontinuities on the elastic
+curve, but
+not on the moment diagram).
+
+So we have two intervals, 0 to 6 and 6 to 12 meters. Now we can sketch a free
+body
+of the end-and-continuity conditions. Sketch the expected shape of the elastic
+curve
+for the beam. Let the curve be y(x). At A, x = 0. Draw two small squares
+one-on-
+top-of-the-other to represent the values of y'(0) and y(0) respectively. Then
+draw
+another pair of squares just to the left of y(6). Then another pair of squares
+just to
+the right of y(6); then one last pair of squares to the left of y(12).
+
+The boxes representing y'(x) run along the top of the sketch of the elastic
+curve.
+The ones representing y(x) run along the bottom. These 8 boxes represent the
+"end
+conditions" of the curve. We can choose which ones of those to assign a value,
+and
+then give that to Elastica, which the program then stores in a matrix named
+"endCond," which it will use to solve the curve.
+
+Because we have two intervals, we have also two equations that will be double
+integrated. So we have 4 constants to find, two for each interval. C1 is
+associated
+with the derivative of y(x) over the first interval. C2 is associated with y(x)
+over the
+first interval. C3 is associated with the derivative of y(x) over the second
+interval,
+and C4 is associated with y(x) over the second interval. If we let the
+intervals of y
+go from a to b, then we have along the curve a1, b1, a2, b2. Now each box is
+unique:
+C1a1, C1b1, C2a1, C2b1, C3a2, C3b2, C4a2, C4b2. Alternatively, the boxes can be
+referred
+to as y'1a1, y'1b1, y1a1, y1b1, y'2a2, y'2b2, y2a2, y2b2.
+
+To solve for the 4 unknowns, we need 4 equations. We can specify four equations
+by using the end-condition values and relationships.
+
+With our example we'll specify the value of y'1a1 as 0, and y1a1 as 0. (Fixed
+end.)
+That gives two equations: y'1(0)=0, and y1(0)=0. We need two more (linearly
+independent equations). We'll specify the relations, y'1b1 = y'2a2, and y1b1 =
+y2a2,
+which give the equations y'1(6) = y'2(6), and y1(6) = y2(6). That gives us a
+total of
+four linearly independent equations.
+
+We want to be able to represent this on the end condition free body. To
+represent
+y'1(a1) = 0, darken that box, C1a1, and indicate the value by writing it just
+below
+and to the right of the box. To represent y1(a1)=0, darken that box, C2a1, and
+indicate its value by writing it just below and to the right of the box. To
+represent
+y'1(b1) = y'2(a2), connect those two boxes, C1b1 and C3a2, by drawing an
+upside-
+down U above them. To represent y1(b1) = y2(a2), connect those two boxes in a
+similar way, with a U-shape below the two boxes.
+
+So we have four equations. They can be counted: two darkened squares and two U-
+connections. Provided that they are linearly independent and together involve
+the
+four constants, C1 to C4, we should have a solution to the curve.
+
+Before we run Elastic we have two more steps. First we need to integrate the
+moment equations one time, and assign them to an equation. The moments are
+
+M1(x) = 34.375 x - 112.5
+M2(x) = -15.625 x + 187.5.
+
+Integrating with respect to x we get
+
+(34.375/2) x^2 - 112.5 x
+(-15.625/2) x^2 + 187.5 x
+(We don't need the constants of integration here.)
+
+On the calculator we assign the integral associated with M1(x) to DP1, and
+assign
+the one associated with M2(x) with DP2:
+
+DP1=(34.375/2) x^2 - 112.5 x
+DP2=(-15.625/2) x^2 + 187.5 x
+
+(Be sure and use the "negation function," (-),  when the negative sign is out
+in front as in DP2.)
+
+The last step before running Elastica is to set the x-limits in the GRAPH
+application with the "RANGE" or "WIND" menu. We can set xMin to 0, and xMax to
+12. (We could guess at the y-range, but we won't.)
+
+Now run Elastica.
+To the prompt (comments are in parenthesis)
+
+Length?     enter 12 (for 12 meters, the length of the beam)
+
+Intervals?     enter 2
+
+Limit list?     enter the list: {0,6,6,12} (This is a TI List, the intervals
+in the form (a,b))
+
+endCond exists
+Use it?     enter 0 (for No. The endCond matrix, in our case,
+should not have the end conditions to our problem. This
+prompt allows us to bypass input-of-end-conditions into
+the endCond matrix.)
+
+y'(x) , rhs of 0
+is known?
+huh?     enter 1 (for Yes. From our free-body of end-conditions,
+we want to use the value of y'(x) at the right-hand-side
+of zero as an equation.)
+
+y'(x) = ?     enter 0 (from our free-body we said that was equal to
+zero (the slope at A is zero, because that end is fixed.))
+
+y(x), rhs of 0
+is known
+huh?     enter 1 (from the free-body..., we blackened that box.)
+
+y(x) = ?     enter 0 (we said it was zero. There is not displacement
+at A.)
+
+y'(x) lhs of 6
+is known?
+huh?     enter 0 (From the free-body, that box is off, not
+blackened.)
+
+y(x) lhs of 6
+is known?
+huh?     enter 0
+
+y'(x) rhs of 6
+is known?
+huh?     enter 0
+
+y(x) rhs of 6
+is known?
+huh?     enter 0
+
+y'(x) lhs of 12
+is known?
+huh?     enter 0
+
+y(x) lhs of 12
+is known?
+huh?     enter 0 (We know the displacement here is 0. But we did not need
+another conditon, and so we do not enter it.)
+
+y1(b1) == y2(a2)?  enter 1 (for Yes. From the free-body, we want to
+use this relation to determine the constants and
+solve the curve.)
+
+Let f, g be y
+2
+1
+f'(a) == g'(b)?     enter 1 (for Yes. We want to use the relation y'1(b1) =
+y'2(a2). That's what this awkward question is asking.
+You can write it out: f = y2; g = y1; f'(a) = y'2(a); g'(b)
+= y'1(b)...)
+
+Is C4
+equal to 0?     enter 0 (for No. If C4 is zero, then y2(0) = 0. That is not
+apparent from the sketch of the elastic curve, so we
+answer No. Elastica here has ended up with an equation
+C4= 0. To understand why, one can study the free-body
+of the end conditions with an understanding of how
+Elastica proceeds algorithmically. But never mind for
+now. By answering No Elastica sets the relation C4 = 0
+aside, and uses the four we specified.
+
+Plot curve?     enter 1
+
+Include prev. curve?     enter 0 (for No. In our case, we have no previous
+curve
+to include to plot over.)
+
+------
+
+Because we did not specify the y-range in the GRAPH application, we (probably)
+won't be able to see the elastic curve. So we can interrupt the graphing by
+pressing
+"ON." Then press "QUIT." (Don't press "GOTO" because you'll cause Elastica to
+be
+recompiled the next time you run it, which takes a long time.) We'll find the
+range
+and then re-plot the curve.
+
+Now to find the lower limit of y, from the sketch of the curve we know it ought
+to
+be around x = 6. or 7. That's in the y2 interval (a2_b2). Now go to the "CALC"
+menu
+and key in this:
+
+evalF(y2, x, fMin(y2, x, 6, 8))
+
+This does two things, fMin(y2, x, 6, 8) finds the x where y(x) is the minima in
+the
+interval of x = 6 to x = 8.
+
+evalF(y2, x, fMin(y2, x, 6, 8)) then uses that x to find the value of y(x).
+
+The value is -805.
+
+We can now set the y-range in the GRAPH application using the "RANGE" or
+"WIND" menu. We'll set yMin = -900 and yMax = 100.
+
+Exit to the home screen, then run Elastica again (we'll skip most of the input
+this
+time).
+
+Length?     enter 12
+
+Intervals?     enter 2
+
+Limit list?     enter {0,6,6,12}  (You can use the "LIST" menu to find
+"limLst" and answer this prompt with that, since it
+contains the limits keyed in last time, if you don't want
+to re-key in the list.)
+
+endCond exists
+Use it?     enter 1 (for Yes. We don't want to re-key in the "end
+conditions.")
+
+Calc. constants?     enter 0 (for No. We don't want to re-solve the curve.)
+
+Plot curve?     enter 1 (Yes. Plot the curve.)
+
+Include prev. curve?     enter 0 (No. We have no previous curve to include to
+be
+plotted over.)
+
+--------
+
+Now the elastic curve plots. You can press "ON" to get out of plotting it. If
+you'll
+let it plot, you'll see the minima occurs between 6 and 7 as we anticipated.
+
+Elastica+s objects
+
+Under the "MATRX" menu:
+
+"AMat" is the "left-hand-side" of the equations we specified.
+
+"BMat" is the "right-hand-side" of the equations we specified.
+
+That is: AMat * CMat = BMat    (#1)
+
+And from the operations [AMat]^(-1) * BMat = CMat    (#2)
+we get the solution to the curve, the constants C1 to C4.
+
+But CMat is a row matrix, and from the function Elastica uses to solve (#2)
+above,
+that row matrix is assigned to a vector. So CMat is a vector. Under the "VECTR"
+menu you'll find "CMat," which is [0, 0, -900, 1800]. And the solution to the
+curve
+is
+
+For x = 0 to 6:
+y(x) = f(x) + (0) x + 0
+
+And for x = 6 to 12:
+y(x) = g(x) -900 x + 1800
+
+Back under the "MATRX" menu is the "ABMat." It is an augmented matrix (AMat
+and BMat) and contains all the relations Elastica generated. The rows contain
+the
+equations in the order they were evaluated by Elastica with respect to Ci.
+Equations
+below row n are extra relations that are added when Elastica does not find a
+relation specifically for Ci.
+
+Elastica's Procedural Set Up
+
+For example, we did not specify a relation specifically for C4.
+Algorithmically, the
+relation we specified, y1(b1) = y2(a2), provided an equation for C2, not for
+C4. The
+equation relates both C2 and C4, but procedurally, the equation yi(bi) = yi+
+1(ai+1) is
+associated with Ci(even), not Ci+1(even). Conversely, by algorithm, Elastica
+associates the equation y'i(bi) = y'i+1(ai+1) to Ci+1(odd) not Ci(odd).
+
+In our case, y'1(0)=0 was associated with row 1 of the ABMat, with C1. y1(0)=0
+was
+associated with row 2 of the ABMat, with C2.  y'1(6) = y'2(6) was associated
+with
+Ci+1(odd), (with row 3, with C3). And since we had already associated an
+equation
+with C2, the relation y1(6) = y2(6) was an "extra" equation, and was put into
+row
+n+1 of the ABMat. When C4 was evaluated by Elastica, there was no relation
+assigned to it. It kept its default relation C4 = 0 associated with it. At the
+end of the
+algorithm Elastica asked us if we wanted to keep that equation: Is C4=0? We
+said
+No. Elastica then substituted that equation with the extra one in row 5, and
+solved
+the curve.
+
+With the ABMat matrix, you can elide rows "by hand", since it contains all the
+equations generated by Elastica, and then use "rref" under the "MATRX" "OPS"
+menu to find solutions.
+
+End Condition Analogy
+
+Finally, there is the "endCond" matrix. It contains the "end conditions" we
+specified
+(values of y'(x) and y(x)), not the relations. Now the transpose the endCond
+matrix
+is the free-body for the "end conditions."
+
+Transpose[endCond] =
+1 0 0 0
+0 0 0 0
+1 0 0 0
+0 0 0 0
+
+Row one represents y'1(a1), y'1(b1), y'2(a2), y'2(b2). Where the digit 1
+represents
+"On" or the blackened box. The values in row two are the values we assigned.
+(They are zero by default, but that is superfluous except when, like in
+row-one-
+column-one, a box is turned on. In other words, all the values in row 2 are
+meaningless except for row-two-column-one, because its box (row-one-column-
+one) is turned on.)
+
+Row three holds the analogous relations for y(x). That is row three represents
+y1(a1), y1(b1), y2(a2), y2(b2). And we specified a value for y1(a1), we said it
+was zero.
+Hence y1(a1) (row-three-column-one) is "On" and the value below it (row-four-
+column-one) has meaning.
+Graphically, the transpose of the endCond matrix  and the "end conditions" on
+the
+free-body for the end conditions are alike.
+
+(The end condition values take on much more prominence with some other
+boundary-continuity-value problems, i.e. elastic curves for frames and where
+the
+corollary to the conjugate beam theorem is used.)
+
+Here are the main matrices from the example problem.
+
+ABMat =
+1 0 0 0 0
+0 1 0 0 0
+-1 0 1 0 -900
+0 0 0 1 0
+6 1 -6 -1 3600
+
+CMat =
+0 0 -900 1800
+
+endCond =
+1 0 1 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+
+Evaluating the Elastic Curve
+
+Any point on the elastic curve can be evaluated (when the y-functions from the
+Elas
+graph database are in the y-editor of the GRAPH application.):
+
+evalF(y1, x, 5) = -690.1
+evalF(y2, x, 10 = -429.16
+
+And any derivative on the curve can be evaluated:
+
+nDer(y1, x, 2) = -156.25
+nDer(y2, x, 12) = 225
+
+And the area under any interval of y(x) can be found by using Simpson's rule,
+i.e.:
+
+Simpson(y1, x, 0, 6) = - 2193.75
+Simpson(y2, x, 6, 12) = -3206.25
+
+The moments can be found by evaluating DPn, i.e.
+
+der1(DP1, x, 6) = 93.75
+der1(DP2, x, 6) = 93.75
+
+And similarly, the shear at any point is
+
+der2(DP1, x, 6) = 34.375
+der2(DP2, x, 6) = -15.625
+
+Note: Because the elastic curve, y(x) (in the y-editor) is itself an integrand
+(see the
+y-editor) it is "illegal" in the GRAPH application, in another integral
+(fnInt()) and in
+the "exact" derivative functions. This is of no consequence, as was
+demonstrated
+above.
+
+More Examples
+
+It is convenient and instructive to use Elastica to rework the example problem
+using
+its statically determinate components: That is to rework the problem as a
+both-ends-
+simply-supported problem, then as a right-end-cantilevered problem, and as
+a left-end-cantilevered problem. It can also be worked as a both-ends-fixed
+problem.
+The CMat matrices are:
+Simply-supported: [-450, 0, -1350, 1800]
+Right-end-cantilever (rhs overhanging) : [0, 0, -900, 1800]
+Left-end-cantilever: [900, -900, 0, -7200]
+Both-ends=fixed: [0, 0, -900, 1800]
+
+
+Summary of Elastica Procedure
+
+The procedure is always to
+1. Determine the moment equations
+2. Determine the number of intervals, n (equals the number of moment equations
+plus the number of internal hinges).
+3. Integrate Mi(x) with respect to x (ignoring the constants of integration)
+and
+assign that result to DPi, for i = 1 to n.
+4. Draw a free-body of the end conditions and identify the 2*n equations to use
+to
+solve the curve on the free-body.
+5. Run the program and answer its queries based on the free-body.
+
+(To plot the curve, or to evaluate values along the curve, you need to have the
+Elas
+graph database installed in the GRAPH application, in the y-editor. This is not
+needed to solve for the constants, C1 to C2n. Elastica will either solve the
+curve
+based on the end and continuity conditions it was given, or, if too few
+equations and
+relations are given, it will tell you that AMat is not square. (In this case,
+see the
+ABMat matrix, and reanalyze the end and continuity conditions, redraw the free-
+body for them, and try again.) Or, if the end and continuity conditions
+Elastica uses
+(the AMat and BMat) to solve for the constants (C1 to C2n) are not linearly
+independent, the calculator will return the error message "Singularity." In
+this case,
+first, don't press the -GOTO+ button because Elastica is working okay, and
+doing so
+would cause the program to be recompiled the next time you run it and that
+takes a
+long time. Second, do what is suggested for the case of the non-square matrix
+above
+(reanalyze the end and continuity conditions).)
+
+For some worked examples (including one of a left-end-cantilever and one of a
+beam with internal hinges) and instructions for setting Elastica to solve
+curves with
+more than 12 unknowns, a "PDF" file may be had by sending an e-mail with the
+words "Elastica examples" in either the subject heading or in the first line of
+text to
+mcb4588@omega.uta.edu.
+
+Good luck.
+
+Mark C. Bourland
+The UTA graduate school
+mcb4588@omega.uta.edu
+All rights to these programs and methods are reserved by me. (August, 1998)

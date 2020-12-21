@@ -1,0 +1,5 @@
+The TI-86 program, BLKBODY, calculates the radiated power emitted by a blackbody at a given absolute temperature as measured between two wavelengths.  The first radiometric quantity calculated is the radiant emittance and is measured in watts per square meter at the surface of the blackbody.  Also calculated is the radiance at the surface of the blackbody measured in watts per square centimeter per steradian.  The emissivity of the object radiating is assumed to be one - a perfect blackbody.  An example to try is to calculate the radiant emittance at room temperature, 300 K in the infrared atmospheric window, 8 micrometers (lower wavelength) to 12 micrometers (upper wavelength).  In this case, the radiant emittance is about 121 watts per square meter.
+
+William E. Keicher 
+keicher@ll.mit.edu
+10/5/97

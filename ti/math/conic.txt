@@ -1,0 +1,129 @@
+conic
+-----
+
+Introducing the Grand Unified Conic Program!
+	by
+William Charles Deich IV
+http://www.geocities.com/CollegePark/Field/1680/
+williamiv@geocities.com
+bevd@bellsouth.net
+	&
+Michael Raymond Lloyd I
+http://www.hsu.edu/faculty/lloydm
+lloydm@hsu.edu
+----------------------------------------------
+This Program will handle all conic sections,
+general & standard, rotated & nonrotated!
+
+Master Menu:
+|Input| All |Stop|info|GRAPH|
+
+After you enter a conic by pressing F1, you can:
+press F4 to get the center, foci, vertacies, etc 
+in both the xy- and x'y'-coordinate systems! You
+are also given the Latus Rectum/Major & Minor axis
+length, etc.
+
+Basically, everything you could want to know about
+the points on a conic section.
+
+   Or you can press F5 and graph the conic, EVEN IF
+IT'S ROTATED!
+
+   Or you can press F2 and first see the info, and
+then graph!
+
+Yes, this program does just about everything but
+wash your socks (never!), handle 3D conics (kind of 
+hard) or give you the directracies for ellipses  and 
+hyperbolas (but I don't know anybody that uses those
+anyway!).
+
+The program is very self expanitory. The "biggest"
+drawback is that it takes up about 5400 bytes. However,
+I think that it's a program well worth making room for,
+especially since it can do most of your conic section
+work for you! (Just delete some of those games when
+you're in math class)
+
+Quirks and Warnings: (This is nothing to be afraid of.)
+-------------------------------------------------------
+1A) In order to get a really good picture of the conic
+sections, the programs graphs in Parametric mode.
+	Most of you probably haven't even heard of Parametric
+	Equations, unless you've had a VERY good Analitic
+	Geometry/Precalculus class or you're in Calculus II.
+	[[It's a system where both x and y are expressed as 
+	seperate equations of a third variable, usually t.]]
+Anyway, conic sections just happen to come out VERY NICE
+if you graph them is this mode.
+
+Also, Trace is a little weird in this mode. You're
+moving to higher vaules of t, not x and the cursor 
+often goes in the opposite direction than the arrow
+key you press. (Just play around with it.)
+
+
+1B) For your convience the angles are entered, and stored
+in Degree mode, but for graph to work, the calculator
+must be in Radian mode. The mode is only permently
+changed on your calculator when you graph.
+
+The program can't change back to whatever modes you were
+in before the program started after graphing, because
+you might want to look at the graph a little while
+longer, or you might want to adjust the graph settings
+to get a better look at the specific conic section.
+
+ALL YOU HAVE TO KNOW, IS THAT WHEN YOU'RE DONE YOU CAN
+PRESS [2ND] "MODE" TO PUT BACK THE SETTINGS TO WHATEVER
+GRAPH MODE & ANGLE MODE YOU HAD BEFORE.
+
+2) The program is so big, that if you try to edit it
+on the calculator, you will probably alter a command
+line by mistake, and never be able to find it again.
+Also, it will take a long time run the 1st time it's
+run, and each time after it's edited.
+
+If you get an ERROR it's probably 'cause you entered
+something wrong. Just press Quit and start over.
+(If any of you do find a real error, pleas let me know
+at williamiv@geocities.com)
+
+
+3) If the center/vertex is at (0,0) you will see:
+
+CENTER(x'y')
+		(0,0)
+and then it will go on to whatever's next.
+
+This is because the program 1st figures out the
+coordinates in terms of (x',y') [the rotated axies] 
+and then translates them over to x & y.
+
+If the center is at (0,0) then this rotation doesn't
+make any difference, and the program doesn't waste time
+giving you the same point twice.
+
+Warnings:
+---------
+
+1) When entering a Standard Conic, be sure to know the
+differnce between r^2 and r, A^2 and A, B^2 and B,
+-H and H, and -K and K, and 4p and p.
+
+2) When entering a Standard Ellipse, A must always be
+bigger than B.
+
+3) If you try to make up general conics at random
+you will probably get errors, since most random
+numbers will not satifly the equation
+Ax^2+Bxy+Cy^2+Dx+Ey+F=0. I recommend consulting
+a math book for equations.
+
+
+THIS PROGRAM IS SO GOOD, I BET NONE OF YOU ANYWERE,
+ANY TIME WILL EVER BE ABLE TO MAKE AN IMPROVEMENT.
+HOWEVER, SINCE IMPROVEMENTS ARE ALWAYS GOOD FOR 
+THE ONLINE-TI COMMUNITY, I DARE ANY OF YOU TO TRY!
+-wd

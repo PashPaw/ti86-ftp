@@ -1,0 +1,568 @@
+orgnzr86
+--------
+
+ORGANIZER 86
+Personal Information Software for the TI-86 Graphing
+Calculator
+
+[[[[[[[[   PROGRAMMED BY: MARK ZVOLENSKY    ]]]]]]]]
+[[[[[    E-MAIL ME!!  markzvo@netscape.net     ]]]]]
+
+CONTENTS
+
+1) Introduction, Features, and Information
+2) Getting Started with Organizer 86
+3) Entering Listings into Organizer 86
+4) Viewing Listings with Organizer 86
+5) Modifying listings with Organizer 86
+6) Special Organizer 86 Utilities
+7) Solving problems with Organizer 86
+8) Technical Information (For advanced users)
+
+======================================================
+
+Introduction, Features, and Information
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Introduction
+----------------------------------
+Organizer 86 is a program for use on the Texas Instruments
+Graphing Calculator model "TI-86."  The program efficiently
+stores large numbers of 'listings,' which consist of names,
+phone numbers, e-mail addresses, and other information.  The
+program has a multitude of features which is unmatched by
+any other program for the TI-86.  Organizer 86 is powerful
+enough to meet your demands, and remains easy to use.
+
+
+Features
+----------------------------------
+UNLIMITED STORAGE.  The program itself has no limit as to
+how much data can be stored, the amount of data that can
+actually be stored is determined by the amount of free
+memory on your particular TI-86. Organizer 86 only uses
+memory it needs, and frees up memory when information is
+erased, just like a real computer!
+
+ONE PROGRAM FILE.  Unlike some other programs on your TI-86,
+to run Organizer 86, the ONLY program file needed is
+entitled "ORGANIZE".
+
+DATA PROTECTION WITH A PASSCODE.  Organizer 86 allows you to
+disable viewing of data, or to convert the data to read-only
+status, and allows you to set your own personal passcode.
+See the "Special Organizer 86 Utilities" section later for
+exact details.
+
+MEMORY CHECK.  Need to know how much memory your data is
+taking up?  No problem!  Organizer 86 will check to see how
+much memory is being used.
+
+ERROR CHECK.  Did you let your not-so-talented friend borrow
+your calculator?  Did your calculator take a fall?
+Organizer 86 scans your data for errors... and then proceeds
+to automatically fix any problems it finds!
+
+ALPHABETICAL STORAGE AND RETRIEVAL.  Organizer 86 organizes
+listings by the first letter of the last name or by company
+name, and allows you to retrieve listings by letter as
+well... and all this is done automatically!
+
+AND THERE'S MORE!  Get started with Organizer 86 and see how
+it lets you easily store and retrieve data, edit data, erase
+data, and much more! You'd never think something like this
+was possible on a TI-86!
+
+Information
+----------------------------------
+Organizer 86 was developed over a period of six months.  It
+was designed from the first line of programming code to be
+"right the first time."  It was created by Mark W.
+Zvolensky, a computer science student at the University of
+Wisconsin-Milwaukee.  If you have any comments regarding
+this program, you are encouraged to send e-mail to
+markzvo@netscape.net as your input is appreciated.
+
+
+
+======================================================
+
+Getting Started with Organizer 86
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Installing Organizer 86
+----------------------------------
+FIRST, you must run the program entitled OINSTALL.  This
+will start Organizer 86 and install the necessary files.
+The install program will inform you that by running the
+install program more than once, you will erase any Organizer
+86 data that is already stored.  To prevent this from
+happening, erase the installation program 'OINSTALL' as soon
+as it has finished installing Organizer 86.  For information
+on how to erase programs, see your TI-86 owner's manual.
+The install program will automatically start Organizer 86
+for you.
+
+//////////////////////////////////////////////
+  I M P O R T A N T    I N F O R M A T I O N
+//////////////////////////////////////////////
+>>>>>  STARTING ORGANIZER 86 FOR THE FIRST TIME WILL TAKE 5-10 MINUTES.
+
+Running Organizer 86
+----------------------------------
+	When Organizer 86 begins, you will see a screen that says
+"Welcome to Organizer 86;" "Choose VIEW to see current
+listings or choose INPUT to enter new listings."  At the
+bottom of the screen, there are 5 menu options:
+
+	VIEW: This allows you to view listings that are stored in
+memory.
+	INPUT: This allows you to input new listings into memory.
+	OTHER: This provides access to special features like data
+lock, etc.
+	* : This provides program information.
+	EXIT: This exits the program, Always exit the program by
+choosing 		EXIT here, from the main program screen.
+
+//////////////////////////////////////////////
+  I M P O R T A N T    I N F O R M A T I O N
+//////////////////////////////////////////////
+>>>>>  IF YOU DO NOT EXIT ORGANIZER 86 PROPERLY, THE PROGRAM WILL ASSUME THERE
+WAS A CRASH, AND WILL AUTOMATICALLY SCAN ALL DATA FOR ERRORS THE NEXT TIME THE
+PROGRAM IS STARTED.
+This can get quite annoying so be sure you always exit the
+program by choosing 'EXIT' from the main program screen, if
+possible.
+
+Installation notes
+----------------------------------
+Organizer 86 uses one program file "ORGANIZE," one list file
+"LISTINGS," and 26 string files (one file for each letter of
+the alphabet) PAA, PBB, PCC, PDD, etc. These files MUST be
+present to run ORGANIZER 86.  Also, when you have finished
+installing Organizer 86, delete the program file entitled
+"OINSTALL."
+
+//////////////////////////////////////////////
+  I M P O R T A N T    I N F O R M A T I O N
+//////////////////////////////////////////////
+>>>>>  Organizer 86 WILL NOT run on the TI-85 or any other Texas Instruments
+Graphing calculator!!!
+
+
+
+======================================================
+
+Entering Listings into Organizer 86
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Entering listings into Organizer 86 is very simple, just
+start the program by typing ORGANIZE on the calculator
+screen; or select it by choosing Programs, Names, ORGANIZE.
+The program will start and a menu will appear at the bottom
+of the screen, choose INPUT (F2) to begin. You will be
+notified that last names or company names are required. All
+of the other data can be skipped by entering a single
+character (any letter or number will suffice). Press Enter.
+Start by entering the last name or company name. If you are
+entering a name listing for "John Smith," you would type
+"Smith." If you were entering a company listing for "Bill's
+Shoe Shop," you would type "Bill's Shoe Shop." The
+company/last name must begin with a capital letter, as this
+first letter is used for alphabetization.
+Next is the first name field, If you are entering "John
+Smith," you would type "John" here, followed by pressing the
+Enter key.  If this is a company listing, skip this field by
+entering a single character, followed by pressing the Enter
+key.  Tip #1: To enter a listing like "J Smith," Type "J"
+followed by a space, or "J" followed by a period in the
+first name field.  Tip #2: To enter a company name like "The
+Shoe Store," type "Shoe Store" for the last/company name,
+and type "The" for the first name.  The listing will be
+stored under "S" for "Shoe Store" instead of "T" for "The."
+Next is the phone number field, starting with the area
+code.  To skip the ENTIRE phone number field, enter a single
+character, if you do not know the area code, you may skip
+the area code field only by entering three zeroes ('000').
+Next is the actual 7 digit phone number.  Simply type the 7
+digits.  Do not enter a dash/hyphen as Organizer 86 will
+automatically do it for you.
+Next is the extension for the phone number (used in many
+businesses). .To skip the extension field, enter a single
+character.  Otherwise you may enter 2 to 5 numbers.
+Next is the e-mail address, starting with the e-mail name.
+If you are entering "Johnsmith44@computer.com," you would
+type "Johnsmith44" here. As always, to skip the e-mail
+address, just enter a single character.
+Next is the e-mail domain.  If you are entering
+"Johnsmith44@computer.com," you would type "computer.com"
+here.  NOTE: When entering e-mail adresses, do not use the
+'@' symbol, as Organizer 86 will automatically do it for you
+(that way you don't have to search the TI-86 menus for this
+symbol).
+Finally is the 'other info.'  field, you can enter up to two
+lines of information, such as street addresses, additional
+phone numbers, etc.  Enter a single character to skip this
+field.
+
+The data will then be verified (if a problem arises, you
+will be notified).  The data will then be displayed.  You
+will have the option to save the data or clear it.  If you
+choose the clear option, the data will not be saved.
+
+
+
+======================================================
+
+Viewing Listings with Organizer 86
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+	From the main screen, choose VIEW by pressing F1.  The menu
+screen will appear.  Choose the first letter of the
+company/last name by using the arrow keys.  Press the Enter
+key to select the letter.  The data will load, 6 listings at
+a time.  If there are more listings, you can advance to the
+next 6 listings by pressing the Right directional key.  Use
+the up and down keys to select a listing that is on the
+screen.  Press Enter to select the listing.
+	The listing will be displayed.  At the bottom of the
+screen, five menu choices will be presented:
+	EDIT:  This will allow you to edit the current listing.
+	NEXT:  The next listing for the current letter will be
+displayed.
+	OK:  This will return you to the main screen.
+	LIST:  This will return you to the list for the current
+letter.
+	ERASE:  This will allow you to erase the current listing.
+
+NOTE: If the data is locked, you will not be able to view
+(or input) any listings.  If the data is set to read-only,
+the EDIT and ERASE menu options above will not be available.
+
+
+
+======================================================
+
+Modifying Listings with Organizer 86
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+Editing Listings
+----------------------------------
+Times change.  So do people's e-mail addresses and phone
+numbers.  So... how do you change this information in
+Organizer 86?  Simple.  To edit an existing listing,  make
+sure that your data is unlocked.  Then view the listing you
+wish to modify by choosing the VIEW option from the main
+screen.
+	When you completely load the listing, you should see EDIT
+at the bottom of the screen.  If you do not see this...
+choose OK and unlock your data (See the "Special Organizer
+86 Utilities" section later for instructions regarding
+unlocking data).
+	The DATA FIELD EDIT will appear and will remind you that to
+erase a data field, enter a single character.  With data
+field edit, you can remove data, change data, or add new
+data. After pressing Enter will be given the four data
+fields to select from: Name, Phone Number, E-Mail address,
+or Other Information.  You will also have the option to
+cancel.  Select the data that you wish to modify.
+	Just as if you were inputting a new listing, enter the
+data.  When you are done press Enter and the data will be
+verified.  If the new data is accepted you will be asked to
+save the changes.  Choose yes to save.  NOTE: Any changes
+you make WILL NOT be saved unless you choose 'yes' when
+asked to "Save editied Changes."
+
+Erasing Listings
+----------------------------------
+To Erase data, view the listing that you wish to erase. Be
+sure that your data is completely unlocked, otherwise the
+'ERASE' option will be disabled.  Simply choose 'ERASE' from
+the menu below.  You will be warned that erasing data is
+permanent.  You will be given the chance to cancel 3 times,
+otherwise, if you proceed through the 3 warnings, the single
+listing will be permanently erased.  To erase ALL of the
+listings, see the "Special Organizer 86 Utilities" on the
+next page.
+
+
+
+======================================================
+
+Special Organizer 86 Utilities
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+	To access the utilities below, choose "OTHER" from the main
+program screen.  You will be shown a menu with the utilities
+below to select from.  Use the up and down arrows to select
+a utility, then press the Enter key.  Or, to exit this
+utility selection menu, press the EXIT key.  In addition,
+some utilities may not work if the data is locked (see
+below).
+
+Lock all data
+----------------------------------
+	Locking all data prevents data from being erased, edited,
+or even viewed within Organizer 86.  You will be asked if
+you would like to set a passcode, choosing NO will lock the
+data, but to unlock the data, no passcode will be needed.
+Choosing YES will allow you to enter a passcode containing 4
+to 6 numbers (the program will not allow you to use anything
+except numbers).  You will have to enter the exact same
+passcode twice, just to make sure you didn't make a
+mistake.  Your passcode will be checked, if everything is
+acceptable, the data will be locked and you will be returned
+to the main screen.
+NOTE:  Locking data and making the data read-only (see
+below) only works within Organizer 86.  External calculator
+functions still have full access to the raw data files.
+
+Make data read-only
+----------------------------------
+Making the data read-only is essentially the same as locking
+the data except the data will be able to be viewed.
+Erasing, editing, and inputting new data will not be
+allowed, however.
+
+Unlock all data
+----------------------------------
+	This will unlock all data regardless if it was locked or
+read-only.  If a passcode was used, you will be prompted to
+input it.  If no passcode was used, the data will be
+unlocked and you will be returned to the main screen.
+
+Erase ALL data
+----------------------------------
+	Do I really need to tell you want "Erase ALL data" does?
+This function will not work if the data is locked or
+read-only. You will be warned 3 times and given the chance
+to cancel.  The final warning is a "countdown."  You can
+press any key before the countdown is over to cancel the
+delete.  If you do not press any key to stop the countdown,
+the data will be erased, letter by letter from A-Z.
+NOTE: The countdown itself does not erase data... Data will
+only be erased after the countdown concludes.
+
+Check memory usage
+----------------------------------
+	This utility will check how much memory is used by the
+listings stored in Organizer 86.  The final memory count
+ONLY includes the listing data used by Organizer 86.  To see
+how much total memory is free on the calculator, see your
+TI-86 owner's manual.  The memory check usually takes about
+one minute.  After the memory is displayed, the number of
+listings stored for each letter will be displayed.
+Following this, the total number of listings stored by
+Organizer 86 will be displayed.
+
+Error check data
+----------------------------------
+	This utility is, by far, the most intensive portion of
+Organizer 86.  This utility scans every single character of
+listing data to make sure it is correct... if it is not
+correct, the problem will be fixed.  There are some very
+important details to know about this utility.  They are:
+
+//////////////////////////////////////////////
+  I M P O R T A N T    I N F O R M A T I O N
+//////////////////////////////////////////////
+>>>>>  ERROR CHECKING DATA MAY TAKE ANYWHERE FROM 1 MINUTE TO OVER 3 HOURS!
+This depends on how much data is stored, and how many errors are encountered
+that require fixing.
+
+//////////////////////////////////////////////
+  I M P O R T A N T    I N F O R M A T I O N
+//////////////////////////////////////////////
+>>>>>  IF YOU DO NOT EXIT ORGANIZER 86 PROPERLY, THE PROGRAM WILL ASSUME THERE
+WAS A CRASH, AND WILL AUTOMATICALLY SCAN ALL DATA FOR ERRORS. This can get
+quite annoying so be sure you always exit the program by choosing 'EXIT' from
+the main program screen.
+
+ERROR CHECKING SOLVES MOST, BUT NOT ALL OF YOUR PROBLEMS!
+Error checking will only correct problems if all 26 data
+files (string files PAA-PZZ) are present on the calculator.
+Also, it is possible that data will 'PASS' the error scan
+tests, and still cause the program to crash with "ERROR 04
+DOMAIN."  You are more likely to get struck by lightning
+than to have this happen, however.
+
+ERROR CHECKING MAY CHANGE YOUR DATA!  Error checking may
+have to modify your listings in order to correct them.  You
+are warned of this be fore scanning.
+
+STOPPING THE ERROR CHECK UTILITY BY USING THE "ON" KEY WILL
+CAUSE THE ERROR CHECK TO COMPLETELY START OVER.  If you stop
+the error checking function, it will automatically run again
+the next time you start Organizer 86!
+
+	The error check utility scans the data files letter by
+letter.  There are three tests it performs on the files,
+HEAD & TAIL, LIST ENTRY, and DELIMITERS.  If everything is
+OK, 'PASS' will be displayed.  If a problem is encountered,
+'FAIL' will be displayed.  If a 'FAIL' is displayed, the
+problem will be fixed and the scan for that letter will
+start again.  So it is possible that the data may be scanned
+multiple times.  The error scan WILL NOT advance to the next
+letter until all three tests show a 'PASS' result.
+	When error checking concludes, you are notified that you
+may have to use the EDIT function to further correct the
+listings, as the data may receive changes during the error
+scan.
+
+
+
+======================================================
+
+Solving Problems With Organizer 86
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+On rare occasions, Organizer 86 may encounter some
+problems.  The questions and answers below are here to help
+solve the most common problems.
+
+NOTE: If you see -> below, that indicates the use of the
+STORE key, which is right above the ON key.
+
+::::::::::::::::::::
+
+My TI-86 displays "ERROR 14 UNDEFINED" immediately when I
+start Organizer 86... why?  How can I fix this?
+
+The list file 'LISTINGS' has been deleted.  Choose 'QUIT'
+and then type:   {0}->LISTINGS   and press Enter.  Start
+Organizer 86 and it will automatically regenerate the
+list... without the loss of any personal (string) data.
+
+::::::::::::::::::::
+
+Every time I start Organizer 86, I am forced to scan all
+data for errors.  Why?
+
+You are not exiting the program properly.  Do not use the
+'2nd' 'Quit' option and do not stop the program by pressing
+the 'On' key.  Use the 'EXIT' option on the main program
+screen only.
+
+::::::::::::::::::::
+
+When I run OINSTALL to install Organizer 86 on my
+calculator, I get "ERROR 10 DATA TYPE." Why?
+
+There are other variables conflicting with the installation
+program.  You must delete all Strings, Lists, and Variables
+form your TI-86 in order to use Organizer 86.
+
+::::::::::::::::::::
+
+Sometimes, when using Organizer 86, I get "ERROR 10 DATA
+TYPE." Why?
+
+There is a conflict with Organizer 86.  If Organizer 86
+installed correctly, then the problem is with your
+variables.   First, if there is a variable of any type on
+your calculator named TEMP, delete it.  If that does not
+solve your problem, delete all of the REAL variables to
+remove the conflict.  Organizer 86 does not need any REAL
+variable data to start; it will create REAL variables as
+needed.  If that still does not work, delete ALL of your
+variables/files (Reals, strings, lists, programs, etc.),
+except those needed to run Organizer 86 (explained earlier).
+
+::::::::::::::::::::
+
+Why doesn't Organizer 86 automatically delete the strings
+and variables it uses when I exit the program?  Wouldn't
+this save on memory?
+
+Organizer 86 does not delete data so when you use the
+calculator for other purposes... data types aren't changed.
+It would slightly save on memory to do this, however,
+Organizer 86 stores the minimum amount of data needed to
+maintain the data type. (Yikes! Say that five times fast!)
+
+::::::::::::::::::::
+
+When I error check, or sometimes when I choose to view
+listings, I get "ERROR 14 UNDEFINED." Now I have to error
+check every time I start Organizer 86 only to get  "ERROR 14
+UNDEFINED" over and over again! Why?
+
+One or more data strings have been deleted.  Exit Organizer
+86, and check to see how many strings are stored in your
+TI-86 (See owner's manual for details).  There should be at
+least 26 strings: PAA, PBB, PCC, PDD, etc. for every letter
+of the alphabet.  If you are missing a string or several
+strings, you will have to re-create the string(s). For
+example, if you are missing the string for the letter K
+('PKK' was not found) type:   "K"->PKK   or if you are
+missing the string for the letter S, type:   "S"->PSS   .
+You would do this for all of the missing files.  When you
+are done, start Organizer 86 and let it perform an error
+scan.  Consequently, if there are NO string files stored...
+obtain the OINSTALL installation program and run it again to
+re-install Organizer 86.
+
+
+
+======================================================
+
+Technical Information
+* * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+STRING FILES AND DELIMITERS
+----------------------------------
+	There are 26 string files.  Every letter has a string file,
+ALWAYS! Even if the string file doesn't have any listings
+stored in it, it will still have the file content of "-".
+If there are one or more listings stored in that file, the
+file structure is as follows:
+	Every string file starts with - and ends with -, NO
+EXCEPTIONS.  This is what the "HEAD & TAIL" error check
+looks for, and corrects if need be.
+	One listing is divided into four pieces by the character
+_.  Every listing is divided by the character -.  These
+dividing characters are known as 'delimiters'.  The four
+pieces (referred to as 'fields') of a listing are name,
+phone number, E-mail address, and other information.  So a
+string file with one listing stored in it looks like:
+- [Name] _ [Phone Number] _ [E-Mail Address] _ [Other
+Information] -
+Note that all string files MUST start AND END with the
+character '-'.
+	As you may remember, you have the option of skipping or
+erasing some fields when inputting data.  If a field is
+designated as 'skipped', it has at least one space between
+the delimiting characters. NOTE: IF THE PHONE NUMBER HAS
+BEEN DESIGNATED AS SKIPPED, IT MUST HAVE AT LEAST TWO
+SPACES!  If a file has more than two spaces between
+delimiters, that is OK, as this indicaytes that a delimiter
+was added by the error scanning utility.  For example a file
+that is fully utilized may look like:
+-John Doe_(789) 555-1234_JohnDoe@email.com_111 E. Paved
+Road-
+A file that only utilizes the name field and e-mail field
+may look like:
+-John Doe_  _JohnDoe@email.com_ -
+NOTE: There are at least TWO spaces after the first
+delimiting character ' _ ', where the phone number would
+normally be located.  IF YOU HAVE PROBLEMS WITH STRING
+FILES, BE SURE THAT THERE ARE AT LEAST 2 SPACES BETWEEN
+DELIMITERS FOR EMPTY FIELDS!
+	If you are really curious, you can recall a raw string
+file, and take a look for yourself. Be forewarned, they
+aren't pretty!
+
+PROGRAM LIST; filename: LISTINGS
+----------------------------------
+	LISTINGS is a list file with exactly 30 elements.  Elements
+1-26 indicate how many listings are stored for that letter
+of the alphabet.  Elements 27-30 are program settings and
+SHOULD NEVER BE CHANGED FOR ANY REASON.  The list can be
+verified by the error checking utility.  When you run the
+wrror check utility, there is a test performed entitled
+"LIST ENTRY".  The utility counts how many - characters
+there are in a file, and adjusts the list to reflect that
+amount.  So the list reflects the string, rather than vice
+versa.
+Program questions can be asked via e-mail at:
+markzvo@netscape.net.

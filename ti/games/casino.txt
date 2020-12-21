@@ -1,0 +1,26 @@
+casino
+------
+
+Casino for the TI-86
+by Ray Kremer
+includes: BlackJack, Poker, Slots
+
+I know, not another blackjack, but I've tried all the others
+and MINE IS THE BEST.  Here's why:  it uses a 52 card
+virtual deck for realism, it allows doubling down and
+splitting pairs and dealer blackjack insurance, it
+automatically chooses 1 or 11 for aces, it shows you the
+dealer's hole card after the game, it lets you choose how
+much to bet, it creates a minimum amount of variables to
+clutter your RAM, and it is self-contained using no messy
+subprograms.  Plus, your money is saved in between games! 
+If you win a fortune and come back later, the fortune is
+still there.  My poker and slots are equally impressive. 
+This is the last casino suite you'll ever download!
+
+send comments to: <rkremer@bradley.edu> until May 2001
+after that, to: <stellar@enteract.com>  attn: Ray Kremer
+
+See screen shots of all my programs at:
+http://rhf.bradley.edu/~rkremer/tigames.htm
+(URL valid until summer 2001)

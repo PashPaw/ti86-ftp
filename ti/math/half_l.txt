@@ -1,0 +1,20 @@
+Program Name : Half_L.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Pre Calculus Algebra
+
+Logrithmic Half Life: 
+
+This program is designed to calculate the 
+logrithmic half life of an event when the
+initial value and rate of decay are known.
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+result from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.

@@ -1,0 +1,188 @@
+staticsm
+--------
+
+StaticsM.86P
+
+This program creates the so called Statics matrix, [A]. In general, the
+relationships here are developed from "through" variables of linear graph
+theory. In particular, StaticsM is developed to deal with systems of framed
+structures, where branches are members and nodes are joints. The matrix
+[A] is called the statics matrix because its rows are the equations of statics
+for the joints.
+
+Let the members be the force column-matrix, {F}, and let the loads applied
+be the loads column-matrix, {P}. Then [A]*{F} = {P}, and,
+
+[A^(-1)] *{P} = {F}   (For statically determinate trusses).
+
+For statically determinant and indeterminate beams and frames, and for
+statically indeterminate trusses, {F} = [S * Transpose[A] ] * {X},
+where {X} = [ A S Transpose[A] ]^(-1) * {P}.
+[S] is the "stiffness" matrix developed from the theory of elasticity. (The [S]
+matrix has relationships among member lengths, Young's moduli and area-
+moment of inertias.) The statics matrix and the load matrix are the key
+datums.
+
+Program Use
+
+Example: Setting up: Free body notation
+
+Draw a 3-member simply-supported truss. On a planar Cartesian grid, let
+joint A be at point {0,0}; joint B at point {8,5}; and joint C at point {8,0}.
+Draw the members AB, BC and CA. At joint A is a pin-connection. At joint C
+is a roller that acts along the y direction.
+
+Now the members are forces. Draw a small square flag on member AB and
+put a 1 inside the flag. Do the same for members BC and CA. Put a 2 in the
+flag on BC, and put a 3 in the flag of CA. Those are bar Forces 1, 2 and 3.
+
+Now draw a small circle at joint B and put a 1 in it. Do the same for joints C
+and A; put a 2 in the circle at C, and put a 3 in the circle at A. The circles
+are the joint numbers.
+
+Finally, the "possibles" have to be labeled. A "possible" is a line of action
+where an external load can act on the system. At joint 3, there are base
+reactions. Loads applied there would not affect the members. So there are
+no "possibles" at joint 3. At joint 2, there is a base reaction acting along y.
+But not along x. So, at joint 2, in the x-direction is a "possible." Label
+joint 2
+with a horizontal arrow pointing in the positive x direction. Denote that
+"possible" as P1.
+
+At joint 1, there are two lines of action where external loads could act. One
+is along the y direction, and one in along the x direction. Label joint 1 with
+a vertical arrow pointing in the positive y direction, and put a second
+arrow pointing in the positive x direction. Label the vertical arrow P2 and
+label the horizontal arrow P3.
+
+Here we have labeled 3 Forces, 3 Joints, 3 possibles, and 3 Reactions. i.e.
+nF=3 ; nJ = 3 ; nR = 3.
+
+For 2-D, a truss is statically determinant if nF + nR = (2) nJ.
+And for 3-D, nF + nR = (3) nJ
+
+Before running the Program
+
+The program asks for the joint points, vectors, to create a "Joints" matrix
+(nJ x 3). The joint matrix is then used along with some other input data
+to
+create the statics matrix, [A], which the program writes to a matrix named
+PF. (PF to remind us that along its rows are the "Possibles," and its columns
+are the bar Forces.)
+
+With the creation of the Joints and PF matrices, you have the option of
+skipping the first n joints. (Useful if you've made an error entering data on,
+for example, joint 29 of 30. You wouldn't have to re-enter the 28, you
+could go right to joint 29.) (To interrupt a program, press "ON" and then
+"Quit".) In our case, these options do not apply. Our work is new. We want
+to rebuild the joints, and input the "possibles."
+
+Questions asked by the program are answered by one of four ways.
+1. To answer "no," enter 0 (zero)(binary false).
+2. To answer "yes," enter 1 (one)(binary true)
+3. To answer a datum query, key in the datum.
+4. To answer a question in the form "A or B," enter 0 for A,  1 for B.
+
+Run the program
+
+To (the questions):
+"n forces?"  answer 3
+"n possibles?", 3
+"n joints?", 3
+"n reactions?", 3
+
+StaticsM warns that these data won't satisfy the equation for a 3-D
+statically-determinant system. But for 2-D, we appear to be okay!
+
+To:
+"Rebuild all joints?", answer 1 (yes)
+
+Now use the free-body diagram to get the joint and "possibles" information
+into the matrices. The program "precesses" about the free body. Before
+each input prompt, it writes out which joint it is referring to.
+
+The next three input prompts are answered with data as follows:
+(Square brackets here are TI Vectors, or Row Matrices)
+[8,5,0]
+[8,0,0]
+[0,0,0]
+
+Those were the "joint point vectors."
+
+The prompt "Recalc or Input" is an "A or B"-form question. It refers to
+the creation of the statics matrix, PF. ("Recalc" lets you skip to joint i,
+instead of having to enter the first n.)
+
+To:
+"Recalc or Input?", answer 1 (Input)
+
+This is a second precession about the free body. You have the option of
+skipping each joint. We can skip joints (when we get to them) that have no
+"possibles," (Pn's). In our case, joint 3 has no Pn's. So, when we get to joint
+3 we'll skip it.
+
+The answers to the prompts up through joint 3 are as follows (in
+parenthesis are comments). (Curley braces are TI Lists.)
+
+1  (Yes. Input joint 1 data.)
+3  (nPx is the "possible" in the x direction at joint 1.)
+2  (nPy is the "possible" in the y direction at joint 1.)
+0  (nPz --there is no "possible" in the z direction. So it's zero.)
+{2,1}  (list of bar forces connected to joint 1)
+2  (Relative to joint 1, bar force 2 points to joint 2.)
+3  (Relative to joint 1, bar force 1 points to joint 3.)
+1  (Yes. Input joint 2 since there are "possibles.")
+1  (nPx is the "possible" in the x direction at joint 2.)
+0  (nPy --there is no "possible" in the y direction here. So it's zero.)
+0  (nPz --there is no "possible" in the z direction. So it's zero.)
+{3,2}  (List of bar forces connect to joint 2.)
+3  (Relative to joint 2, bar force 3 points to joint 3.)
+1  (Relative to joint 2, bar force 2 points to joint 1.)
+0  (No. There are no Pn's at joint 3. So we skip it.)
+
+
+Now we have the [A] matrix, which is the statics matrix. It's named PF.
+
+Enter "PF" and we get the matrix:
+      0     0    1
+    .529    1    0
+    .847    0    0
+
+We can apply a load to the system. The Loads matrix is a column matrix
+with length equal to the number of "possibles."
+{Loads} = P1
+          P2
+          P3
+
+We can apply -100 to P2 and 300 to P3. So {Loads} =
+     0
+   -100
+    300
+
+Then [A^(-1)]*{P} = {F}
+= PF^(-1) * Loads = {F} = 353.77
+                         -287.5
+                            0
+
+(The negative sign indicates compression members. The positive values are
+tension members.)
+
+Note that in this notation above, square brackets denote an m x n matrix;
+and curley braces denote a column-matrix. (These aren't TI Lists.)
+
+i.e.
+bar Force 1 = 353.77 (T)
+bar Force 2 = -287.5 (C)
+bar Force 3 = 0
+
+These are the internal forces developed in the bars with the above loading
+{Loads}.
+
+For examples and step-by-step with indeterminates (beams, frames and
+trusses), e-mail me for information.
+
+Mark C. Bourland
+mcb4588@omega.uta.edu
+Graduate School, UTA
+
+June 1998

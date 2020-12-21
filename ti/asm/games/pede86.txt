@@ -1,0 +1,132 @@
+        game : pede
+      author : Pat Milheron
+       email : assumeit@aol.com or pmilheron@ti.com
+
+        This software was written by myself for fun and is not a product of TI.
+        Anyone who wishes to load this game and play it is free to do so.
+
+        Much of game decription was borrowed from the Atari(tm) Centepede
+        game manual for the Atari 5200.
+
+
+                         GAME PLAY
+                         ---------
+
+                         ASM(pede)
+
+                         You start the game with three wands. Every
+                      time you score 12,000 points, you earn another.
+                      When you lose your last wand, the game ends.
+
+                         If the centipede, spider, or flea bites you, your
+                      wand lost. All of the mushrooms you partially destroyed
+                      are restored. Your points are added to your
+                      running score, and the rejuvenated centipede attacks
+                      again from the top. You must replay the previous
+                      wave until the centipede is totally destroyed.
+
+                      OBJECTIVE 
+
+                         Use your wands to score as many points as
+                      possible.
+
+                      ENEMIES
+                      -------
+
+                      CENTEPEDE
+                      ---------
+
+                         Consisting of 12 body segments, the centipede attacks
+                      from the top of the screen and winds down toward
+                      you. Each time you hit a segment, it becomes
+                      a powerless mushroom and the body segment behind
+                      that mushroom becomes the head of a new centipede.
+                      When you shoot every segment of a centipede, your
+                      score is shown and you advance to the next attack wave.
+
+                         The centipede attacks in 12 distinct waves. In
+                      Wave 1, the centipede is composed of a head
+                      attached to 11 body parts. In Wave 2. it has a head
+                      attached to 10 body parts plus a detached head. The
+                      Wave 3 centipede is composed of 9 body segments
+                      with one head attached and 2 detached heads. The
+                      centipede continues to transform a body segment
+                      into a head until Wave 12 when it has 12
+                      independently moving heads.
+
+                         The first 3 waves should be quite easy for most
+                      players.
+                         Every 3rd wave your enemies ability to attack you
+                      is increased.
+
+
+                      MAGIC MUSHROOMS
+                      ---------------
+
+                         Dotting the forest floor are magic mushrooms.
+                      These act like shields for you and can speed the
+                      centipede in its attack. The centipede slides along
+                      horizontally in one direction. When it gets to a
+                      mushroom or the edge of the screen, it turns down
+                      to the next row of mushrooms and continues in the
+                      opposite direction. It takes three hits to eliminate
+                      an entire mushroom. At the end of each wave, all
+                      partially destroyed mushrooms are magically
+                      restored to the forest. 
+
+                      SPIDER
+                      ------
+
+                         In its attempt to distract you from shooting the
+                      centipede, the spider jumps all over the
+                      battlefield, eliminating some of the mushrooms it
+                      touches. The closer the spider comes, the more
+                      points you score when you hit it.
+
+                      FLEA
+                      ----
+
+                         The flea starts bugging you after you shoot away
+                      most of the mushrooms near you. It drops straight
+                      down, creating mushrooms as it falls. You must hit
+                      the flea 3-5 times to make it disappear.
+
+                      Warning: After the first shot, the flea drops more
+                      than twice as fast! 
+
+
+                      SCORING
+                      -------
+
+                      Centipede body segment...................10 points
+                      Centipede head..........................100 points
+                      Spider (distant range)..............100-300 points
+                      Spider (medium range)...............400-600 points
+                      Spider (close-range--look out!).....700-800 points
+                      Flea (each time hit).....................75 points
+                      Magic Mushroom (totally eliminated)......20 points
+                      Magic Mushroom (each hit 1-2).............5 points
+                      Bonus Wand.....................every 12,000 points 
+
+
+
+                      CONTROLS
+                      --------
+
+                      [2nd]   = fire
+                      [<-]    = move wand left
+                      [->]    = move wand right
+                      [exit]  = quit game and return to homescreen
+                      [enter] = pause, it can be sticky, tap quickly
+
+                      After score is displayed press a key to resume game.
+
+
+                      There is no 'High Score' screen in version 1.0, I
+                      am thinking of adding it.
+                                                      
+
+
+
+
+

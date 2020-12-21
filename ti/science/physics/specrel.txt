@@ -1,0 +1,97 @@
+specrel
+-------
+SPECIAL RELATIVITY for the TI-86			23 July, 1998
+
+by Donald O'Brien, Ph.D.
+	ddobrien@okanagan.bc.ca
+
+	Physics Department
+	Okanagan University College
+	Kelowna, B.C.
+	CANADA
+
+The program included below for the TI-86 covers all of the topics generally 
+covered in a sophomore Physics course on Special Relativity apart from 
+collisions.  I began writing the program in June, 1997, and completed the 
+writing of it by November, 1997.  From November, 1997 to July, 1998, I have 
+proofed, debugged and streamlined it until it has reached a state with which 
+I am more or less satisfied.  It has attained a size (93, 781 bytes) such that 
+further expansion could not be accommodated by the TI-86.  It was my original 
+intention to include a broad range of collision problems, but when the program 
+had reached approximately 70,000 bytes, I abandoned that hope and deleted a 
+section already begun on collision problems.  If I adapt the program for the 
+TI-89, I would like to incorporate collisions and other sections of the program
+which have also been removed from the program.  It was also my intention to 
+write a detailed manual describing the operation of the program.  However, I 
+have decided not to do that.  The program is relatively easy to use and 
+hopefully self explanatory, being entirely menu driven.  Users should 
+experiment with the program and become familiar with what it can do.  You may 
+modify it as you see fit to suit your own needs.  Given the size of the 
+program, since it occupies most of the memory of a TI-86, it is probably most 
+useful for those who (like me) own more than one TI-86.
+
+PROCEDURE FOR DOWNLOADING THE PROGRAM TO A TI-86
+1)	Using the "TI-Graph Link 86" software, UUDecode this file.
+	Save the resulting two groups of program files (specrel1.86g, 
+	specrel2.86g) in a directory on your hard drive.
+2)	Using the "TI-Graph Link 86" software, ungroup separately each of those 
+	two groups of program files (specrel1.86g, specrel2.86g) and save the 
+	resulting program files in a directory on your hard drive.  You should 
+	have obtained 245 program files.
+3)	Download the 245 program files to your TI-86
+
+EXECUTING THE SPECIAL RELATIVITY PROGRAM ON THE TI-86
+1)	Push the PRGM key
+2)	Push the F1 key (NAMES)
+3)	Push the F1 key (i.e. execute the file named "ASRexe" which stands for 
+	"special relativity execution file"; the first letter "A" in the filename
+	ensures that this file appears first alphabetically in the list of 
+	program files in the TI-86).
+4)	Choose topics in the program using the menu keys F1 - F5.  The program 
+	branches into deeper levels of choices of topics, reaching as much as 
+	seven levels in some topics.  If in doubt, pressing the key F5 repeatedly
+	will always bring you back to the main screen and out of the program.
+
+NOTE
+1)	The program generates a limited amount of variables.  The memory of the 
+	TI-86 will not be exceeded if the entire program is run.  It is not 
+	necessary to delete variables from the TI-86 in order to free memory to 
+	execute the program.
+2)	All input and output quantities are in SI units (i.e. Joules, kg, etc.), 
+	except in a few instances when output is also expressed in MeV and MeV/c.
+3)	All angles are in degrees except when specified in a few cases to be 
+	radians.
+4)	Sometimes the program appears to be idling when it is in fact computing 
+	some variables or generating data for a graph.  Take note of the busy 
+	indicator in the upper right-hand corner of the TI-86 screen.  If the 
+	calculator is busy, wait for it to cease execution.
+5)	It has been my intention to make the program error free.  However, such 
+	a hope is probably rash.  If anybody encounters any errors, I would be 
+	glad to hear about them.
+6)	The program is divided into two parts, as indicated on the first (main) 
+	screen of the program: "Lorentz transformation" and "Minkowski space".  
+	This division is arbitrary in some cases, but useful on the whole for 
+	dividing the material of special relativity.
+7)	The program includes a broad range of problems frequently encountered in 
+	courses on special relativity, including the "twin paradox".
+8)	The program includes several sections on the theory of special 
+	relativity.  They are meant to be complete and even to cover more topics 
+	than a student might generally encounter in a sophomore Physics course on
+	special relativity.  They are intended to be informative, sometimes 
+	adding new insights not found in most textbooks on special relativity 
+	(e.g. in the topics of "time reversal" and "causality").  Furthermore, 
+	the program includes demo graphs and demo calculations intended to 
+	amplify the theory sections.  Owing to the limited memory size of the 
+	TI-86, these theory sections are sometimes densely packed with 
+	information; however, the theory sections essentially contain all of the 
+	information that a student needs to understand special relativity and to 
+	do the problems.  However, students should be warned that this program 
+	cannot replace the study and understanding of special relativity.  In 
+	fact, using this program may make the study of special relativity more 
+	demanding since a student has both to understand special relativity and 
+	to learn the operation of the program.  However, if a student learns this
+	program well in conjunction with a careful study of special relativity 
+	out of a textbook, I feel that the student will gain a deeper 
+	understanding of special relativity than from learning it only from a 
+	textbook.  It should be reiterated that this program cannot provide an 
+	easy means of avoiding the study of special relativity.

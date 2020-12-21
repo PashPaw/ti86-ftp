@@ -1,0 +1,20 @@
+Title: Heads or Tails 86
+Author: Steve Russell (srussell@netunlimited.net)
+Version 1.0
+Platform: TI-86
+Released: 8-17-97
+
+Description: HOT is a simple betting game.  You start with $100 and bet on a coin flip.
+Gain or lose money, and keep on betting.  The object of the game is to amass $5,000.  Easy
+to learn, but only a truly lucky (or extremely bored) person can win.
+
+
+For support, updates, and other information, visit:
+
+Steve's TI-86 Programs
+http://www.netunlimited.net/~srussell/ti86
+
+or email srussell@netunlimited.net
+
+
+-Steve (8/17/97)

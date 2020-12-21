@@ -1,0 +1,15 @@
+Ti-86 program
+PVNRT is a chemistry program used for finding pressure, temp, moles
+etc. it works well for me, I hope you like it.
+
+
+The units are in 
+
+Liter Atm
+----------
+Mole Kelvins
+Disclaimer:
+I'm not responsible for anything and all that legal garbage.
+
+Please mail me
+ricky@humboldt1.com 

@@ -1,0 +1,2 @@
+fence is a fencing program.  beat the computer in a swordfight!
+

@@ -1,0 +1,34 @@
+Programs used in Programming Math Applications on the TI-86
+
+Please see http://www.ti.com/calc/docs/86prog.htm for more information.
+
+All programs:   86PROG.86G
+
+Chapter 8:	PYTHIF.86P
+Chapter 11:	SMILEY.86P
+		MANDELBR.86P
+Chapter 12:	MAXMIN.86P
+Chapter 13:	CNTINTEP.86P
+		GRADES30.86P
+Chapter 14:	MAKEPOLY.86P
+		R2S.86P
+		REALZERO.86P
+		RATFANAL.86P
+                FUNCANAL.86P
+Chapter 15:	GUESS.86P
+Chapter 16:	SLIDESHO.86P
+		SLIDSHO4.86P
+Chapter 17:	LAGGRANGE.86P
+		LINTERP.86P
+		LINTSUB.86P
+Chapter 18:	MYREGRES.86P
+Chapter 19:	NEWTON.86P
+Chapter 20:	GRAPHRELN.86P
+Chapter 21:	LIMITS.86P
+Chapter 22:	REGRESS.86P
+		DERIV.86P
+		WRAPSTR.86P
+Chapter 23:	INTEG.86P
+Chapter 24:	DIFEQU.86P
+
+Appendix B:	86ANSWER.86G

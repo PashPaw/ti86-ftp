@@ -1,0 +1,159 @@
+strcmds
+-------
+
+I developed the following ASM modules to enhance
+the string handling abilities of my TI86.  Briefly,
+these modules accomplish the same operations as
+MID$, INSTRING, ASC, and CHR$ in standard BASIC.
+The sub( command on the TI-86 is limited to a
+starting position of 9999, whereas the equivalent
+command that I wrote will handle up to a position
+and total string length of 65535 characters.  I
+came up with these modules for the purpose of
+manipulating large amounts of data in a single
+string.  Below is a brief description of each
+module's usage.
+
+***WARNING***
+As with all Assembly programs, back up the contents
+of your memory before executing these modules.
+These modules should be compatible with all ROM
+versions, but I have only tested them on my TI-86.
+
+(STRCMDS.86g)
+The names of the modules and supporting modules are:
+
+ASC.86p
+CHR.86p
+MID.86p
+INST.86p
+ERRMOD.86p
+HTOMOD.86p
+O4HMOD.86p
+SUBMOD.86p
+
+
+General Usage:
+These modules use ARG1, ARG2, ARG3, and ARG4 as
+inputs.  When the ASM module is executed, the input
+ARG variables are deleted, and RET1 is created with
+the appropriate output result.  Invalid input
+arguments result in error messages which are handled
+and displayed by ERRMOD.  If RET1 exists when the
+module is executed, the old value of RET1 is destroyed.
+
+---------------------------------
+ASC:
+Returns the TI character code for the first character
+of ARG1.
+
+Input:  ARG1 (String Variable)
+Output:  RET1 (Real 0-255)
+
+Requires:  HTOMOD, and ERRMOD
+
+Example:
+ :"A"-->ARG1
+ :Asm(ASC
+
+ RET1 is now 65 (real)
+---------------------------------
+CHR:
+Returns the TI character for the 0-255 code in ARG1
+
+Input:  ARG1 (real 0-255)
+Output:  RET1 (single character string variable)
+
+Requires:  O4HMOD, and ERRMOD
+
+Example:
+ :65-->ARG1
+ :Asm(CHR
+
+ RET1 is now "A"
+---------------------------------
+MID:
+Returns the substring of a string.
+
+Input:  ARG1 (String, string variable name)
+ ARG2 (real, 1-65535, position of substring)
+ ARG3 (real, 0-65535, length of substring)*
+ ARG4 (string, optional, name of substring to return)*
+Output:  RET1 (string), or
+ string variable named by ARG4
+
+Requires:  O4HMOD, ERRMOD, and SUBMOD
+
+Example1:
+ :"This is a test"-->TEMP
+ :"TEMP"-->ARG1
+ :11-->AGR2
+ :4-->ARG3
+ :Asm(MID
+
+ RET1 is now "test"
+
+Example2:
+ :"This is a test"-->TEMP
+ :"TEMP"-->ARG1
+ :11-->ARG2
+ :4-->ARG3
+ :"A1"-->ARG4
+ :Asm(MID
+
+ A1 is now "test"
+
+*Notes:  ARG4 is optional.  If ARG4 exists the
+substring to be  returned is the variable as named
+by ARG4 instead of RET1.  If ARG3 is zero then
+either RET1 or the variable named by ARG4 is deleted.
+---------------------------------
+INST:
+Returns the position of a substring within a string.
+
+Input:  ARG1 (String, name of source string variable)
+ ARG2 (string, substring to search for)
+ ARG3 (real, optional, position to start search)*
+Output:  RET1 (real, 0-65535, 0 =substring not found)
+
+Requires:  O4HMOD, HTOMOD, and ERRMOD
+
+Example:
+ :"This is a test"-->TEMP
+ :"TEMP"-->ARG1
+ :"test"-->ARG2
+ :Asm(INST
+
+ RET1 is now 11
+
+*Notes:  If ARG3 does not exist then search starts
+at position 1.  Can be used to find the occurrence
+of a substring at multiple locations within a string
+as long as ARG3 is greater than the previous occurrence.
+---------------------------------
+
+***WARNING***
+The following modules are not executable by a TI basic
+program.  They are used as support routines for the
+above modules.
+---------------------------------
+ERRMOD:
+Used by all above modules to handle errors
+---------------------------------
+HTOMOD:
+Support routine used by ASC, and INST
+---------------------------------
+O4HMOD:
+Support routine used by CHR, MID, and INST
+---------------------------------
+SUBMOD:
+Support routine used by MID.
+---------------------------------
+
+
+
+Send Questions and comments to edwardsbri@hotmail.com
+I will get back to you as soon as possible.
+
+Brian Edwards
+

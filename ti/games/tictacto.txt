@@ -1,0 +1,8 @@
+tictacto
+--------
+
+by Sam Nejad
+
+A tictacto (noughts and crosses) program in which you play against the
+calculator. The tictacto grid is shown on the graph screen. Moves are made
+using the arrow buttons followed by "ENTER".

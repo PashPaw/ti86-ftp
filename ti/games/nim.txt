@@ -1,0 +1,28 @@
+nim
+---
+I've made a game for the TI-86 called "Tisthammerw Nim," taken from the game 
+nim.  If you've never heard of nim, don't worry, I'll explain it. 
+ 
+The game called "nim" is thousands of years old, and I'm a little surprised 
+why it isn't at least as popular as tic-tac-toe, especially since there can 
+never be a tie in this game. 
+
+Anyway, the game consists of four rows of sticks in this 
+configuration: 
+
+                       | | | | | | | 
+                         | | | | | 
+                           | | | 
+                             | 
+ 
+The object of nim is to not take the last stick.  On your turn you pick one 
+row (only one) and then take as many sticks as you want from that row (but 
+you must take at least one). 
+
+My video game allows you to play another person or the calculator.  The 
+calculator features six levels of difficulty.  Instructions and program info 
+are built into the program.  The game is 7295 bytes, but I think the 
+somewhat large size is worth having the game. 
+
+I hope the game proves fun with those who play with it. 
+

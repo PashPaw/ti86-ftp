@@ -1,0 +1,7 @@
+mass
+----
+
+    This program calculates the total mass, moment about the origin of x and
+y, and the center of mass of x and y, of a thin plate, given the density
+(either a constant or a function), and the upper and lower functions that
+bound the region.

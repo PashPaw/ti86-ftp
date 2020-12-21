@@ -1,0 +1,4 @@
+bigdog
+------
+This program contains a math equasion index, presidential index, polyatomic ion index, and 
+the entire periodic table.  Send comments to drkennedy@hotmail.com

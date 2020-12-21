@@ -1,0 +1,20 @@
+Program Name : Cosines.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Trig
+
+This program is designed to calculate the side
+opposite theta when SAS is known and the angle
+theta when SSS is known.
+
+The Law of Cosines.
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.

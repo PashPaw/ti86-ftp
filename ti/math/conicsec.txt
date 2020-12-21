@@ -1,0 +1,6 @@
+conicsec
+--------
+Conic Graphing from the Fall 1998 Eightysomething! article,
+"Help Wanted."
+
+http://www.ti.com/calc/docs/80xthing.htm

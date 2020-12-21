@@ -1,0 +1,19 @@
+Program Name : Volumes.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+
+This program is designed to calculate 
+the geometric volume of four different 
+shapes.
+
+1. Rectangle
+2. Sphere
+3. Cylinder
+4. Cone
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that may
+occur from the usage of this program.

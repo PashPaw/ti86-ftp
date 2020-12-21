@@ -1,0 +1,39 @@
+Macrosoft corp. 
+presents...
+
+
+Windows 98!
+
+	Thanks for choosing Windows 98 for your calculator's organizer.  This is not a licensed product by Microsoft, but has been created by my own little company Macrosoft(C). Also the Windows 98 name has been used without permission of Microsoft(sorry!).It took me about two months to write this BASIC program which includes many popular TI-86 games and math programs. I would have included science programs but many people have different science classed which would have increase my work on this project.  Although it does say Physics in the programs menu there aren't any physics programs there. BUT if you download the physics programs Physics31.86g(aka Physfr3.zip) , Knmtc.86p , and Physcard.86p(although some of these might have .85p instead of .86p) then you will be able to access them through Windows 98. But you MUST  read the information below to work the programs.
+
+Also if you would like me to adjust Windows 98 in anyway for you, I will. Just Email your Comments to Parker756@aol.com.  This is Macrosofts email address too so if you want the hype on upcoming programs just email for details!! Your Ideas Help!! Any ideas on type of programs to produce would be a big help.  The Programs with the * indicate a program created by Macrosoft(c).
+
+Some of Windows 98's features include:
+
+1. Games - Which include Breakout, Tetris, Boulderdash, Pacman98, South Park(BASIC game which has no point at all), 3dRace, Sqrxz(***** - five star game!), and Nibbles86.
+
+2. Programs - 
+	*Homework Helper v2.1 - Programs that helps organize Homework for different 	subjects. MUST RUN 'SUBJ' FIRST IN ORDER THAT IT WORKS!!
+	Physics - mentioned above
+	Saver - Screen Saver, easy to use.
+	*Chat - Chat program that exchanges information between two linked TI-86's
+
+3. Math Programs - 
+	Algebra Toolbox v4 - a very well written program that helps solve algebraic 	problems
+	Graph - goes to the Graph
+	*Matrix - Matrix editor that uses Cramer's rule to find the answer to 2 or 3 	variable problems. And also finds out the determinant.
+	*Vertex - Finds the vertex of a parabola's given equation.
+
+4. *Other Stuff - aka OPTIONS
+	Wallpaper - changes backround wallpaper for the main screen.
+	Password - IMPORTANT!!!!- This program is password protected the password 	to get in is '98' without the apostophes of course. you will be able to change the 	password in the stuff folder under Pass.
+	Contrast Changer - Changes the contrast, very easy
+	Help - Gives my Email address if you have any questions or concerns about 	Windows 98 which is Parker756@aol.com
+
+WARNING!!!! - DO NOT DELETE ANY STRINGS!!!! WINDOWS 98 MAY NOT WORK IF YOU DO!
+
+
+	I would just like to thank those who helped me in their comments and complaints, without your ideas Windows 98 wouldn't have been possible.  And to those who are using this program right now thanks! And, Finally I would like to thank those whose wonderful programs i am using in Windows 98.
+
+		Have Fun!!!! - - - - -   Paul Novello CEO of Macrosoft corp.
+					Parker756@aol.com

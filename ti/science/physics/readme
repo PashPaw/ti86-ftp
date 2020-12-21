@@ -1,0 +1,33 @@
+*** TI-86 PHYSICS PROGRAMS: /pub/graph-ti/calc-apps/86/science/physics/
+
+blkbody
+-------
+The TI-86 program, BLKBODY, calculates the radiated power emitted by a 
+blackbody at a given absolute temperature as measured between two wavelengths.
+
+forces
+------
+Speed up your calculations associated with gravity, electrical, and 
+acceleration forces.  It will solve for any variable when the others are known.  
+
+mass
+----
+This program calculates the total mass, moment about the origin of x and y, and
+the center of mass of x and y, of a thin plate, given the density (either a 
+constant or a function), and the upper and lower functions that bound the 
+region.
+
+relatvty
+--------
+This program will work out the equations of Einstein's Special Theory of 
+Relativity. It also has Einstein's Field Equation, the main in Albert 
+Einstein's general Theory of Relativity.
+
+specrel
+-------
+This program covers all of the topics generally covered in a sophomore Physics 
+course on Special Relativity apart from collisions. Requires both specrel1.86g 
+and specrel2.86g.
+
+
+* All trademarks are the sole property of their respective owners.

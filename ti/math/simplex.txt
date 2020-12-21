@@ -1,0 +1,134 @@
+simplex
+-------
+
+SIMPLEX ALGORITHM on the TI86
+
+Three programs are provided to implement the SIMPLEX ALGORITHM on TI 
+calculators;  SIMPLEX,  XSIMPLEX,  and  XSIMCFG. After the programs 
+are installed on the calculator, the Tableaux Matrix, T, must be 
+entered either directly or by the matrix editor.  Three examples will 
+be used to illustrate the Tableaux in different cases.  Since these 
+algorithms use the "Big M" method, the Tableaux must be constructed 
+accordingly.
+
+Example 1:
+             Maximize:       Z = 3x + 5y     
+             Subject to:          x <  4                        
+                                 2y < 12                
+                            3x + 2y < 18
+
+With the introduction of slack variables, the resulting Tableaux is
+
+                        1  0  1  0  0   4
+                        0  2  0  1  0  12
+                        3  2  0  0  1  18
+                       -3 -5  0  0  0   0
+
+Remember: the Tableaux must be entered into the calculator with the 
+objective row (last row) as the FIRST line of the matrix, i.e.:
+
+		T = [[-3 -5  0  0  0   0]
+		     [ 1  0  1  0  0   4]
+		     [ 0  2  0  1  0  12]
+		     [ 3  2  0  0  1  18]]
+
+
+         
+The solution may be obtained by running the program SIMPLEX.  The TI86
+display will be:
+
+                        Z = 36
+                        {2 6 2 0 0}
+
+The maximum value for Z will be  36  when the objective variables, the
+first two entries in list L, take the values  x = 2  and y = 6.  The 
+values for the three slack variables are also included in the list.  
+The Tableaux may be viewed by recalling matrix T to the screen.  The 
+entries are rounded to 4 degrees of decimal precision.  This value may
+be changed by editing the 'round' line in the program.  If desired, the
+matrix entries may be converted to fractional form by pressing [2nd] 
+[MATH] MISC [MORE] >Frac.
+
+If the student would prefer to step through the solution process from 
+one Tableaux to the next then the following procedure should be used:
+
+Enter the Tableaux matrix, T, as previously described.  Now, instead 
+of running  SIMPLEX,  run XSIMPLEX. The next Tableaux will be computed
+and displayed.  The cursor keys can be used to scroll through the 
+resulting Tableaux.
+
+                       -3  0  0  5/2  0  30
+                        1  0  1   0   0   4
+                        0  1  0  1/2  0   6
+                        3  0  0   -1  1   6
+
+If the Tableaux has negative entries in the top row, press  [ENTER]  
+to run  XSIMPLEX  again.  Continue pressing  [ENTER] and scrolling the
+resulting matrix until the Tableaux is in the final form.  The 
+resulting values for Z and the objective variables may be read directly
+from the matrix T.  The matrix entries will be shown in fractional form 
+but the fractional entries may be viewed by recalling T to the screen.
+
+Example 2:
+        Maximize:       Z = 3x + 5y     
+        Subject to:          x      <  4                        
+                                 2y < 12                
+                            3x + 2y = 18
+                                
+
+With the introduction of an artificial variable to account for the 
+equality, the resulting Tableaux is
+
+                        1  0  1  0     0   4
+                        0  2  0  1     0  12
+                        3  2  0  0     1  18
+                       -3 -5  0  0  1000   0
+
+1000  is added to the objective function to mark the column containing
+the artificial variable as per the "Big M" method.  When  SIMPLEX is 
+run the result is as before:
+
+                        Z = 36
+                        {2 6 2 0 0}
+
+These entries may be rounded or changed to fractional form (if 
+necessary) by recalling variable Z or list L and performing the 
+desired transformation.  To step through the solution process, we must
+now run  XSIMCFG  once initially to configure the Tableaux and enable 
+it to handle the Big M.(1000).  Then run  XSIMPLEX  repeatedly until 
+the Tableaux is in its final form.
+
+Example 3:
+        Minimize:       Z = .4x + .5y   
+        Subject to:         .3x + .1y < 2.7                     
+                            .5x + .5y = 6       
+                            .6x + .4y > 6
+
+With the introduction of a surplus variable to account for the greater
+than or equal to in the last equation, the resulting Tableaux is
+
+                        .3  .1  1     0   0     0  2.7
+                        .5  .5  0     1   0     0  6
+                        .6  .4  0     0  -1     1  6
+                        .4  .5  0  1000   0  1000  0
+
+1000  is added to the objective function to mark the columns containing
+the artificial variables as per the "Big M" method and  -1  marks the 
+surplus variable. The problem has been transformed from a minimize 
+problem to a maximize problem by taking the negative of the objective 
+function.  When SIMPLEX is run the result is:
+
+                        Z = -5.25
+                        {7.5 4.5 0 0 .3 0}
+
+
+Since we started by taking the negative of the objective function we 
+must now take the negative of  Z  to obtain the actual minimum value  
+5.25.
+
+To step through the successive Tableaux we must first run  XSIMPCFG  
+to configure the Big M's and then repeatedly run  XSIMPLEX  as in 
+Example 2.
+
+Scott Campbell
+campbel7@fnbnet.net

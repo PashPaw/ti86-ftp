@@ -1,0 +1,59 @@
+prg2str
+-------
+
+This program makes it simple to transfer a program from the
+TI-86 to the TI-85 without using a Personal Computer.
+
+Note:  Will not transfer ASM programs!
+
+This utility will convert a program on the TI-86 to a
+string which can then be sent to the TI-85 as a string.
+The string can be easily converted back to a program on
+the TI-85 using the RCL feature from within the program
+editor.
+
+There are two programs included in this utility:
+
+PRG2STR.86P:  user friendly TI-basic program
+which requires P2S.86P
+
+P2S.86P:  ASM module to do the conversion
+
+
+Step by Step procedure:
+
+1.  First you must un-tokenize the program to be sent.
+The TI programs are tokenized (condensed) just before
+execution. The only time a program is un-tokenized is
+when you enter the program editor.  It remains
+un-tokenized until the next time you execute it.
+
+2.  Execute the program PRG2STR.  After answering yes to
+the question "Have you un-tokenized the program?", you
+will enter the name of the program to convert to a string.
+
+3.  When the conversion is complete the original program
+will be unchanged and PRGS will be the string with the
+program in it.
+
+4.  Connect the TI-85 to the TI-86.
+Select LINK/RECV on the TI-85
+Select LINK/SND85/STRNG on the TI-86 and select PRGS for
+send.  XMIT the string.  (see TI-86 operation guide)
+
+5.  On the TI-85 enter the program editor using the name
+you want the program to have.  From within the editor on
+the TI-85 select [2nd][RCL]PRGS.
+
+6.  Now you must delete the quotation mark at the beginning
+and the end of the program on the TI-85.  Be sure to
+remove any commands from the program that are not valid
+for the TI-85 (for example DelVar).
+
+7.  When you are sure that you have the program on the
+TI-85 you should delete PRGS on both calculators to save
+memory.
+
+Send questions to:
+Brian Edwards
+edwardsbri@hotmail.com

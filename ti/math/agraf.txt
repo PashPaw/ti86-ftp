@@ -1,0 +1,14 @@
+agraf
+-----
+
+This is the newest verions of Agraf.86p.  Basically it starts up with a
+menu that looks like the TI-86 graph menu, but some of the letters are
+in lowercase so that you can tell the difference between the program and
+the actual menu. When you press [  F1  ] for "y(x)=" it allows you to
+enter a function, store it to y1-y5, and then chose from the preset
+TI-86 Graph Styles.  Special thanks to Grath Johnson who let me borrow
+some of the ideas from his advgrah program for agraf.85p, which is in
+turn the inspiration for agraf.86.
+
+William Deich
+bevd@bellsouth.net

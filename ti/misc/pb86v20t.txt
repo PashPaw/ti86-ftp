@@ -1,0 +1,424 @@
+                +------------+
+                |PhoneBook/86|
+                +------------+
+                   _________
+                  ___________
+                 ___ _____ ___
+                    _______
+                   _________ v2.0/2.0t
+                   _________
+              By  iMageX Software
+
+               Copyright (C)1997
+        Email: hazelljr@sunnyisland.com
+
+  Date of first working release (85):    2/4/96
+  Date of this version's release (86): 10/15/97
+
+(This document was designed to be viewed using a text editor without word wrap
+enabled and using a fixed width font[Notepad])
+
+Introduction
+============
+
+PhoneBook/86 is a program designed to keep track of your most important phone
+numbers.  It is fairly limited so it isn't intended to replace any kind of
+pocket electronic organizer, or address book, but it helps by providing you
+with the most used numbers.
+
+Things added to this version
+============================
+
+You can skip this section if you hate literature. :)
+
+TI-85 (Phone Book 85, duh! hehe) :)
+0.9b:
+Unreleased version, only 6 records maximum hold.  This version was so small and
+so limited that I never found a bug in it. :)
+
+1.1 (TI-85):
+The search engine has been corrected so that you can do coninuous searching
+instead of stopping on the first match and not letting you to keep searching.
+
+1.5 (TI-85 version):
+New GUI with mouse like point and click operations!
+In the record viewing screen, you now have the option to jump to the first and
+last records from any where instead of having to scroll all the way to them.
+
+2.0 (TI-85 version):
+Finally!  Now you can store up to 4 different Memo files.  This is very useful
+for those hard to understand math formulas and history tests! ;)
+
+2.1 (TI-85 version):
+Fixed small bug in the multiple memo engine which caused all of the files to
+be erased, even when selecting just one for deletion.  Program code optimized
+to be more compact (only about 2kb where regained by this).  Other minor bugs
+fixed and eliminated.
+
+TI-86 (I finally got mine last night - 9/29/97)
+1.0 (TI-86's first port):
+Same as PB85 v2.1.  Minor changes to the user interface and work on GUI
+optimazation to release v1.1 might start in a few days to a week.  I just got
+my
+86 last night, so I'm working on ways to make the GUI faster than the one used
+in
+the 85 version of the program, since I noticed the 86 is slightly slower when
+it
+comes to TI-BASIC code. :\  No complains about ASM programs though. :)
+
+1.1 (TI-86 version):
+The 'View Records' engine optimized a little bit, not much difference though,
+but
+the speed is now almost equal of that from the TI-85 version.  The menus for
+the
+'Enter/Erase record' file selectin options have been changed, and this truly
+helped the program in both speed optimization and usabilty, as you can now go
+back
+to a previous menu instead of having to renter either one of the option screens
+again.
+
+1.2 (TI-86 Version):
+Several things changed in this version, one of the most important changes is
+the fact
+that all 'system' variables used by the program only during execution are now
+delete
+when you exit, thanks to the 86's new command DelVar( which wasn't available on
+the 85
+to my knowledge.  Another change in this version is the way it manages
+available/erased
+records.  In versions 1.1 and earlier, this was done by setting a value of
+either
+1 (available) or 0 (erased) to a REAL variable who's name was 3 letters
+corresponding
+the record file letter(e.g. AAA - the avilable/erased identifier for File A).
+The result
+of this were a really long and unecessary list of variables that would be
+really annoying
+to the user when scrolling through the calc's MEM DELETE menu, not to mention
+overall
+calc sluggish performance.  In version 1.2 however, this "tecnique" was
+substituded by a
+LIST variable 'PBfiles', which has 20 separate numbers in it, and as you
+might've already
+guessed, each # consist of either a 1 or a 0, and, each # corresponds in order
+to each of
+the record files (e.g. 1st - File A, 2nd File B..,20th File T).  And one last
+thing that
+was corrected, the SEARCH engine was a mess, I had wrong labels everywhere, now
+this has
+been corrected.  This will probably be the last version I release for a while,
+since it
+seems pretty stable, and my SAT is in 2 days and I really need to study. :\  So
+I really
+hope you enjoy it! :)
+
+1.5 (TI-86 Version):
+This is a major version release, since there are alot of changes, non which
+were due to
+bugs of any kind (1.2 was a very stable version).  First of all, the PBfiles
+list
+variable now has 22 elements, the extra 2 elements are program execution
+variables and
+the purpose is to maintain as little as possible the list of variables used by
+the program.
+All of the string variables used to store DATA now use a different name system,
+now instead
+of using 2 character file names (e.g. A1, A2, A3 for the record File A) the
+program uses
+file names which are more organized and easier for the user to identify if
+files are to be
+shared or deleted from the calculator (PBa1, PBa2, PBa3 for the record File A).
+The search
+engine no longer requires you to scroll back to the first record prior to
+entering a search
+string, now you can do searching from anywhere.
+
+1.5b (TI-86 Version/Experimental version[in house]):
+A few small bugs fixed.  Also, the program should feel slightly faster now that
+I changed
+certain things all around the code.  The program now switches the calculator to
+default
+modes used by the progam, so now the user doesn't require to reset the defaults
+before
+running PB/86.  Also the graphics database is saved and restored before
+entering the program.
+The name was changed to PhoneBook/86, since this is going to be the new name
+format I will
+be using to name all of my future TI-86 applications under the name of iMageX
+Software.
+
+2.0/2.0t (TI-86 Version):
+New distribution of PB/86 which includes a non-GUI version (PB86t), which saves
+some space
+on the calc, plus runs faster!  Of course, the GUI version is still there, for
+those of you
+who prefer looks over productivity. :P  When you exit PB/86, it now saves the
+current record
+file position for the 'View Records' screen (About time, uh? hehe).
+
+Features
+========
+
+-Easy to use graphical menu system with mouse like pointer.
+-*NEW* Text menu interface version, faster, less memory consumption.
+-Stores up to 20 names with phone numbers and a short description for each.
+-Easy scroll through records using function keys.
+-Record functions thru an EDIT menu.  Includes record entry, directory, record
+ erase, and search functions
+-Quick Memo feature for storing up to four 6 line by 21 character memos.
+
+How to use
+==========
+
+  PhoneBook/86 was designed to be self explanatory and easy to use and
+understand, however,
+I shall explain and describe each of the functions included.
+
+  The group files PB86v20(t).86G have two program files in it, PBINST and
+PB86(t).
+The first one being the installation utility, and the second PB/86 itself.  You
+need to run PBINST if you are running PB/86 for the first time, or if you want
+to quickly erase all data you have previously entered.  After running PBINST
+you can proceed to execute PB86(t), and when you do so the first thing you will
+see is the title screen followed by a screen that will show a graphical menu
+with four different options, or a text based menu with 5 menu items divided in
+the
+following way:
+
+GUIv: +---------------------+  TEXTv: +---------------------+
+      |_____________________|         |    PhoneBook/86     |
+      |----------|----------|         | by  iMageX Software |
+      | VIEW     |  EDIT    |         |  F1 - View Records  |
+      | RECORDS  |          |         |  F2 - Memo          |
+      |---------------------|         |  F3 - Edit Menu     |
+      |  MEMO    |  QUIT    |         |  F4 - Help          |
+      |          |          |         |  F5 - Quit PB/86    |
+      +__________|__________+         |----|---|---|---|----|
+                                      +---------------------+
+
+  To select an option just move the pointer to the screen in which the option
+is located and press the 2nd (yellow) key, or press the corresponding function
+key, F1..F5, for the text menu version.
+
+  The View Records option will bring you a screen like this:
+
+                                +---------------------+
+                      NAME ---->|John Doe             |
+                                |                     |
+              PHONE NUMBER ---->|(888)555-1234        |
+         SHORT DESCRIPTION ---->|123 Main Street      |
+                             +->|AnyCity, ST  50186   |
+                                |                     |
+               RECORD FILE ---->|File C               |
+                                |_____________________|
+                 MAIN MENU ---->|<-|<<- | ->>|->|Menu |
+                                +---------------------+
+                                 F1  F2   F3  F4  F5
+                                  |   |    |  |    |
+ SCROLL TO PREVIOUS RECORD -------+   |    |  |    +---- GO BACK TO MAIN MENU
+      JUMP TO FIRST RECORD -----------+    |  +--------- SCROLL TO NEXT RECORD
+       JUMP TO LAST RECORD ----------------+
+
+  If you press F4 (Scroll next) you will see the next record file, in the case
+above you will see record File D, and if you press F1 (Scroll previous) you
+will see the previous record file, in this case record File B.  Notice that
+it works like a loop jumping back to the first record if you select next while
+in the last, and to the last if you select previous from the first.  If you
+would like to quickly jump to either the last or the first record you can do
+this by pressing either F2 for the first or F3 for the last.  "No data" will
+always be displayed for those records that have no data.  F5 (Menu) will bring
+you back to the main menu.
+
+  The Edit menu is used to manage your record files.  If you select to go to
+the Edit menu it will show you the following:
+
+GUIv: +---------------------+  TEXTv: +---------------------+
+      |_____________________|         |    PhoneBook/86     |
+      |----------|----------|         | by  iMageX Software |
+      |ENTER NEW |  RECORD  |         |F1 - Enter New Record|
+      |  RECORD  |DIRECTORY |         |F2 - Erase Record    |
+      |---------------------|         |F3 - Record Directory|
+      |  ERASE   |  SEARCH  |         |F4 - Record Search   |
+      |  RECORD  |____      |         |F5 - Back            |
+      +__________|BACK|_____+         |----|---|---|---|----|
+                                      +---------------------+
+
+  Entering new data requires for the selected file to be empty, this is done
+with the Erase option.  When you select Enter New Record, you will be presented
+with the following menu sequence for selecting the desired file to enter data:
+
+   +-------------------+      +-------------------+
++---------------------+
++->| A | B | C | D | E |<MORE>| F | G | H | I | J |<MORE>| K | L | M
+|More|Stop|
+|  +-------------------+      +-------------------+
++---------------------+
++---------------------------------------------------------+             |    |
+            +---------------------------------------------|-------------+    |
+            |  +-------------------+      +----------------------+           |
+            +->| N | O | P | Q | R |<MORE>| S | T |Memo|Back|Stop|-+         |
+               +-------------------+      +----------------------+ |         |
+                                                     |             |         |
+                         +---------------------------+             |         |
+                         |  +--------------------+                 |         |
+                         +->| M1| M2| M3| M4|Back|->Edit Menu<-----+---------+
+                            +--------------------+
+
+  Select the letter coresponding to the file you wish to enter data in by
+pressing the F key corresponding to the menu item.  When you select a file it
+will show a prompt asking for a name, a phone number, and then a short
+description for the record entered.  Something like this:
+
+Name
+>
+Phone #
+>
+Description
+>
+
+You enter the desired data on each of the prompts.  Notice that on the last
+menu of the sequence you can select Memo which will let you enter data on any
+memo file. (WARNING: This will not check if you already have data on any memo
+file, so it is recommended that you check the current data to see if it isn't
+anything important)  If you select a file with data on it it will tell you
+so and you will have to erase it prior to editing it.  Back will bring you
+"back" to the first menu (A,B,C..), and Stop will bring you back to the Edit
+Menu screen.
+
+  The Record Directory option will let you see which files contain data and
+which are empty, this by displaying the record file letter on the left side
+and the name you designated to the record on the right.  If the file is empty
+it will display "Empty" on the right side instead of a name.  This is useful
+when going to enter new data to see which files are empty instead of guessing.
+
+  The Erase option will bring you a menu sequence identical to the one to
+Enter data.  Select from the menu which record file you want to erase and if
+it contains data it will ask you if you are sure.  Obviously selecting 'Yes'
+will PERMANENTLY erase the data on the selected record.  Selecting 'No' will
+bring you back to the Edit menu.  If there was no data on the file selected it
+will tell you that the file is 'Already erased'.
+
+  The Search option let's you search by name for a specific record.  This
+function is case sensitive, so if you enter JOHN to look for John Doe's record
+it will not find it, you have to use exact case, in this case John not JOHN.
+
+  The Back option will exit back to the Main Menu.
+
+  Back in the Main Menu, the Memo option will show you the Memo files you have
+entered thru the Edit menu.  Select any of the "F" keys corresponding to the
+memo file you wish to view (the default is always M1), or choose F5 (Menu) to
+go back to the Main Menu.
+
+  And last, but not least, Quit will exit the program.  You can also exit by
+pressing the EXIT key.
+
+Tips, Bugs, etc.
+================
+
+  Remeber that the selection button used in this program is the 2nd (yellow)
+key
+so don't try using anything else, it was made this way to help with the
+standard
+often used in games in which the 2nd key is used to simulate a game pad between
+the cursor arrow keys and the 2nd key area.  Also, do not press any other key
+than the ones used while in the Main or Edit menus, this will cause the pointer
+arrow to disappear and the next time you move it will creat a "ghost" arrow
+where
+the old one was.  If this happens, simply press that key again without moving
+the
+pointer first, and it will redraw the arrow and the ghost won't appear
+afterwards.
+On the graphical menus(Main/Edit), if you click in the area of the title bar
+you
+will be presented with a quick help screen for the corresponding menu.  Before
+transferring PB/86 to your calc, I recomend that you either reset the memory,
+or
+that you at least set to the default modes and you get rid or unselect any y#
+variables (EQU's for the GRAPH menu).  If you need to share files with anyone
+else
+or if you want to back up your existing files, simply copy the desired record
+file group of files (e.g. PBa1,PBa2,PBa3 - File A), to the other calculator
+with
+PB/86 and make sure to edit the list PBfiles on the destination calc so that
+the
+1st # in the list is 1 (for File A), or the corresponding # of the record file
+transferred, and to back up all of your existing files, transfer all of your
+record files plus the PBfiles list to a group file using the TI-GRAPH Link.
+
+  Another useful tip is, when entering someone's 'Description', you can type up
+to
+21 characters for the first line, and then continue typing more info right
+after
+the 21st character, without adding a space, this will make that 22nd character
+appear as the 1st character of the next line on the screen.
+          |                     |
+Example:  |Description:         |    Use the space character on your calc
+untill
+          |>123 Main Street     | <- the cursor reaches the 2nd space under the
+          | City, ST  12345     |    2nd line.
+
+
+List of program files/variables
+===============================
+
+Files with an * are files required only by the GUI version of PB/86.
+
+PIC Variables:
+*PBEdit   1022 bytes Edit Menu Graphic Display
+*PBMain   1022 bytes Main Menu Graphic Display
+*PBintro  1023 bytes Program Intro Picture
+ iMageX   1022 bytes iMageX Software Logo
+
+PRGM Variables:
+ PBINST   1592 bytes Installation Utility
+*PB86    23065 bytes PhoneBook/86 Program File (GUI version)
+ PB86t   22023 bytes PhoneBook/86 Program File (Text menu version)
+*zPBpntr   537 bytes Pointer Sub-Routine Application
+
+LIST Variables:
+PBfiles   245 bytes Available files/system variables database
+
+STRNG Variables: (#)=number (l)=lower case letter
+PBme(#)     14 - 34 bytes X  6 Memo File Strings
+PBme(#)(#)  15 - 35 bytes X 18 Memo File Strings
+PB(l)(#)    13 - 33 bytes X 60 Record File Strings
+(The maximum size of the string variables assumes no more than 21 characters
+in the string, however, you might use more than 21 characters for record
+file descriptions though.)
+
+MAX system memory load(GUIv): approx. 32342 bytes (31.6k - about 1/3 of
+available RAM)
+                     (TEXTv): approx. 27696 bytes (27k - less than 1/3 of
+available RAM)
+Only files needed for fresh installation: PBEdit, PBMain, PBintro, iMageX,
+PBINST, PB86, and zPBpntr for the GUI version of PB/86 - PBINST, iMageX,
+PB86t for the Text menu version of PB/86.
+
+============================================
+Before I go, just a few favors I want to ask:
+
+Please, if you do modify this program, notify me of the modifications and
+leave my name at least in a little corner on the screen somewhere in the
+program.  Also, feel free to send any comments, suggestions, or any other kind
+of criticism directly to my email address.
+
+And last, but not least, please let me know as soon as you get the program
+if you liked it and if you plan to use it, because depending on the feedback
+I get I will consider future versions.  Also, if anyone is interested on
+making a port on ASM, let me know ASAP, that would be a really neat idea and
+alot of people have been emailing me about an ASM version of PB, still I'm
+not that kind of programmer, yet.
+
+I hope you enjoy using the program as much as I enjoyed programming it!  Trust
+me, 1900+ lines worth of TI-BASIC code sure is a lot of work, so it wouldn't
+be good for me to know some one didn't like it! ;)  Well, have a good time
+keeping track of phone numbers!
+
+iMageX Software (Edward A. Hazell)
+P.O. Box 250494
+Aguadilla, PR  00604-0494
+
+Email:  hazelljr@sunnyisland.com
+
+I am no longer an active member of any mailing list, so please, if you
+find any bugs, send your report to the email address above.  TIA!

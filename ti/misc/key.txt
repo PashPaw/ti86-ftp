@@ -1,0 +1,27 @@
+key
+---
+	Key-Code finder v1.0
+	Copyright (C) 1999 Heald Corp., Ltd.
+	This program was completed on 7/21/1999
+	Programmer: Sean Heald
+	Platform: TI-86	
+
+THIS FILE IS BEST VIEWED IN NOTEPAD WITH WORD WRAP ON
+
+	Here is a little program that displays the key code of every key you 
+press. I wrote it one day when I didn't have the instruction manual for my ti-86 
+around me. I thought maybe someone else might find some use for it. Simply send 
+KEY.86P to your calc and run it. Now, if you don't have your instruction book 
+available, you can still find key codes. If you press [exit] it will display the 
+code for [exit] and end. Enjoy!
+
+Future versions:
+I plan to make it so you can clear the screen by pressing [clear]. I would have 
+had it in this version, but I couldn't figure out how to make it display the 
+code for [clear]. (Don't expect to see this any time soon.)
+
+PLEASE KEEP THIS FILE WITH THE ORIGINAL .ZIP FILE
+
+
+
+						~Sean

@@ -1,0 +1,5 @@
+gpa
+---
+"GPA" is a program to find a students Grade Point Average(GPA). The
+user must put the letter grade of seven classes and the program will display
+the students GPA.

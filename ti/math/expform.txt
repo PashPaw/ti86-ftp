@@ -1,0 +1,16 @@
+Program Name : Expform.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Exponential Formula:
+
+This program is designed to calculate 
+the exponential formula of an exponential
+curve when the user knows the X&Y coordinates
+from two points on the exponential curve.
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the usage of this program.

@@ -1,0 +1,34 @@
+custom
+------
+
+	Custom Menu Builder  v1.0
+	Copyright (C) 1999 Heald Corp., Ltd.
+	This program was completed on 7/21/1999
+	Programmer: Sean Heald
+	
+THIS FILE IS BEST VIEWED IN NOTEPAD WITH WORD WRAP ON
+
+	I can't tell you how much I hated restoring my custom menu after a battery 
+removal or reseting my memory. So I made this program to do it for me. This is a 
+little program I whiped up when I was bored one day. I found a program similar 
+to this one, only it had some bugs in it and it filled the custom menu with 
+useless items. To use the program, simply send CUSTOM.86P to your calc after a 
+battery removal or reset and run it. A screen will pop-up telling you that the 
+current custom menu will be erased. I only threw this in because I thought 
+somebody might accidentally run it and reset their custom menu. The screen will 
+prompt you to input Y or N. Obviously, you want to select Y if you ran the 
+program intentionally. Once you make your selection the program will end and 
+voila! Your custom menu is restored! 
+	The program will fill the first 8 spaces with items and programs that I 
+frequently use (such as Bill Nagel's Ashell). It is not edit-locked, so you can 
+change the Lcust( command to fill the custom menu with whatever you want. And 
+for all you plagarisers out there, go ahead and hack the code all you want, you 
+vile heathens!!!
+	Feel free to distribute this program to your friends. All I ask is that 
+you keep this readme file with the original .ZIP file and that you give me some 
+credit. 
+	The program is free of bugs and will work properly 100% of the time. 
+Enjoy!
+
+				
+					         ~Sean 

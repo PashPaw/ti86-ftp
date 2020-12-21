@@ -1,0 +1,4 @@
+diffeq
+------
+This is the "Understanding Differential Equations" activity program.
+Please see http://www.ti.com/calc/docs/act/slomer018.htm for more information.

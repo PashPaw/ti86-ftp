@@ -1,0 +1,61 @@
+*** TI-86 ENGINEERING PROGRAMS: /pub/graph-ti/calc-apps/86/engineering/
+
+Choleski decomposition
+----------------------
+Choleski.89f and Choleski.92f are properly functions.
+Call "Choleski" with a single argument: Choleski(A),
+where "A" is the matrix you want to factorize. The
+function returns the factorized matrix. Nothing is
+stored by "Choleski". 
+
+circuit
+-------
+This program is a nodal circuit analysis for use in analysis of simple circuits.
+It can produce the voltage transfer function at a single frequency in list 
+(text) output format and as a graphical frequency sweep.    
+
+erf
+---
+Solves for the error function of z.
+
+elasticg
+--------
+Elastica determines the 2*n constants associated with the double integration of
+n piecewise functions and plots the resulting curve. Specifically Elastica 
+solves boundary value problems of elastic curves.
+
+erfinv
+------
+Finds the value of z in the error function: erf(z)=#, given the #.
+
+femtorsn
+--------
+FETorsn: finite element method for elastic torsion on TI's graphing calculators.
+
+nx86mg11
+--------
+Site layout functions. neXus 86 Mini-G Version 1.1 is a software package 
+designed to speed up and simplify setting-out work by coordinates ("radial 
+stakeout") using a total station or a theodolite and tape. It includes: Station 
+Load station; Set out Calculate orientation bearing, set out points; Survey 
+Survey points. Angle values are gradians.
+
+nx86mm11
+--------
+Site layout functions. neXus 86 Mini-M Version 1.1 is a software package 
+designed to speed up and simplify setting-out work by coordinates ("radial 
+stakeout") using a total station or a theodolite and tape. It includes: Station 
+Load station; Set out Calculate orientation bearing, set out points; Survey 
+Survey points. Angle values are DMS.
+
+staticsm
+--------
+This program creates the so called Statics matrix, [A]. In general, the
+relationships here are developed from "through" variables of linear graph
+theory. In particular, StaticsM is developed to deal with systems of framed
+structures, where branches are members and nodes are joints. The matrix [A] is 
+called the statics matrix because its rows are the equations of statics for 
+the joints.
+
+
+* All trademarks are the sole property of their respective owners.

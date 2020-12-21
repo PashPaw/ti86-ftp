@@ -1,0 +1,125 @@
+suprquad
+--------
+Introducing Super Quadratic Formula program 4.1!
+
+--Version inf0--
+4.0 First release.
+
+4.1 Few minor changes to Quad.86p, including a
+name change to QdGrF on the calc, and to
+QuadGraF.86p on the computer.
+
+By
+William Charles Deich IV
+
+http://www.geocities.com/CollegePark/Field/1680/
+williamiv@geocities.com
+bevd@bellsouth.net
+
+	&
+Jason Boylan
+http://www.geocities.com/SiliconValley/Horizon/5333/
+or http://boylan.home.ml.org
+
+JBoylan@Technologist.Com
+JBoylan@Geocities.Com
+
+THIS PROGRAM IS INCREADIBLE! THIS PROGRAM IS INCREADIBLE
+
+Transfer SuperQuad.86g to your calc
+(Hopefully not thru typing, but this is possible if 
+necessary)
+
+SuprQuad.86g contans 5 files.
+----------------------------
+SuprQuad.86p
+QdGrF.86p
+COMPSQR.86p
+subfrac.86p
+zzrat.86p	[subfrac and zzrat are subrutenes]
+Now there are a lot of files here, you can run most
+of the programs by themselves. So if you want, you 
+can just take the ones you like and delete the rest.
+ 
+If you choose to do this, remember that
+COMPSQR uses subfrac, and you may want zzrat for one 
+of your own programs to reduce a square root. (It 
+is also used by one of my programs called PTLINE.)
+
+SuprQuad is just a menu program that ties everything
+together.
+
+
+Run SuprQuad and you get an introduction message and
+the following menu: 
+
+|Super|'sqrt'N|COMP|Vert|Stop|
+You can also run the other programs seperately from this
+menu
+
+Press F1 for "Super" and you will get Y10(x)=
+
+You enter the function AS IT REALLY LOOKS!
+		(e.g. 5x^2+5x+5)
+
+The calculator figures out what A,B & C are based on
+Calculus.
+
+The calculator will then graph the function,
+and give you the following information off to the side
+-----------------------------------------------------
+Quadratic formual with the discriminant simplifies
+
+X1 & X2 as decimals
+
+the Vertex to 3 decimal places
+
+The Completed Square [A(x-H)^2 +K]
+	with -H ank K out to 3 decimal places
+
+(the restrictions on decimal places are because there is
+only so much room on the graph screen. If you need more
+acuracy, you can also do these options on the home 
+screen using other menu options.)
+
+
+|Super|'sqrt'N|COMP|Vert|Stop|
+
+Press F2 for 'sqrt'N and the calc will run zzrat 
+to let you reduce the square root of any number you
+give it (including negatives!)
+
+The only reason zzrat is a seperate program is so that
+it can act as a subrutene for as many different programs
+as I want it to. In fact you can use it as a subrutene
+for any of your programs out there in cyberspace.
+
+
+|Super|'sqrt'N|COMP|Vert|Stop|
+
+Press F3 and the calculator will run the COMPSQR program
+This program Completes the Square in Ax^2+Bx+C and even 
+converts to fractions! (That's what subfrac's for; you 
+can't use the >Frac command in Outpt( commands.)
+	As long as A, B and C are integers or RATIONAL 
+decimals subfrac should be able to convert everything 
+fractions [A in A(x-H)^2 +K is left as a decimal since
+you probably already know what this is].
+
+COMPSQR prompts for A,B & C like "normal."
+
+
+|Super|'sqrt'N|COMP|Vert|Stop|
+Press F4 and it will prompt A,B,C and then display
+the vertex as fractions. This and F5 are the only menu
+options that don't call up seperate programs.
+
+
+|Super|'sqrt'N|COMP|Vert|Stop|
+F5 executes a stop command.
+
+Some of these programs are edit locked, but they don't 
+have to stay that way; you can move the big scroll bar
+on the TI-86 Graph link down and then "unclick" Protect.
+
+wd

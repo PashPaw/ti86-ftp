@@ -1,0 +1,34 @@
+Program:  PF_RED
+Author:   Alex Sedeno
+Version:  1.0
+Machine:  TI-86
+First public release:  Uploaded to the TI-Files on July 12, 1997
+Description:  Math program for Prime Factorization and Radical Reduction
+
+Setup:
+Send PF_RED.83p to TI-86.
+Note: PF_RED will appear as PF8RED on the calc.
+	The 8 is not an 8, but a theta ([2nd][CHAR][F2][MORE][F2])
+	This follows the naming tradition started /w the TI-83 version.
+
+Usage:
+Run PF8RED
+1) Choose what you want to do from the menu
+Factr: PRIME FACTORIZATION
+	2) Input the number (intergers only, + and - will work)
+Reduc: RADICAL REDUCTION
+	2) Input Root(positive, real intergers only)
+	3) Input Number (intergers only, + and - will work)
+
+Revision History
+
+v1.0	PF_RED ported from the TI-83 and TI-85 to the TI-86
+
+PLEASE DO NOT SEPARATE THIS DOCUMENT FROM PF_RED
+
+Please do not modify this program without the authors permission.
+If you have any suggestions, please E-Mail me at:
+
+SEDENO@Prodigy.Net
+
+(C) 1997 by Alex Sedeno

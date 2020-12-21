@@ -1,0 +1,13 @@
+forces
+------
+
+I wrote this program during my high school physics class to speed up my
+calculations associated with gravity, electrical, and acceleration forces.  It
+will solve for any variable when the others are known.  The masses are in
+kilograms, charges in Coloumbs, distance in meters, force in Newtons, and
+acceleration in meters per second squared.  This program runs on both a TI-85
+and a TI-86.  One other thing, I'm not responsible if for some reason it makes
+your calculator explode or something similar and you can edit it all you want.
+
+Byron Dickerson
+lithven@u.washington.edu

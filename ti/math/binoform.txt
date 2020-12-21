@@ -1,0 +1,18 @@
+Program Name : Binoform.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Binomial Formula:
+
+This program is designed to calculate 
+the probability of a random variable from 
+a binomial experiment. There is a function
+built in to the TI-86 calculator to 
+perform this task, but this program is
+more intuititive.
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the usage of this program.

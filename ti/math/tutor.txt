@@ -1,0 +1,13 @@
+tutor
+-----
+
+Tutor v1.1 by Tegan and Sam Nejad, Address: nejad@bigpond.com   , whose home
+page is at http://www.users.bigpond.com/nejad/
+
+This grouped and edit-locked program is a simple ARITHMETIC TEACHER for all
+school levels. It includes addition, subtraction, multiplication, division,
+square roots, and a real life shopping situation. All operations can be
+chosen from easy to difficult levels. There is a CHEAT mode for the teacher:
+Just type in 0.1 as the answer then press [ENTER] to view the correct
+answer.
+

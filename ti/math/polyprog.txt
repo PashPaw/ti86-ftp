@@ -1,0 +1,14 @@
+polyprog
+--------
+
+QUAD is just your basic quadratic formula solver.  It displays the 
+quadratic equasion simplified, whether the answers are real or 
+imaginary, and the answers.
+
+POLYDIV devides a polynomial of whatever power you want by a 
+binomial.  If you want to chose the powers of both polynomials, 
+or multiply any 2 polynomials, check out polydiv2 and polym in 
+the ti85 section of TI's archive.
+
+If you have any questions, write me, Gabriel Bassett, 
+"mercwarrior@geocities.com".

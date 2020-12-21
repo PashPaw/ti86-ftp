@@ -1,0 +1,12 @@
+					Shooting version 1.0
+					by Daniel Moraseski
+				     dem@moraseski.ima-net.com
+
+	This is a shooting game where you have to shoot the other player
+by entering velocity and angle. It includes 1- or 2-player mode (the
+calculator is pretty stupid at shooting you) and wind. There are
+pictures of people (or a person and a calculator in 1-player mode). To
+run the program, run shoot. The other programs are just subroutines.
+
+	Things to maybe include in new releases:
+	A smarter calculator!!!

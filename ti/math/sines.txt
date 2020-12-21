@@ -1,0 +1,21 @@
+Program Name : Sines.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Trigonometry
+
+Law of Sines:
+
+This program is designed to calculate any
+side when SAA are known and any angle when
+SSA are known. 
+
+Disclaimer : The originator is not responsible
+for any public or private liability that may
+result from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.
+

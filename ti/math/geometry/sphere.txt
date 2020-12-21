@@ -1,0 +1,8 @@
+sphere
+------
+
+This program will give you the properties of a sphere when the radius,
+volume, or surface area is given.  It is great for one of the first chapters
+in geometry, but also helpful in the math classes that follow and other
+areas.
+By Scott K.

@@ -1,0 +1,28 @@
+squares
+-------
+SQUARES is a program organizer with SQUARES programs in it.  To run
+SQUARES, type "SQ" at the home screen on your calculator.
+
+Notes:
+
+Pick-a-Number is a game where you guess numbers and the calculator says
+"HIGHER" or "LOWER".  When it says "Number range," you have to say the
+maximum number.  (The minimum number is 1.)
+
+Bounce is a simple game where you have to bounce the ball using the left
+and right keys to move your paddle.
+
+Catch is another simple game where you have to catch the ball using the
+left and right keys to move your bucket.
+
+Graphic-Jam is a useless screen saver.  Something to watch when you're
+bored.
+
+NotePad is a quick and easy way to take notes.
+
+Shopping Center just advertises other TI-86 and computer programs.
+
+
+If you have and questions or problems, send an E-Mail to
+"thomasg@escape.ca".
+

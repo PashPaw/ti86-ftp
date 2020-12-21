@@ -1,0 +1,20 @@
+Program Name : Z-score.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Statistics
+
+Z-score formula:
+
+This program is designed to calculate the
+Z-score of any value when the score, x-bar
+and sigma are known. 
+
+Disclaimer : The originator is not responsible
+for any public or private liability that may
+result from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.

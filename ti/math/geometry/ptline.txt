@@ -1,0 +1,10 @@
+ptline
+------
+
+This is the newest version of Ptline. Like always, you give it two points,
+and it gives you the distance between the two points, the slope and
+Y-intercept of the line going thru the points, and graphs the line. Now it
+uses Rat.86p to simplifly the square root of the distance.
+
+William Deich
+bevd@bellsouth.net

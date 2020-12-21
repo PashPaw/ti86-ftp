@@ -1,0 +1,7 @@
+golf
+----
+"Golf" is a score keeper for 9 or 18 holes of golf. What
+the program does is adds up the number of strokes and putts of the golfer and
+after the 9 or 18 holes are finished it displays the number of strokes, putts,
+overall total, and the par of the coarse so you can compare your total with
+the par of the coarse.

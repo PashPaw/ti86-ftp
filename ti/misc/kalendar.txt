@@ -1,0 +1,5 @@
+kalendar
+--------
+This program is the equivalent of 'kalendar.83p', only for the TI-86. This 
+program gives the day for any date from Jan.1, 1900 thru Dec.31, 2099.
+

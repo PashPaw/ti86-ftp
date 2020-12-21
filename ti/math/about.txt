@@ -1,0 +1,30 @@
+*******************   Cambio Machine for the TI-86  ******************
+*******************  	       By:  Tronix          ******************
+*******************              v 1.6              ******************
+
+The files that should be included in the zip file is:
+*Cambio.86p
+*Install.86p
+*About.txt
+
+Note: If you are wondering, "cambio" is spanish for "change".  In this tense it is used to       name a foreign exchange machine.
+	
+	This is a very simple program that took me a while to create.  It is a program that converts any foreign currency to the US dollar, or the US dollar to any foreign currency.  It already has five fixed rates, but the user can put in his/her own country and rate.	
+	
+	The controls are quite simple.  You only use the ENTER key and the F1 through F5 keys.  Where to go and when to use them?  If you can not figure this out, then you do not even need to be handling a calculator.  
+	
+	In the previous versions of this program, I had not realized that converting currencies above the US dollar and below the US dollar rate required the calculations to be switched.  Once I had figured this out, and felt really stupid for not even thinking about it, the program ended up doubling in size.  I have tried my best to keep it small as possible, which is why I created the "Install" program.  This program just creates the variables needed for the program.  Once finished, you can delete the "Install" program BUT NOT THE VARIABLES THAT WERE CREATED.  The variables are C1, C2, C3, C4, C5, R, R2, R3, R4, and R5. If they are deleted then the program will not work properly.  I did this because this way the user can delete the "Install" program and it makes the "Cambio" program smaller.
+	
+	If you have noticed, I have not created a history list.  This is because I do not feel it is neccesary.  I do not even read the history lists that were created by other programmers.  In fact, I do not believe many people will even read this "About" text.  I am just making it so people will have something to read about my program.
+
+	If you would like to e-mail me about any comments for this 
+program please feel free to e-mail me at:
+
+torquesoul@hotmail.com    
+
+NOTE: Please label the subject: Cambio comment 
+or you will not receive a reply.  Also, if you suggest a way of 
+improving this program and I use it, I will include your name in the 
+program.
+
+Special Thanks: Samantha Gomez(For testing the program), Texas Instruments(For making the calculator), parents (For paying for the calculator), Scot Wilson(For also testing the program)

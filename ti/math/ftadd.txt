@@ -1,0 +1,27 @@
+   		Feet-Inches-Sixteenths  Adding Program for the TI-85 and TI-86 
+		Written by : Billy Brown    <bbrown@jerviswebb.com>
+		Written on : August 10, 1997    Release  #081097
+
+========================================================================
+
+	Program Name:  FTADD.85P
+		             FTADD.86P
+		             FTADD.DOC  (this text file)	
+			
+	I wrote this program to add feet-inches-sixteenths to use at my job.  If it can help you, you are welcome to it. 
+
+	To use either program, copy the appropreate programe file to your TI-85 or TI-86.  The program is started from the <PRGM>, then the <NAME> keys.  The program will prompt you for your input and how to enter it.
+	
+	The way to enter your addition is  FT.IN16+FT.IN16+.............(up to six numbers at a time)..then press <ENTER>.   How this works is :  all the numbers before the decimal point are FEET, the two numbers to the right of the decimal point are INCHES,  and the third and fourth numbers to the right of the decimal point are sixteenths. 
+	
+	Example:  125'-3 3/4" + 9'-11 3/16 = 135'-2 15/16"  
+			  
+	Input as:   125.0312+9.1103 then press <ENTER>   and it will show TOTAL = 135.0215  Done
+
+	If you press <ENTER> key now it will start over. If you do any other entries it will drop out of the program. 
+
+	 I noted above to only enter up to six number to add at a time. If you have more than six numbers, first add up to six and press <ENTER> for your total, now press <ENTER> to start again, but for your first number press <2nd><RCL><A><ENTER> then add up to five more numbers. Each time the program  is totaled the answer is stored in "RECALL  A"and each time it over writes the previous total. 
+
+	I never considered making it subtract, multiply or divide, but I'll look into revising it soon. 
+	 
+	I've written several programs for conveyor engineering.  If anyone has questions about this program or others, just e-mail me.

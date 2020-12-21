@@ -1,0 +1,52 @@
+Chem.86p:  an assortment of chemistry programs:
+                            cirforce--works out centrifical or
+centripical force [really more
+                                           simple physics]
+                            columb--yes I know it's spelled wrong--works
+out Coloumb's law
+                                          [really more for simple
+physics]
+                            debrogli--works out De Broglie's equation
+                            entropy--works out the Boltzman equation
+using the formula
+                                          S=k(N)ln DF  The more ususal
+formula is S=k(ln W).
+                                          You can change the program if
+you want to.  This
+                                           program is based on W=DF^N
+since the number of way
+                                           a group of things can be
+arranged is offten equal to the
+                                           degrees of  freedom raised to
+number of things there are.
+                                            SOMETIMES YOU WILL NEED THE
+FORMULA
+                                            S=k(ln W)
+                            gas1---works out the combined gas law;
+warning-make sure your
+                                            units are compatable
+                            gas2---works out the ideal gas lawl;
+warning-samething
+                            gibb---works out the standard
+Gibb-Hemholtz[sorry if I spelled that
+                                            wrong]
+                            gibbEq-works out gibb's equation for when a
+reaction or physical
+                                            process is at "equilibrium"
+                            gibbNSSC--works out the free energy change
+in "Non-Standard-
+                                            State-Conditions"
+                            hberg1----works out Heisengburg's [sorry if
+spelled worng]
+                                            uncertianty principal for
+"delta"X
+                            hberg2----dito for "delta"MV
+                            plankf---Yes I know it's spelled wrong.
+Works out Planck's equation
+                                                for the energy of a wave
+using it's frequancy "f".
+                            plank---samething only it uses "lambda"
+instead of "f"
+WARNING:  FOR ALL OF THESE CHEMISTRY PROGRAMS, MAKE SURE THAT YOUR UNITS
+ARE COMPATABLE-----THE CALCULATOR DOESN'T
+KNOW WHETHER YOU MEAN KILLOGRAMS OR GRAMS.

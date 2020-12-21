@@ -1,0 +1,13 @@
+quadform
+--------
+This Program is one of the most efficient quadratic formula solvers. All you
+have to do is enter in A, B, and C and the program will give you the anwers
+to the equasion, the vertex, and it will graph the equasion if you tell it
+to. It is also a very small program.
+
+The best of luck with QuadForm, fell free to change it as needed.
+
+QuadForm was designed by Adam Schultz, an 8th grade student at
+Kimpton Middle
+School in Ohio.
+E-mail- Assasin330@aol.com

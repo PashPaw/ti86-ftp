@@ -1,0 +1,5 @@
+triangle
+--------
+This program will solve just about any Triangle using Side Angle Side(SAS); 
+Side SIde Side(SSS) ect...  if there are any questions regarding this program 
+then email me at jareda17@aol.com

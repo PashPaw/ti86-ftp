@@ -1,0 +1,20 @@
+Program Name : Pyth.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Geometry
+
+Pythagorean Theorm:
+
+This program is designed to quickly calculate the
+side of any triangle when any two sides are known. 
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+result from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+San Jose, CA.
+

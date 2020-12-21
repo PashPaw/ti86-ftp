@@ -1,0 +1,9 @@
+erfinv
+------
+Finds the z value for erf(z)=# given the #.
+
+uses a squeeze method to find the solution.
+
+written by Shane Russell
+NO rights reserved :)
+

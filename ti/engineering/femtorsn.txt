@@ -1,0 +1,29 @@
+femtorsn
+--------
+FETorsn: finite element method for elastic torsion on TI's graphing calculators.
+
+	*** Please see femtorsn.pdf for full documentation ***
+
+
+FETorsn: finite element method for
+elastic torsion on TI's graphing calculators.
+
+Overview
+
+FETorsn: Program. Finite element method applied to elastic torsion.1
+Output: GTorsion.m; Loads.m; ShapMat.m
+
+AnalyTor: Program. Analytical solution2 (series) to the Poisson equation
+(torsion of rectangular cross sections).
+Output: TorsionL.l (list: { fi, T, (sigma)zx, (sigma)zy })
+
+FEMInput: Program. Mesh builder for torsion, plate and plane finite-element
+models.
+Output: Joints.m; NodeVecs.m
+
+For detailed discussion, description and examples download the "Reader"
+PDF file titled "FETorsnGuide.ps" from this site or from
+http://omega.uta.edu/~mcb4588
+
+
+

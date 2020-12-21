@@ -1,0 +1,185 @@
+pb86v31
+-------
+                +------------+
+                |PhoneBook/86|
+                +------------+
+                  лллллллллл
+                 лллллллллллл
+                ллл лллллл ллл
+                   лллллллл
+                  лллллллллл
+                  лллллллллл v3.1
+               By Edward Hazell
+     
+       Copyright (C)1998 iMageX Software
+        Email: hazelljr@sunnyisland.com
+
+  Date of first working release (85):  02/04/96
+  Date of this version's release (86): 09/27/98
+
+
+Introduction
+============
+
+PhoneBook/86 is a program designed to keep track of your most important phone
+numbers.  It is fairly limited so it isn't intended to replace any kind of
+pocket electronic organizer, or address book, but it helps by providing you
+with the most used numbers.
+
+Things added to this version
+============================
+
+This version of PB/86 has been completely redone from scratch.  The way files
+are stores differs completely from any previous version.  The size of the
+program, in relative terms, is very small compared to version 2.0, and just
+slightly larger than version 3.0, but it now stores up to 30 entries.  The
+selection menu for entry/deletion screens has been redesigned, making it
+faster to select which file 'slot' you want to use for data entry or deletion.
+All routines are based in modules, or subapplications, making it easier to
+create newer versions and/or fix bugs or problems with the program.
+
+Features
+========
+
+-Stores up to 30 names with phone numbers.
+-Easy scrolling through records using function keys.
+-Record functions through an EDIT menu.  Includes record entry, directory,
+ record erase, and search functions.
+-Quick Memo feature for storing a 6 lines by 21 characters Memo.
+
+How to use
+==========
+
+  PhoneBook/86 was designed to be self explanatory and easy to use and
+understand, however, I shall explain and describe each of the functions
+included.
+                                    
+
+  To select an option press the corresponding function key, F1..F5.
+
+- The View Records option will bring you a screen like that looks like this:
+
+                                +---------------------+
+				|    PhoneBook/86     |
+				|		      |
+                      NAME ---->|John Doe             |
+              PHONE NUMBER ---->|(888)555-1234        |
+                                |                     |
+				|		      |
+                                |___iMageX Software___|
+                      MENU ---->|<-|<<- | ->>|->|Menu |
+                                +---------------------+
+                                 F1  F2   F3  F4  F5
+                                  |   |    |  |    |
+ SCROLL TO PREVIOUS RECORD -------+   |    |  |    +-- GO BACK TO MAIN MENU
+      JUMP TO FIRST RECORD -----------+    |  +------- SCROLL TO NEXT RECORD
+       JUMP TO LAST RECORD ----------------+
+
+  If you press F4 (Scroll next) you will see the next record file, and if you
+press F1 (Scroll previous) you will see the previous record file. Notice that
+it works like a loop, jumping back to the first record if you select
+next while in the last, and to the last if you select previous from the
+first.  If you would like to quickly jump to either the last or the first
+record you can do this by pressing either F2 for the first or F3 for the
+last.  F5 (Menu) will bring you back to the main menu.
+
+- The Memo option will show you the Memo file you have entered.
+
+  If you Choose Enter from the menu, this will allow you to enter a new memo.
+Choosing Erase will allow you to clear the contents of the memo file.  Selct
+Menu to go back to the Main Menu.
+
+- The Edit menu is used to manage your record files.
+
+  Entering new data requires for the selected file to be empty, this is done
+with the Erase option.  When you select Enter New Record, you will be
+presented with the following menu for selecting the desired file to enter data
+into:
+                +---------------------+
+		|Select an empty file:|
+		|  01 02 03 04 05 06  |
+                |  07 08 09 10 11 12  |
+                |  13 14 15 16 17 18  |
+                |  19 20 21 22 23 24  |
+		|  25 26 27 28 29 30  |
+                | > Indicates in use. |
+                |Type 0 to exit>      |
+                +---------------------+
+
+  Enter the number of the file you wish to enter data into and press enter.
+When you select a file it will show a prompt asking for a name and a phone
+number for the record to be entered.  Something like this:
+
+Name
+>
+Phone #
+>
+
+  You enter the desired data on each of the prompts.  If you enter 0 at the
+file selction prompt, it will exit back to the menu.
+
+  The Record Directory (Dir) option will let you see which files contain data
+and which are empty, this by displaying the record file number on the left
+side and the name you designated to the record on the right.  If the file is
+empty it will display "Empty" on the right side instead of a name.  This is
+usefull when going to enter new data to see which files are empty instead of
+guessing.
+
+  The Erase option will bring you a menu identical to the one to Enter data.
+Enter the number of the file you want to erase andd if it contains data it
+will ask you if you are sure.  Obviously selecting 'Yes' will PERMANENTLY
+erase the data on the selected file.  Selecting 'No' will bring you back to
+the Edit menu.  If there was no data on the file selected it will refresh the
+selection screen and bring you back to the prompt to enter a file number.
+
+  The Search option let's you search by name for a specific record.  This
+function is case sensitive, so if you enter JOHN to look for John Doe's
+record it will not find it, you have to use exact case, in this case 'John'
+not JOHN.  You can also just type a single character, or the first few letters
+of the name.
+
+  The 'Back' option in the Edit Menu option will exit back to the Main Menu.
+
+- The About menu option will show program information and configuration.
+
+  Selecting the 'Splash' option from the About menu will let you turn on/off
+the splash (welcome) screen at program start.
+
+  Selecting the 'Reset' option will allow you to erase all data files at once
+including the Memo file.  It will confirm if you are sure about doing so, and
+choosing 'Yes' will PERMANENTLY erase all data files, and the Memo file.
+
+- Quit will exit the program.
+
+Tips
+====
+
+  If you need to share files with anyone else or if you want to back up your
+existing files, simply copy the data files (PBst, PBstm, zPBconf) to the
+target calculator, or save them to the computer using the TI-GRAPH Link cable.
+
+Before I go, just a few favors I want to ask:
+=============================================
+
+  Please, if you modify this program, notify me of the modifications and
+leave my name at least in a little corner on the screen somewhere in the
+program.  Also, feel free to send any comments, suggestions, bug reports or
+any type of criticism to my email address.
+
+  And last, but not least, please let me know as soon as you get the program
+if you liked it and if you plan to use it, because depending on the feedback
+I get I will consider future versions.  Also, if anyone is interested on
+making a port on ASM, let me know ASAP, that would be a really neat idea and
+alot of people have been emailing me about an ASM version of PB, still I'm
+not that kind of programmer.
+
+I hope you enjoy using the program as much as I enjoyed programming it!
+
+
+Copyright Љ1998 iMageX Software
+For information please contact: Edward Hazell
+                                hazelljr@sunnyisland.com
+
+I recommend for you to visit www.ticalc.org, by far the best site for
+information about Texas Instruments graphics calculators!
+

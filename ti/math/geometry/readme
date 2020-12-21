@@ -1,0 +1,30 @@
+*** TI-86 GEOMETRY PROGRAMS: /pub/graph-ti/calc-apps/86/math/geometry/
+
+geo1
+----
+This program is helpful in calculating midpoints and distances of every kind. 
+It gives many output options and surpasses most other distance and midpoint 
+programs.
+
+midpnt
+------
+This program calculates the midpoint between two given points.
+
+midpoint
+--------
+This program calculates the approximate area of a function based on summing the 
+areas of rectangles using the midpoint approach.
+
+ptline
+------
+Give this program two points, and it gives you the distance between the two 
+points, the slope and Y-intercept of the line going thru the points, and graphs 
+the line.
+
+sphere
+------
+This program will give you the properties of a sphere when the radius, volume, 
+or surface area is given.
+
+
+* All trademarks are the sole property of their respective owners.

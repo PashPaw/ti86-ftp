@@ -1,0 +1,111 @@
+guess
+-----
+Guess the number! v1.1
+Copyright (C) 1999 Heald Corp., Ltd.
+This program was finished on 7/21/1999
+Programmer: Sean Heald
+Platform: TI-86
+
+THIS FILE IS BEST VIEWED IN NOTEPAD WITH WORD WRAP ON
+
+
+
+1.    Introduction
+2.    Installation
+3.    Game play
+4.    Trouble shooting
+5.    Future versions
+6.    Thank you's
+7.    How to contact the programmer   
+
+
+
+
+
+
+1. Introduction
+
+
+	This is a little program in the "guess the number" family. It has been 
+hibernating on my hard drive for quite some time now. I decided to open it up 
+and perfect it so I can submit it to Ticalc.org. I started Guess The Number 
+sometime in my freshmen year of high school, right around the time I got my ti-
+86. But as I grew more accustomed to the basic language, I began working on 
+bigger and better projects. One day, as I was browsing through all of my 86 
+files on my computer, I fell upon this tiny called guess.86P. I opened the 
+program and instantly remembered what it was. It was only half way finished so I 
+put the finishing touches on it and added a cheat code (see below). So here it 
+is, for your downloading pleasure.
+
+
+
+2. Installation
+
+	Extract the .ZIP file to a directory of your choice. Then open the 
+Graphlink Software* and click Link>send on the menu bar. When the send files to 
+86 window appears, go to the directory with the contents of the .ZIP file in it 
+and send guess.86P to your calc. The installation should take no more than 
+thirty seconds ( one minute if you have a slow computer). 
+
+	*You must have the Graphlink Software and the TI Graphlink to use 	 
+this program.
+
+
+3. Game play
+
+	After the program is properly installed on your calc, run guess.86P. The 
+title screen should come up with the title of the game the copyright 
+information. Press [ENTER]. The screen will clear and "Number:" will appear in 
+the upper right corner. Input a number between 1 and 10,000. After you have 
+chosen a number and pressed [ENTER] the program will display "Too high" or "Too 
+low" on the next line. This is the status of your number compared to the number 
+you are looking for. Continue choosing numbers between 1 and 10,000 until you 
+finally get the one the program chose. Example:
+
+Number: 5000
+Too low
+Number: 8000
+Too high
+Number: 6000
+Too low
+Number: 7500
+You win!
+
+         done
+
+
+4. Trouble shooting
+
+	As far as I know, the software in this zip file has no bugs and will work 
+100% of the time. I perfected it on the TI-86 with ROM v1.3. If you don't know 
+what ROM version you have on your TI-86, turn on your TI-86 and press 
+[2nd]+[MODE]+[ALPHA]+[S]. Although I tested it with v1.3, I am confident that it 
+will run on all versions of the TI-86. In the future, I hope to port the program 
+to the 85 and the 83 and possibly the 82. 
+
+
+5. Future versions
+
+	This will probably be the only version of this game for awhile. It has no 
+version number, unfortunately. 
+
+
+6. Thank you's
+
+	I would like to thank all my friends for encouraging me to submit this 
+game, Bill Nagel for his famous ASE (I use ASE v1.3), and my teachers for boring 
+me to death in class. 
+
+
+7. How to contact the programmer
+
+E-mail: big_ska@hotmail.com
+Fax: 858-513-1491
+
+Send all questions, comments, or hate mail to the e-mail address and/or fax 
+number above. 
+
+
+
+NOTE: If you input .29 during game play the program will end and display the 
+mystery number.

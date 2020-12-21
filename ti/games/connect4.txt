@@ -1,0 +1,16 @@
+connect4
+--------
+
+Connect 4 fot the TI-86
+by Ray Kremer
+
+Connect Four for one or two players.  The calculator is
+very slow, but hard to beat.  More fun playing against
+a human.
+
+send comments to: <rkremer@bradley.edu> until May 2001
+after that, to: <stellar@enteract.com>  attn: Ray Kremer
+
+See screen shots of all my programs at:
+http://rhf.bradley.edu/~rkremer/tigames.htm
+(URL valid until summer 2001)

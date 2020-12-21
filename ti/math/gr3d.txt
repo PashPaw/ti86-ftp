@@ -1,0 +1,132 @@
+gr3d
+----
+
+This is GR3D.86g by William Deich. I basically took John P. Powers' 
+GR3D.85g program and updated it for the TI-86.
+
+If anyone out there in cyberspace has any idea how I
+could get in touch w/ Mr. Powers, please drop me a
+line at bevd@bellsouth.net
+
+This program plots a three-dimensional graph with 
+hidden line removal.
+
+The main difference between this version and 
+John Powers' version for the 85 is that I gave the
+program its own input commands, so you no longer have
+to edit the program to change the function you are
+graphing, or the range variables.
+
+This group only contains two files:
+-----------------------------------
+GR3D.86p--main program
+PLOT3D.86p--Wright's hidden-line removal algorithm (made by Mr. Powers)
+
+
+Run GR3D form the home screen, and you will get a menu like:
+|z(xy)|view|Range|GRID|Graph|
+
+Press [ F1 ] and you can enter a fuction in terms x & y. The functin is
+stored to y99. I don't think this should overwrite any of your existing
+functions. All of the functions are deselected, including this one, so
+this doesn't cause any errors.
+
+Press [ F2 ] for "view" and it will ask you for the x,y,z coordinates
+for "view point of the observer." Basically, where would you like to
+view the graph from. [Default is (2,1,1)]
+
+Press [ F3 ] and you can adjust the x-y range. Basically you enter values for
+XMIN, XMAX, YMIN, YMAX. [Default is XMIN=-2.5, XMAX=2.5, YMIN=-2.5, YMAX=2.5]
+
+Press [ F4 ] and you can enter the "Grid density," basically, how far do you
+want the little lines to be apart. I suggesting never using this, and leaving
+it on the Default of 10. According to John Powers, values larger than 11 
+start to clutter up the screen, and smaller values run faster, but are less
+accurate.
+
+You don't ever have to press F2-F4 because they have defaults, but you will 
+probably want to sometimes, to get a better look at your graph.
+
+|Graph| graphs. If you try to press this w/out entering a function, it will
+ask you to enter one first.
+
+A WORD ABOUT Z^2 or |Z| EQUATIONS.
+---------------------------
+Now I understand that many equations
+involve Z^2 or |Z|. Some people might
+want there to be an option to select
+z^2=+-, or z=+-. I chose not to make
+such an option because it would be 
+much longer, and the program runs 
+slow enough as it is. What I did instead
+was to give you the option of whether
+or not to clear what is drawn on the
+graph or not. This way you can go back
+and draw the equation piece by piece.
+
+
+
+Now in the origional program, Mr. Powers had it so that  you had to edit a 
+subrutene to enter your functions, and he put several sample equation in 
+the subrutene to get you started; since this version just uses an InpSt
+command to let you type the expression in as a string,  and then converts 
+it to an equation, I guess I'll just have to give you his list of sample
+function here in the text file.
+
+
+EQ1:  z = cos |x+y*i|
+      XMIN=-7, XMAX=7, YMIN=-7, YMAX=7
+      Radians mode.
+
+
+EQ2:  z = e^-|x-1+y*i| + e^-|x+1+y*i|
+      XMIN=-2.5, XMAX=2.5, YMIN=-2.5, YMAX=2.5
+
+EQ3**: z = R - sqrt(1-(x^2+y^2)),	if norm [x,y,R] < 1.
+	  		       0,	otherwise.
+      XMIN=-1.2, XMAX=1.2, YMIN=-1.2, YMAX=1.2
+      This creates a depression in the plane z=0 by pressing a sphere
+      into its surface.  Where R is a fraction between 0 and 1 which
+      indicates the depth that a unit radius sphere is pressed into
+      the plane.
+
+EQ4:  z = e^-|x+y*i|
+      XMIN=-1.2, XMAX=1.2, YMIN=-1.2, YMAX=1.2
+
+Memory requirements:
+  GR3D	    1982 bytes
+  PLOT3D    1003 bytes
+
+-----These are approxamite values form the TI-85------
+
+   REALS
+  I, J, K, S, U, V,
+  x, y, z,		       135 bytes
+  CX, CY, DX, DY,
+  S1, S2, S3, S4,
+  U1, U2, V1, V2, VK,
+  UH, UL, VH, VL,
+  KM, KX, VM, VX,
+  XL, XH, YL, YH,
+  XE, YE, ZE,
+  X0, Y0,		       480 bytes
+  GRID				18 bytes
+
+   MATRICES and VECTORS
+  H         1277 bytes
+  L	    1277 bytes
+ *RX        1448 bytes
+ *RY        1448 bytes
+ *X          127 bytes
+ *Y          127 bytes
+
+ * These matrices and vectors take up more memory as GRID increases.
+
+Total memory required:  approximately 9322 bytes.
+
+The program releases the space used by the matrices and vectors when
+it finishes.
+
+
+**You will have to go back to the subrutene editing method if you want to use
+EQ3, because it is a piece wise function.

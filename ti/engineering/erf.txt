@@ -1,0 +1,7 @@
+erf
+---
+Solves for the error function of z.
+
+Written by Shane Russell
+NO rights reserved :)
+

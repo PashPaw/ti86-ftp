@@ -1,0 +1,13 @@
+conceulr
+--------
+
+for TI-86
+
+This program finds the Centroid, Circumcenter, and orthocenter of a triangle
+given the
+coordinates of the 3 vertices.  Then it will find the equation of the Euler
+line using these
+points.  The results will be displayed in 2 forms, as decimals and fractions.
+
+requires 1128 bytes of calculator memory.
+By MAtt Andel

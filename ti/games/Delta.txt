@@ -1,0 +1,12 @@
+Delta_Attack
+
+The object of this game is to destroy all the delta signs that appear on the 
+screen.  You are the icon on the left.  Use the up and down arrow keys to 
+move, and the 2nd key to fire.  Fire when LOCK appears.  You have a limited 
+amount of time to destroy each delta sign before it destroys you.  Points 
+gained on each level are porportional to the time remaining.
+
+If there are any questions or comments, please contact the programmer at 
+86chick@mailandnews.com
+
+IMPORTANT:  To run this game properly, also download DELTAa.86P and SCORE.86P

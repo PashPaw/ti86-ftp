@@ -1,0 +1,358 @@
+nx86mm11 
+-------- 
+neXus 86 Mini-M 
+
+Version 1.1 
+
+Site layout functions 
+
+Manual 
+
+---------------------------------------------------------------- 
+
+CONDITIONS OF USE 
+
+1. neXus 86 Mini-M Version 1.1 is FREEWARE. 
+
+2. neXus 86 Mini-M Version 1.1 is Copyright Dawson Engineering 1998. No
+alteration of the program code by users is permitted. 
+
+3. Copies of neXus 86 Mini-M Version 1.1 may be freely transmitted, unaltered in
+any way, from one user to another; provided the transmitting user imposes upon
+the receiving user these Conditions of Use, in full, unaltered and including
+this condition; and that the receiving user undertakes to abide by these
+Conditions of Use, in full, unaltered and including this condition. 
+
+4. All users use neXus 86 Mini-M Version 1.1 entirely at their own risk. Dawson
+Engineering will under no circumstances and in no jurisdiction be held liable
+for loss or damage incurred through any error in the program code or manual. 
+
+
+Please: 
+Don't try to make money distributing this program. 
+Don't remove or alter the appeal for donations to cystic fibrosis research at
+the end of this document. 
+If you post the program on a Web site, let Dawson Engineering know. 
+
+---------------------------------------------------------------- 
+
+Introduction 
+
+neXus 86 Mini-M Version 1.1 is a software package running on the Texas
+Instruments TI-86 calculator, designed to speed up and simplify setting-out work
+by coordinates ("radial stakeout") using a total station or a theodolite and
+tape. It includes the following functions: 
+
+Station Load station 
+Set out Calculate orientation bearing; set out points 
+Survey Survey points 
+
+
+Units 
+
+neXus 86 Mini-M works in decimal units for lengths (display rounded to 2 or 3
+decimals - see below) and degrees, minutes and seconds for bearings. 
+
+To work in decimal units for lengths and centesimal (grads or gons) for
+bearings, use neXus 86 Mini-G. 
+
+To work in feet, inches and sixteenths and degrees, minutes and seconds, use
+neXus 86 Mini-F. 
+
+
+Loading the program 
+
+We strongly recommend that neXus 86 Mini-M Version 1.1 is loaded using a Texas
+Instruments Graph-Link cable, and not keyed by hand. 
+
+To load the program on your TI-86 calculator, you will need: 
+
+1. Texas Instruments TI-86 graphing calculator with TI-86 User's Manual 
+2. TI Graph-Link connecting cable with TI manual and the appropriate TI
+software. 
+3. A PC running Windows or DOS or a Mac. 
+4. The file NX86MM11.86G on your hard disk 
+
+Install the Graph-Link software on the PC or Mac, and use it to download the
+program file NX86MM11.86G to the TI-86 (refer to the TI Graph-Link manual and
+Help file for assistance). This will copy the program NX86MM to the TI-86. 
+
+You can also transfer the program from one TI-86 to another, using the link
+cable. See Chapter 18 of the TI-86 User's Manual. 
+
+
+Running the program 
+
+Press PRGM. This brings up the TI-86's program menu. Select the program NX86MM
+or the program A1 (which simply calls NX86MM, and is named so that it always
+appears as the first item on the program menu) and press ENTER to run the
+program. The main menu will appear: 
+
+Set out Survey About 
+1 2 3 
+Station Quit 
+0 (-) 
+
+To call a function on the main menu, simply press the associated key. For
+instance, to load a station's coordinates, call the "Station" function by
+pressing 0. 
+
+
+Station 
+
+Calling "Station" brings up the menu: 
+
+Station: 
+1:Load 
+2:Bounce 
+3:Show and quit 
+
+Input station coordinates directly using "Load". 
+
+Use the "Bounce" option to load the coordinates of the last object point as the
+new station. Use it in conjunction with the "Survey" option to compute traverse
+legs. 
+
+Use the "Show and quit" option to display the current station and return to the
+main menu. 
+
+
+Set out 
+
+Input coordinates of the object point to calculate whole-circle bearing and
+horizontal distance from the current station. 
+
+Use "Set out" to calculate orientation bearings for opening backsights and
+closing foresights, and intermediate shots for radial setting-out. 
+
+To orient the instrument after setting up over the station and loading its
+coordinates using "Station", calculate the bearing to the reference object using
+"Set out", sight the reference object, and set the horizontal circle to the
+calculated bearing. The instrument is now set to read whole-circle bearings
+directly. 
+
+The function runs in a loop, so as to compute successive bearing-and-distance
+shots. Exit the program when it halts to display bearing and distance by
+pressing PRGM. The program will return to the main menu. 
+
+
+Survey 
+
+Input observed whole-circle bearing and horizontal distance from the current
+station to the object point to return coordinates of the object point. 
+
+Bearings are input in grads. 
+
+In site work, "Survey" is mostly used to establish grid-lines or building-lines
+for construction. The procedure is: 
+guess a point on a profile-board in approximately the right spot 
+survey it using "Survey" 
+inspect the coordinates returned to calculate the needed correction (usually
+only one coordinate, East or North, is of interest) 
+correct the point 
+check the point using a second shot. 
+
+Use it in conjunction with the "Bounce" option of the "Station" routine to
+compute traverse legs. 
+
+The function runs in a loop, so as to compute coordinates for successive object
+points. Exit the program when it halts to display easting and northing by
+pressing PRGM. The program will return to the main menu. 
+
+
+About 
+
+Displays software identification information, copyright notice, contact
+information for Dawson Engineering, and condensed Conditions of Use. 
+
+
+Quit 
+
+Exits neXus 86 Mini-M and returns to the TI-86 home screen. 
+
+
+General 
+
+Prompts and outputs are preceded by the name of the variable assigned to them.
+The prompt "K East?", for example, indicates that the East coordinate of the
+current object point is stored in variable K. The values assigned to variables
+are preserved, and can be used as data in the following iteration of the loop;
+so keying "K+10" at the prompt will input an East coordinate 10m (or 10 ft)
+greater than the previous one. 
+
+The value "Q Check" reported on the bottom line of the screen after all survey
+and set-out functions is the check distance between the last object point,
+however obtained, and the current object point. The bearing between the last and
+current points is computed and stored (in DD.MMSS format) in variable R, but not
+displayed. This is the "missing line" calculation found in some textbooks. 
+
+By default, neXus 86 Mini-M displays distances rounded to three decimals,
+suitable for working in metres and millimetres (no internal rounding takes
+place, however). To have the program display distances rounded to two decimals
+(feet and hundredths, or metres and centimetres), alter the value of the flag in
+the one-element list variable "ft" created by the program. On the TI-86 home
+screen, to set 2 decimals key: {1}->ft. To reset 3 decimals, key: {0}->ft 
+
+
+---------------------------------------------------------------- 
+
+More about neXus 
+
+
+neXus Mini-M versions are also available for the TI-83 and TI-85 calculators. 
+
+
+
+If you like neXus Mini-M, but need more functionality, try neXus Lite (also
+available for TI-83 and TI-85). It features: 
+
+Options for working in local coordinate systems. This facility is very useful in
+general setting-out work. In particular, it makes setting out skewed features a
+breeze. 
+Curves - circular curves, straights and transition spirals. Curves can be stored
+by name, or concatenated to form a road alignment. 
+Full printed manual to registered users. 
+
+neXus Lite is FREEWARE for academic use (students and instructors) and SHAREWARE
+for commercial use. 
+
+
+
+neXus Pro for the TI-83, 85, and 86 calculators is currently under development
+(August 1998). When completed it will offer many new features, including: 
+Selectable angular units (dd.mmss; decimal degrees; grads/gons) 
+Selectable rounding of distance displays (1 to 4 decimals) 
+Height control, allowing full 3D work 
+A useful alternative curve-by-survey method of pegging curves, better suited for
+concrete and building work 
+Curve-fitting routines, to derive standard neXus curve data from non-standard
+data on drawings 
+Free-station and bearing-intersection routines 
+Enhanced options for working in local coordinate systems, including the ability
+to store a job's gridline coordinates and call them up by name - set out a point
+simply by specifying dimensions off a grid-line intersection. 
+Quantities routines for areas and volumes 
+Simple data-logging functions - surveying to and setting out from
+down-/uploadable point files. 
+Built-in stack-based calculators for doing arithmetic in 0-360 DD.MMSS angular
+format and in FT.IN16 (feet-inches-sixteenths). 
+
+When we release neXus Pro, upgrades to current registered users of neXus Lite
+will be free. 
+
+
+Packages 
+
+We can also supply a contractor's "ready-to-go" package - a TI-86 calculator
+loaded with neXus 86 Lite Version 2.1, the full printed manual and 1 hour of
+customer support via email or snail-mail or phone (your call). Price to European
+Union customers: £UK179 + VAT. Email or write Dawson Engineering for prices
+outside the EU. 
+
+
+Support services 
+
+We can offer data-development for neXus 86 Lite Version 2.1 from supplied
+drawings (CAD or paper), consultancy on site-based IT solutions, and training.
+Email, write or phone Dawson Engineering. 
+
+
+TI Dealers 
+
+To track down dealers selling Texas Instruments hardware visit TI's Website: 
+
+http://www.ti.com/calc/docs/dealers.htm (US and Canada) 
+http://www.ti.com/calc/docs/world.htm (rest of the world) 
+
+---------------------------------------------------------------- 
+
+An appeal 
+
+neXus 86 Mini-M is freeware. However, if you're using it on site, and find it
+useful, we'd like you to consider making a donation to help research into cystic
+fibrosis. 
+
+What is cystic fibrosis? 
+
+Cystic fibrosis (CF) is an incurable inherited disorder, affecting mainly the
+lungs and the digestive system. In the lungs, where the effects of the disease
+are most devastating, CF causes increasingly severe respiratory problems. In the
+digestive tract, CF often results in extreme difficulty in digesting adequate
+nutrients from food. CF is a young persons' illness and is the most common
+inherited, life-threatening disease in Ireland. Ireland has the highest
+proportion of CF sufferers in the world. Progress is being made in medical
+research into the treatment of CF, but continuing funding is vital for further
+progress in the battle against the disease. 
+
+We suggest an amount of £UK 15 or $US 25. Send it to one of the addresses below,
+or to your national CF charity. Please indicate to the charity that you are a
+neXus user. 
+
+United Kingdom: 
+Cystic Fibrosis Trust 
+Alexandra House 
+5 Blyth Road 
+Bromley 
+Kent BR1 3RS 
+
+Republic of Ireland: 
+Cystic Fibrosis Association of Ireland 
+CF. House 
+24 Lower Rathmines Road 
+Dublin 6. 
+
+United States: 
+Cystic Fibrosis Foundation 
+6931 Arlington Road, Second Floor 
+Bethesda, MD 20814 
+
+Canada: 
+Canadian Cystic Fibrosis Foundation 
+2221 Yonge Street 
+Suite 601 
+Toronto 
+Ontario M4S 2B4 
+
+Australia: 
+Australian Cystic Fibrosis Association 
+PO Box 254 
+North Ryde 
+NSW 2113 
+
+New Zealand: 
+Cystic Fibrosis Association of New Zealand 
+PO Box 22776 
+Christchurch 
+
+France: 
+Association Française de Lutte contre la Mucoviscidose 
+76 rue Bobillot 
+75013 PARIS 
+
+Germany: 
+Mukoviszidose e.V. 
+Bendenweg 101 
+D-53121 Bonn 
+Fon +49 228 987 800. 
+
+---------------------------------------------------------------- 
+
+(c) Dawson Engineering 1998 
+
+Stuart Dawson 
+Dawson Engineering 
+
+sd@dawson-eng.demon.co.uk 
+
+http://www.dawson-eng.demon.co.uk/nexus 
+
+49 Knockbracken Park 
+Belfast BT6 0HL 
+Northern Ireland 
+
++44 1232 640669 
+
+
+Version: nexus 86 Mini-M Version 1.1 - Short manual version A 
+Date: 22 Aug 98 
+

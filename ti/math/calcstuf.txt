@@ -1,0 +1,5 @@
+calcstuf
+--------
+contains: derivative formulas, newton's method, simpson's method, and trapezoid method.
+
+

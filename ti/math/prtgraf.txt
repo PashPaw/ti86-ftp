@@ -1,0 +1,12 @@
+prtgraf
+-------
+
+This is Prtgraf.86p.  You give it a function, a starting value, and an ending
+value, and it graphs the functin just between those numbers. This way you can
+look at just "part" of a function. Unfortunately, you're trading the ablity
+to not see the part of the function that you do not want to see for the
+ability to trace it; since the function is just drawn on the graph with the
+xyline command, you will not be able to trace it.
+
+William Deich
+bevd@bellsouth.net

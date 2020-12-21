@@ -1,0 +1,6 @@
+bands
+-----
+Level curve plotting program from the Fall 1998 Eightysomething!
+article, "Level Curves Using the TI-85."
+
+http://www.ti.com/calc/docs/80xthing.htm

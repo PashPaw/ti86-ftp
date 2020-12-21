@@ -1,0 +1,10 @@
+unitcirc
+--------
+
+UNITCIRC is a TI-86 program that displays the point of the degrees of the Unit 
+Circle used in Calculus and Trig. 
+
+This is a final verion, With a more user friendly setup, just make sure you type 
+the program right if you dont have Graph-Link.
+
+Any problems or questions, E-Mail me at----MVLT@geocities.com

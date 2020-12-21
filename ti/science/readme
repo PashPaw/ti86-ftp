@@ -1,0 +1,20 @@
+*** TI-86 SCIENCE PROGRAMS: /pub/graph-ti/calc-apps/86/science/
+
+/biology
+--------
+Directory containing Biology programs.
+
+/chemistry
+----------
+Directory containing Chemistry programs.
+
+/physics
+--------
+Directory containing Physics programs.
+
+science
+-------
+This is a program that solves for any one of:  Density, mass or volume.
+
+
+* All trademarks are the sole property of their respective owners.

@@ -1,0 +1,34 @@
+*** TI-86 ASSEMBLY PROGRAMS: /pub/graph-ti/calc-apps/86/asm/
+
+/games
+------
+Directory containing assembly games.
+
+strcmds
+-------
+ASM modules to enhance the string handling abilities of the TI-86, for the 
+purpose of manipulating large amounts of data in a single string.
+
+/ti-apps
+--------
+TI written and tested assembly programs.
+
+ti86abs
+-------
+
+ti86asm
+-------
+
+ti86math
+--------
+
+ti86mon
+-------
+A free command line driven system monitor that runs on the TI-86 calculator. 
+Includes memory dump, w/r Z80 registers, much much more.
+
+ti86ops
+-------
+
+
+* All trademarks are the sole property of their respective owners.

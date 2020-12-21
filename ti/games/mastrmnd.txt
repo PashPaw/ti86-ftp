@@ -1,0 +1,16 @@
+mastrmnd
+--------
+
+MasterMind for the TI-86
+by Ray Kremer
+
+I started this one day when I was bored in math class. 
+It's the old logic game, deduce the calculator's
+code.  Fun and quick to play.
+
+send comments to: <rkremer@bradley.edu> until May 2001
+after that, to: <stellar@enteract.com>  attn: Ray Kremer
+
+See screen shots of all my programs at:
+http://rhf.bradley.edu/~rkremer/tigames.htm
+(URL valid until summer 2001)

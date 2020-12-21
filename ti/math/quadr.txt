@@ -1,0 +1,22 @@
+Program Name : Quad.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+Program Type : TI-86  Pre Calculus
+
+The Quadratic Formula:
+
+(If it won't factor use the quadradic formula)
+
+This program is designed to calculate the
+values for X&Y and the discriminent, when
+the values for a, b, & c are known. 
+
+Disclaimer : The originator is not responsible
+for any public or private liability that may
+result from the use of this program.
+
+Howard LeBas
+SJCC & SJSU
+Silicon Valley, CA.

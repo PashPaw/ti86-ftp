@@ -1,0 +1,15 @@
+Program Name : Change.86P
+Written By : Howard.LeBas@worldnet.att.net
+Date : 14 February 2000
+Revision : 1.00
+
+
+This program is designed to calculate 
+the percentage of change when the user
+knows the "before" value and the "after"
+value.
+
+
+Disclaimer : The originator is not responsible
+for any public or private liability that might
+occur from the usage of this program.

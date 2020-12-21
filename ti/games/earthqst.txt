@@ -1,0 +1,47 @@
+Earthquest v1.01
+By Jordan Shapiro
+mrcoolness@p3.net
+Made for the TI-86
+
+Object- The object of the game is to get 150 points so you
+can disable a nuclear bomb that is set to destroy the world.
+You do this by cleaning things and getting points. You can
+buy more tools to help you clean, but you may run out of money.
+To get more money, you have to petition different people, and 
+you will be awarded if they grant your petition. The plant is 
+the easiest to fight, Congress is the Hardest.
+
+Version History- 9/10/97 Public Release, version 0.1 beta
+                 9/20/97 Version 0.9 released-
+                         Cosmetic changes made.
+		 10/8/97 Version 1 Released!
+		         Enhanced Plot,
+			 More Choices,
+			 Game Save Feature Added.
+		 10/8/97 Version 1.01 released
+			 Some reported problems fixed
+
+		 10/13/97 Version 1.1 released!
+			  Some things made easier, some harder
+			  Some more problems fixed.
+Problems- As far as I know, EarthQuest will work on
+any version of ROM that exists, as well as the most 
+popular, 1.2 and 1.3. If it doesn't work on any other
+ROM versions, e-mail me at mrcoolness@p3.net.
+
+Other- If you have any suggestions, PLEASE e-mail me at
+mrcoolness@p3.net. Also, e-mail me if you have any other
+game ideas that I can help with. You can download updated
+versions of EarthQuest at www.ticalc.org. Thanks!
+
+Special Thanks to Steve Russel (srussell@netunlimited.net)
+for creating the game HicQuest, which was my inspiration
+to write EarthQuest. Steve has also written many other great
+games.
+
+EarthQuest (C) 1997, Mondo Games, Inc.
+Please do not edit or alter this program or the picture
+or README file included with it. For unprotected version,
+e-mail a request to mrcoolness@p3.net.
+		-Jordan Shapiro
+		 10/8/97  
