@@ -6,5 +6,8 @@ As per my instructions on archive.org for this:
 
 >>> You will need the following in order for transferring files onto a real TI-86 on a modern system:
 >>> 1. The Silver GRAPH-LINK cable for USB.  TI doesn't appear to make these anymore but they do seem to be easy to find still.
->>> 2.  TI Connect 4.0 on Windows.  TI Connect CE won't work since those are for the 83 and 84 family. TI Connect 4.0 may work on Mac still but I haven't tried it on macOS Mojave yet.
->>> 3. A TI-86 (obviously)!.  The included files won't work on the 83 and 84 family of graphing calculators.
+>>> 2.  TI Connect 4.0 on Windows or TiLP on Linux.
+
+An update, as of 22-Jun-25:
+
+These will run under an emulator.  Also, connecting a real TI-86 to modern Windows is finicky.  It requires patience.  It requires using Device Manager to uninstall the drivers that Windows installs by default.  Install, or reinstall, TI Connect again if necessary.
